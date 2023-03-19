@@ -218,7 +218,22 @@ def makesense(corpus):
             "postscript": ""  # post-scriptum, après la signature
         }
         # a. formules de politesse en ouverture
-        greetings_match = re.search("([Dd]ear|[Cc]h[eè]re?|[Mm]onsieur|[Mm]adame|[Mm]a[îi]tre|[Dd]irecteur|[Ss]ir|[Mm]adam|[Mm]iss|[Mm]essieur|[Mm]edames)", corps[0])
+        greetings_match = re.search(
+            "("
+            + "[Dd]ear"
+            + "|[Cc]h[eè]re?"
+            + "|[Mm]onsieur"
+            + "|[Mm]adame"
+            + "|[Mm]a[îi]tre"
+            + "|[Dd]irecteur"
+            + "|[Ss]ir"
+            + "|[Mm]adam"
+            + "|[Mm]iss"
+            + "|[Mm]essieur"
+            + "|[Mm]edames"
+            + ")"
+            , corps[0]
+        )
         if greetings_match and len(corps) > 1:
             corps_dict["greetings"] = corps[0]  # on stocke la ligne de salutation dans le dictionnaire
             corps.pop(0)  # retirer la salutation du corps de texte
