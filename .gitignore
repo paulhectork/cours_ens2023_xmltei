@@ -1,0 +1,7 @@
+env_ens2023_xml/*
+env_min/*
+**/__pycache__/*
+.project
+.pydevproject
+out/*
+.ipynb_checkpoints
