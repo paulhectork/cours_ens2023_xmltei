@@ -300,6 +300,9 @@ def makesense(corpus):
 def corpus2tei(corpus):
     """
     transformer le corpus en documents TEI
+    
+    exemple d'encodage TEI de lettre:
+    https://gist.github.com/dhscratch/378e31e8e69dbb54d82b6be2634f4e7f
     """
     return
     
