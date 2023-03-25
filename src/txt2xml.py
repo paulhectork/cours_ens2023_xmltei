@@ -1,9 +1,10 @@
 from pprint import pprint
+from lxml import etree
 import datetime
-import lxml
 import sys
 import re
 import os
+from tornado import template
 
 
 # *****************************************************************
@@ -17,9 +18,13 @@ import os
 
 
 # variables constantes: les chemins vers les fichiers/dossiers utilisés
-CURDIR = os.path.abspath(os.path.dirname(__file__))
-TXT = os.path.abspath(os.path.join(CURDIR, os.pardir, "txt"))
-XML = os.path.abspath(os.path.join(CURDIR, os.pardir, "xml"))
+CURDIR = os.path.abspath(os.path.dirname(__file__))                              # dossier actuel
+TXT = os.path.abspath(os.path.join(CURDIR, os.pardir, "txt"))                    # dossier `txt/`
+XML = os.path.abspath(os.path.join(CURDIR, os.pardir, "xml"))                    # dossier `xml/`
+NS_TEI = {"tei": "http://www.tei-c.org/ns/1.0"}                                  # tei namespace
+NS_XML = {"id": "http://www.w3.org/XML/1998/namespace"}                          # general xml namespace
+TEI_RNG = "https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"  # odd in .rng to validate tei files
+TEMPLATE = etree.parse(os.path.join(XML, "template.xml"))                        # arbre etree contenant la structure XML de base
 
 
 def corpussplit(corpus):
@@ -116,20 +121,34 @@ def makesense(corpus):
     meta_keys = ["date", "sender", "sender_place", "recipient", "recipient_place"]
     for lettre in corpus:
         meta = lettre[0]
-        titre = lettre[1]
+        if not re.search("^\s*\[[^\]]+\]\s*$", lettre[1]):
+            # si le titre n'est pas que entre crochets
+            titre = re.sub("\[.+\][\.\?\s]*$", "", lettre[1])  # on supprime ce qui est entre crochets, qui formera notre clé `source` dans `meta`
+            source = re.sub("\[([^\]]+)\][\.\?\s]*$", "\1", lettre[1])  # on créée `source` en extrayant l'identifiant de la lettre source (institution de conservation + cote)
+        else:
+            # sinon, pas moyen de distinguer titre et cote muséale/archivistique => on extrait que le titre
+            titre = lettre[1]
+            source = ""
+        
         corps = lettre[2]
         
         # 1) NORMALISATION DU TITRE
         #
         # on récupère le premier mot du titre pour créer une typologie de documents
-        typology = re.search("[a-za-zàâäéèûüùîïì]+", titre.split()[0].lower())[0]
+        try:
+            typology = re.search("[a-za-zàâäéèûüùîïì]+", titre.split()[0].lower())[0]
+        except IndexError:
+            # aucun titre pour cette lettre => rien à extraire
+            typology = ""
         
         # 2) NORMALISATION DES MÉTADONNÉES
-        #
+        # 
         # pour chaque lettre, construire un dictionnaire de métadonnées
         # qui prenne en clé une entrée de `meta_keys` ci-dessous et en valeur
         # des données extraites de la liste de métadonnées.
-        #
+        meta_dict = {}
+        meta_dict["source"] = source  # on commence par définir notre `source`, qui n'est pas dans `meta_keys` et implique donc un traitement particulier 
+        
         # explication des 2 lignes de code ci-dessous:
         #
         # `meta_keys` et `meta` sont alignées (chaque entrée de `meta_keys`
@@ -153,7 +172,6 @@ def makesense(corpus):
         #
         # enfin, on assigne la valeur extraite à la clé correspondante dans `meta_keys`
         # et on ajoute ce couple clé-valeur à `meta_dict`
-        meta_dict = {}
         for i in range(len(meta)):
             meta_dict[ meta_keys[i] ] = re.search( ":(.+)$", meta[i] )[1].strip()
         
@@ -210,7 +228,6 @@ def makesense(corpus):
         # on aurait un problème, puisqu'on ne garderait plus de données pour le corps
         # de la lettre
         corps_dict = {
-            "id": "",         # identifiant unique de la lettre
             "greetings": "",  # salutations en ouverture
             "body": [],       # corps de la lettre
             "closing": "",    # salutation en fermeture
@@ -318,7 +335,40 @@ def corpus2tei(corpus):
     
     exemple d'encodage TEI de lettre:
     https://gist.github.com/dhscratch/378e31e8e69dbb54d82b6be2634f4e7f
+    
+    exemple avancé d'utilisation de LXML:
+    https://github.com/katabase/Application/blob/main/APP/utils/api_classes/representations_tei.py
     """
+    for lettre in corpus:
+        # on transforme toutes nos représentations de lettres en documents XML.
+        idx = lettre["idx"]
+        tree = etree.parse(os.path.join(XML, "template.xml"))  # notre arbre xml, qui stockera l'arbre xml que l'on est en train de créer
+        
+        # on accède à l'élément racine (`tree.getroot()`
+        # et on lui ajoute l'identifiant unique du fichier (`.set("nom de l'attribut", "valeur")`)
+        # la syntaxe un peu étrange avec une URL sert à indiquer que `id` appartient à l'espace 
+        # de nom XML défini par le W3C
+        tree.getroot().set("{http://www.w3.org/XML/1998/namespace}id", idx)
+        
+        # on crée le contenu de notre `titleStmt`: 
+        # - un `tei:title` avec le titre de la lettre, 
+        # - un `tei:author` avec l'auteur.ice
+        # `etree.SubElement(parent, "titre", namespace)` crée un élément enfant de `parent`;
+        # `.text` permet d'ajouter du texte à l'intérieur de l'élement.
+        # QUID DU DESTINATAIRE???
+        titleStmt = tree.xpath(".//tei:titleStmt", namespaces=NS_TEI)[0]
+        etree.SubElement(
+            titleStmt
+            , "title"
+            , nsmap=NS_TEI
+        ).text = lettre["title"]
+        etree.SubElement(
+            titleStmt
+            , "author"
+            , nsmap=NS_TEI
+        ).text = lettre["metadata"]["sender"]
+        
+        print(etree.tostring(titleStmt), "\n\n\n\n\n\n")
     return
     
     
@@ -352,3 +402,6 @@ def pipeline():
 
 if __name__ == "__main__":
     pipeline()
+    
+    
+    

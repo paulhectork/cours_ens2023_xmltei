@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure définie ici devrait contenir d'autres éléments -->
+  <teiHeader>
+    <!-- l'en-tête de notre document, contenant les métadonnées -->
+    <fileDesc>
+      <!-- description du fichier encodé et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encodé -->
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      <!-- informations sur l'encodage -->
+      <editorialDecl>
+        <!-- méthode de production du document XML -->
+      </editorialDecl>
+      <projectDesc>
+        <!-- contexte de production du XML -->
+      </projectDesc>
+    </encodingDesc>
+
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encodé -->
+      <particDesc>
+        <!-- description des participant.es (personnes 
+             mentionnées dans le corpus de lettres -->
+      </particDesc>
+      <settingDesc>
+        <!-- description des lieux mentionnés dans le
+             corpus de lettres -->
+      </settingDesc>
+    </profileDesc>
+    
+  </teiHeader>
+
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+    </body>
+  </text>
+</TEI>

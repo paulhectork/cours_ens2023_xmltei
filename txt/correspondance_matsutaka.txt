@@ -57,7 +57,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe, Japon
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de Kojiro Matsukata, 15 Yamamoto Dori Shichiome, Kobe, Japan, à M. Léonce Bénédite, conservateur du musée Rodin, 77 rue de Varennes, Paris. INHA [1]. 
+Lettre de Kojiro Matsukata, 15 Yamamoto Dori Shichiome, Kobe, Japan, à M. Léonce Bénédite, conservateur du musée Rodin, 77 rue de Varennes, Paris. [INHA 1]. 
 Dear Mr. Bénédite, 
 I beg to confirm the order I passed you for reproduction of Rodin’s works, which are to be placed in a Galery that I expect to open publicly at Tokyo. 
 These works are mentioned in the Catalogue I handed you. I accept the prices marked with reduction of 10% on the total amount the order. 
@@ -72,7 +72,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe, Japon
-Brouillon de la lettre du 22 août, non daté, de Matsukata à Bénédite ( ?). En-tête « Musée national du Luxembourg ». INHA [2]. 
+Brouillon de la lettre du 22 août, non daté, de Matsukata à Bénédite ( ?). En-tête « Musée national du Luxembourg ». [INHA 2]
 Cher Monsieur,
 Je vous confirme la commande que je vous ai faite de reproductions d’œuvres de Rodin, destinées à une galerie que je compte ouvrir publiquement à Tokio.  
 Ces œuvres sont indiquées dans le catalogue que je vous ai remis. J’accepte les prix marqués avec la réduction de 10% sur le total de la commande. 
@@ -106,7 +106,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Leones [sic] Benedicte [sic] Musée Rodin, 77 rue de Varenne, Paris. INHA [4] avec brouillon manuscrit [5]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Leones [sic] Benedicte [sic] Musée Rodin, 77 rue de Varenne, Paris. [INHA 4 et brouillon manuscrit 5]
 Dear Sir, 
 We beg to confirm to you that we are now authorized by M. K. Matsukata to pay you on his behalf and for his account against the purchase he made through you for pictures, sculptures and bronzes up to the amount of 1,200,000 francs and when you receive our payment please notify us for our record the items of goods you bought, while Mr. Kenzo Kurabayashi 15, rue Auber, Paris representative of the Khhara Mining Co, Ltd, has been authorized by Mr. K. Matsukata to pay you the remaining 80,000 francs and you will receive confirmation thereof from the said Mr. Kurabayashi.
 Yours faithfully
@@ -117,7 +117,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de K. Kurabayashi, agent de la Kuhara Mining C°, Osaka (Japon), 15 rue Auber, Paris, à Monsieur le Conservateur du Musée Rodin, 77 rue de Varenne, Paris. INHA [6]
+Lettre de K. Kurabayashi, agent de la Kuhara Mining C°, Osaka (Japon), 15 rue Auber, Paris, à Monsieur le Conservateur du Musée Rodin, 77 rue de Varenne, Paris. [INHA 6]
 Monsieur, 
 Je reçois ce matin votre lettre du 18 courant et j’ai l’honneur de vous informer que j’ai effectivement été avisé par ma Maison de Londres d’avoir à vous payer une somme de 80.000 francs. 
 Je tiens à votre disposition le montant de cette somme, en un chèque, que je me ferai un plaisir de vous remettre contre votre reçu.
@@ -129,7 +129,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Lettre à en-tête du musée Rodin [Bénédite à ses représentants], lettre de rappel le 22 octobre, écrit à l’encre]. INHA [7]
+Lettre à en-tête du musée Rodin [Bénédite à ses représentants], lettre de rappel le 22 octobre, écrit à l’encre]. [INHA 7]
 Dear Sir, 
 I beg to let you know that I have on account of Mr Matsukata the following works: 
 Charles Cottet : 
@@ -159,7 +159,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. INHA [9]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. [INHA 9]
 Der Sirs
 We herewith enclose cheque on Paris for Frs. 52,000 in settlement of Mr. K. Matsukata’s accounts mentioned in your recent letter, and we shall be pleased to receive your formal receipt in duplicate.
 We remain, Dear Sirs, 
@@ -171,7 +171,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Memorandum, Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. INHA [10]
+Memorandum, Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin.  [INHA 10]
 Dear Sirs, 
 We are in receipt of your letter of 22nd inst, and beg to say that Mr. Matsukata’s account for Fcs 52,000 was sent you by cheque a few days ago and we think by this time, you will have received same. 
 We therefore now beg to enclose herewith a duplicate of the above cheque.
@@ -183,7 +183,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. INHA [11]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. [INHA 11]
 Dear Sirs, 
 We are in receipt of your letter of 29th ult. Acknowledging the receipt of the cheque for Frs. 52,000. If we are not asking you too much, we shall feel obliged if you will kindly send us your formal receipt duly stamped for the above sum, as we have to transmit same to Mr. Matsukata
 Yours faithfully, 
@@ -194,7 +194,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : M. Takahata, représentant de Kojiro Matsukata
 Lieu destination : NA
-Lettre manuscrite, sur en-tête du musée Rodin, de Bénédite ( ?) à  M. Takahata à ??. INHA [12 et 13]
+Lettre manuscrite, sur en-tête du musée Rodin, de Bénédite ( ?) à  M. Takahata à ??. [INHA 12 et 13]
 Cher Monsieur,
 J’ai l’honneur de vous faire connaître que j’ai acquis pour le compte de M. Matsukata, les ouvrages suivants, ils sont conservés dans une même salle à l’hôtel Biron et chacun porte une étiquette indicative. 
 Henri Martin : 
@@ -217,7 +217,7 @@ ___ 55 200 francs
 J’ai l’honneur de vous prier de me faire parvenir cette somme.
 Je vous envoie ci-inclus le certificat de dépôt des ouvrages ci-dessus
 Votre tout dévoué 
-[**compte joint, INHA [14] ]
+[**compte joint, [INHA 14] ]
 Comptes Matsukata
     • Voyage à Bourges (Lhermitte) : Chemin de fer : 55 fr. 2 journ à 20f : 40 fr
     • Voyage à Annecy et talloires (Besnard). Ch de fer : 144,75 fr. 4 journ à 20f : 80 fr
@@ -236,7 +236,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. INHA [15 et duplicate : 16 ; chèque en 17]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. [INHA 15 et duplicate : 16 ; chèque en 17]
 Dear Sirs, 
 We beg to acknowledge the receipt of your letters dated 6th and 14th instant advising us that you have made further purchases amounting to Fcs 66,000 and Fcs 55,200, and enclosing the Deposit Certificates for same, for which we beg to than you.
 We now beg to hand you herewith cheque for Fcs. 121,200 in settlement of these accounts, and shall be pleased to receive your formal receipt in duplicate. 
@@ -249,7 +249,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. INHA [18]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin. [INHA 18]
 Dear Sirs, 
 Referring to your purchase and our payments for Frs 52,000,  66,000 and 55,200, for account of . Matsukata, Esq., we would ask you whether these arts are fully insured against fire and burglary risks, and if so, we shall thank you kindly to send us the insurance policies.
 Awaiting for your answer, 
@@ -262,7 +262,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : M. Takahata, représentant de Kojiro Matsukata
 Lieu destination : NA
-Lettre manuscrite, sur en-tête du musée Rodin, de Bénédite ( ?) à  M. Takahata à ??. INHA [19]
+Lettre manuscrite, sur en-tête du musée Rodin, de Bénédite ( ?) à  M. Takahata à ??. [INHA 19]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître que j’ai acquis pour le compte de M. Matsukata les ouvrages suivants ; comme les précédentes acquisitions, ces ouvrages sont conservés à l’hôtel Biron dans une même salle et chacun porte une équelle indicative. 
 Je vous envoie ci-inclus le certificat de dépôt, justifiant des droits de M. Matsukata.
@@ -295,7 +295,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Benedite Esq., Musée Rodin. INHA [21]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Benedite Esq., Musée Rodin. [INHA 21]
 Dear Sir, 
 We beg to inform you that we had today a visit from Mr. Albert Baertsoen and who handed us your letter of introduction addressed to our Mr. Takahata, asking us to pay him Frs. 3,000 – as a part payment due to you for account of K. Matsukata Esq. We, therefore, gave the above gentleman our cheque for £115-6-9, beoing the sterling equivalent to Frs. 3,000 @25.98, which amont we will deduct from our next remittance. 
 Trusting that the above will meet your approval.
@@ -308,7 +308,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Benedite Esq., Musée Rodin. INHA [22]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Benedite Esq., Musée Rodin. [INHA 22]
 Dear Sir,
 We are duly in receipt of your favour dated 10th January advising further purchases of arts amounting to Frs. 47,000 – altogether for Mr. K. Matsukata, and thank you for the Certificate of Property for same. 
 We, therefore, now beg to hand you herewith cheque in your favour for Frs. 44,000 – in settlement of this account, as noted below. 
@@ -327,7 +327,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : M. Takahata, représentant de Kojiro Matsukata
 Lieu destination : NA
-Lettre manuscrite, sur en-tête du musée Rodin, de Bénédite à  M. Takahata à ??. INHA [26 et 27]
+Lettre manuscrite, sur en-tête du musée Rodin, de Bénédite à  M. Takahata à ??. [INHA 26 et 27]
 Dear Sir, 
 I received your check, original and duplicata, which amounts to the sum of 44,000 francs. My last letter gave you the detail of the purchases amounting to 47,000 francs. You have taken from this sum the 3,000 francs which were asked as an account by Mr Baertsoen. But this sum of 3?000 fr must not be taken from these 47,000 fr of which determinate destination I gave you the detail, but from a sum of 16,000 francs which is indebted by Mr. Matsukata to Mr. Baertsoen for the purchase of two of his pictures and whose balance will be given to him at the delivery of his pictures.
 I shall be very much obliged to you to send me the 3,000 francs which must complete the sum asked for in my last letter, as soon as you can. 
@@ -367,7 +367,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Note manuscrite de Bénédite. INHA [28]
+Note manuscrite de Bénédite. [INHA 28]
 20 février à Suzuki and Co. 
 Rappel de la lettre du 3 pour réclamer les 3000 fr dus sur les 47 000 marqués dans la lettre du 10 janvier. Prière de les faire parvenir en même temps que les 41,700 fr pour bronzes de Rodin. 
 
@@ -389,7 +389,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Kojiro Matsukata, sur papier en-tête « Kawasaki Dockyard Co Ltd, President’s Office », Kobe, à Director Benedict, Muse [sic] Rodin, Paris. INHA [29 et 30]
+Lettre typographiée de Kojiro Matsukata, sur papier en-tête « Kawasaki Dockyard Co Ltd, President’s Office », Kobe, à Director Benedict, Muse [sic] Rodin, Paris. [INHA 29 et 30]
 Dear Sir, 
 I have great pleasure in introducing to you, His Ex. Ichizo Hattori, Member of the Japanese House of Peers, who is proceeding to the International Convention of Commerce, to be held in Brussels. His Excellency, who is ex-Governor of this Prefecture, is a great lover of fine arts and a well-known collector old paintings and prints. 
 Your esteemed assistance and courtesies to His Excellency, will be valued as personal favour both by him and myself.
@@ -403,7 +403,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Kojiro Matsukata, sur papier en-tête « Kawasaki Dockyard Co Ltd, President’s Office », Kobe, à Director Benedict, Muse [sic] Rodin, Paris. INHA [31 et 32]
+Lettre typographiée de Kojiro Matsukata, sur papier en-tête « Kawasaki Dockyard Co Ltd, President’s Office », Kobe, à Director Benedict, Muse [sic] Rodin, Paris. [INHA 31 et 32]
 Dear Sir, 
 I feel it as great pleasure to have this opportunity of writing to you, and advise you that I have taken liberty of giving a letter of introduction to you, to His Ex. Ichizo Hattori, Member of our House of Peers and ex-Governor of this Prefecture. He is a great lover of fine arts and a great collector of the Japanese paintings and prints, very well known in his country. He is shortly leaving for Brussels to attend the International Convention of Commerce, and he may visit your country before his return to the Far East. If he happens to call on you, I beg you kindly to extend to him your esteemed assistance and courtesies. 
 I have been kept exceptionally busy since my return to office, after such a long absence, and in addition, two of my co-Directors have been away from office, on account of il-health. I had to give up my original intention to return to Europe at the end of this month ; but am looking forward for the day of our next meeting in Europe. 
@@ -454,7 +454,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C° ?
 Lieu destination : Londres ?
-Note manuscrite de Bénédite. INHA [33]
+Note manuscrite de Bénédite. [INHA 33]
 Cher Monsieur, 
 J’ai l’honneur de vous faire savoir que j’ai bien reçu votre chèque de 77,434,05 en réponse à ma lettre du 9 avril dernier et vous envoie ci-joint le reçu en double de cette somme. 
 Veuillez agréer, cher Monsieur, l’expression de mes sentiments distingués.
@@ -465,7 +465,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C° ?
 Lieu destination : Londres ?
-Note manuscrite de Bénédite. INHA [34]
+Note manuscrite de Bénédite. [INHA 34]
 Le Conservateur du musée Rodin, soussigné, certifie que les ouvrages suivants déposés au musée Rodin sont bien la propriété de M. Kojiro Matsukata, de Kobé (Japon) et lui doivent être délivrés sur la présentation du présent certificat. 
 Aman Jean :
     • Jeune fille
@@ -489,7 +489,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Lettre typographiée de Bénédite. INHA [35]
+Lettre typographiée de Bénédite. [INHA 35]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître que j’ai acquis pour le compte de M. Matsukata les ouvrages suivants : 
 Aman-Jean (Edmond)
@@ -523,7 +523,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [36]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 36]
 Dear Sir, 
 Referring to your letter dated 5th July informing us that you have purchased for Mr. Matsuata paintings amounting to Frs. 44190 we beg to enclose herewith cheque for the above amount in favour of yourself. Kindly send us formal receipt in duplicate at your earliest convenience and oblige. 
 Yours faithfully
@@ -534,7 +534,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [37]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 37]
 Dear Sir, 
 We are duly in receipt of your letter dated 17th instant enclosing receipt in duplicate for our remittance for the sum of Frs 44,190 being the cost of pictures bought for Mr. Matsukata for which we thank you.
 Further to your letter, we are pleased to send you cheque for 25000 francs for the pictures by Leon Thermitte [Lhermitte] “The Gleaners” and “Maternity” which you kindly acquired for the account of Mr. Matsukata. Kindly acknowledge receipt of the above and let us have formal receipt in duplicate at your earliest convenience
@@ -584,7 +584,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Kawasaki Dockyard, Kobé, de Matsukata à M. Léonce Benedite, Director, The Musée Rodin. INHA [38]
+Lettre typographiée sur papier à en-tête Kawasaki Dockyard, Kobé, de Matsukata à M. Léonce Benedite, Director, The Musée Rodin. [INHA 38]
 Dear Sir, 
 Mr. Takahata, Manager of Messrs. Suzuki Company of London advised me today that you have been kind enough to buy several fine pictures for me, and I beg to hasten to tender you my best thanks for all troubles. I beg to mention that I deeply appreciate your kind offices for me, when you are so busy always. 
 I beg to ask you, availing on this opportunity how the bronze castings are going on and beg to mention that it would give me a great pleasure to hear about their progress and other news. 
@@ -599,7 +599,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [39]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 39]
 Dear Sir, 
 We are in receipt of your letter dated 30th October with reference to Mr Matsukata’s purchase of Art Works, requesting us to remit 5000 francs for the various expenses in connection with two panels by Jean Charles Cazin and also 15 000 francs being the balance of two pictures bought from M. Gilbert Baertsoen.
 We shall much be obliged if you will kindly furnish us with the details of various expenses of 5000 francs so that we may be able to inform Mr. Matsukata and let him judge whether it is reasonable.
@@ -612,8 +612,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Brouillon de lettre manuscrite [de Bénédite à Suzuki & Co]. INHA [41, 42, 43]
-[INHA, 45 et 46 : traduction de cette lettre en anglais]
+Brouillon de lettre manuscrite [de Bénédite à Suzuki & Co]. [INHA 41, 42, 43]
 Cher Monsieur, 
 La réponse que vous me faites à ma lettre du 30 octobre me cause un véritable étonnement. Il me semble que vous oubliez quel est le caractère de la mission dont j’ai bien voulu me charger en faveur de M. M… et le rôle que vous avez à remplir, moi-même en cette circonstance. 
 M. Matsukata m’a prié, à titre d’ami et en raison de mes fonctions, de mes rapports avec les artistes et de mes compétences professionnelles, de recueillir faire réaliser pour lui un ensemble de fontes du Musée Rodin dans des conditions qui ont été déterminées par lui-même par dans un contrat qui a été rédigé à Paris le 22 août 1918. 2° de recueillir pour compléter le musée qu’il veut ainsi fonder à Tokio un certain nombre de peintures d’artistes qu’il m’a désignés et de tels autres qu’il laisse entièrement à mon choix [rajouté : en me donnant absolument pleins pouvoirs]. C’est ainsi que, jusqu’à ce jour, j’ai pu réunir un ensemble imposant et à des conditions particulièrement exceptionnellement avantageuses des maîtres les plus autorisés de l’École française. M. Matsukata m’a fait connaître pendant les quelques jours que j’ai passés près de lui à Londres fin août 1918 qu’il déposait chez vous à cet effet une somme de 1.200.000 frs dans laquelle je pourrais me mouvoir en toute liberté à la condition de ne pas l’excéder. 
@@ -631,7 +630,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [47]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 47]
 Dear Sir, 
 We beg to enclose herewith cheque for 18,000 francs being the various charges regarding the two panels by Jean Charles Cazin and balance of payment of pictures from Mr. Gilbert Baertsoen, which you kindly acquired for M. K. Matsukata. 
 Please let us have formal receipt in duplicate as usual [manuscript : and details of expense for 5000 fr]
@@ -643,7 +642,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [48]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 48]
 Dear Sir, 
 We are in possession of your receipt in duplicate for our remittance of Francs 18000 on 19th November for account of Mr. Matsukata for which we thank you.
 With reference to your letter of 30th October stating that you would let us have a receipt for 50,000 francs being the cost of two panels by Charles Cazin on completion of remittance in this connection, we beg to say that we have not so far received your receipt for same. 
@@ -656,7 +655,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C° ?
 Lieu destination : Londres ?
-Lettre manuscrite de Léonce Bénédite à ??, papier à en-tête du musée Rodin. INHA [49]
+Lettre manuscrite de Léonce Bénédite à ??, papier à en-tête du musée Rodin. [INHA 49]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître que j’ai acquis pour le compte de M. Matsukata les ouvrages de peinture suivants : 
 Jacques Blanche
@@ -677,7 +676,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [51]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 51]
 Dear Sir, 
 With reference to your letter dated the 19th December informing us that you have acquired 4 paintings for account of Mr. K. Matsukata and requesting us to remit 20 000 francs being the cost of the paintings, we beg to enclose herewith cheque for like amount. Kindly acknowledge and send us formal receipt in duplicate, as usual. 
 Yours faithfully,
@@ -688,7 +687,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre, non daté, juste après le 3 décembre 1919 (mort de Renoir), de Bénédite à Matsukata. INHA [277]
+Brouillon de lettre, non daté, juste après le 3 décembre 1919 (mort de Renoir), de Bénédite à Matsukata. [INHA 277]
 Cher Mr. Matsukata, 
 J’ai bien reçu vos deux lettres et de mon côté, il y a bien longtemps que j’aurais voulu vous écrire mais j’ai eu une année terriblement chargée depuis que, pour la dernière fois, nous nous sommes rencontrés à Londres. 
 Le Musée Rodin, entre autres m’a donné beaucoup de soucis ; l’écho n’en est peut-être pas venu jusqu’au Japon ! Il y a eu, en effet, une bande organisée de malfaiteurs qui exploitaient l’œuvre du Maître, jetaient sur le marché une foule de falsifications honteuses qui la discréditaient, j’ai dû poursuivre tous ces forbans, ce qui m’a causé 6 mois de véritable lutte mais j’ai enfin obtenu leur condamnation et assaini le marché. Depuis, j’ai fini l’organisation du Musée qui fonctionne depuis 4 mois dans les conditions les meilleures avec une prospérité certaine. Me voici donc rassuré de ce côté, je n’ai plus que la maison et les collections de Meudon à mettre en état pour le printemps. 
@@ -705,7 +704,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : aucun
 Lieu destination : aucun
-Récapitulatif non daté, (janvier 1920 ( ?)). INHA [279]
+Récapitulatif non daté, (janvier 1920 ( ?)). [INHA 279]
 Premier versement Matsukata : 60 000
 25 octobre 18 : Cottet, Pontelin ( ?), Harpignies : 52 000
 22 nov 18 : Besnard, Carolus, H. Martin, aquarelles(?) : 121.200
@@ -758,7 +757,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C° ?
 Lieu destination : Londres ?
-Lettre typographiée de Léonce Bénédite à ??. INHA [52]
+Lettre typographiée de Léonce Bénédite à ??. [INHA 52]
 Cher Monsieur, 
 J’ai l’honneur de vous prier de vouloir bien m’adresser la somme de mille quatre cent quarante et un francs soixante quinze centimes, montant des dépenses ci-dessous opérées pour le compte de M. Matsukata. 
 Renouvellement de l’assurance des peintures, avec addition des œuvres ultérieurement acquises : 441,75 fr
@@ -773,7 +772,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [53]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 53]
 Dear Sir, 
 We are in receipt of your favour of 29th March, contents of which we have noted.
 As requested we enclose herewith sight draft in Francs for 1441,75 fr.
@@ -787,7 +786,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C° ?
 Lieu destination : Londres ?
-Lettre typographiée de Léonce Bénédite à ??. INHA [54]
+Lettre typographiée de Léonce Bénédite à ??. [INHA 54]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître que j’ai acquis pour le compte de M. Matsukata les tableaux suivants : 
 Emile Bernard : Parisienne : 5000 fr
@@ -803,7 +802,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [55]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 55]
 Dear Sir, 
 We beg to acknowledge receipt of your letter of 4th inst., and herewith enclose sight draft for 63,600 frs, in full payment of account for Mr. Matsukata.
 Kindly send us receipt in duplicate as before, at your earliest convenience, and oblige.
@@ -815,7 +814,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Kawasaki, Kobe, de Matsukata à Leone [sic] Bénédite, Musée Rodin. INHA [56]
+Lettre typographiée sur papier à en-tête Kawasaki, Kobe, de Matsukata à Leone [sic] Bénédite, Musée Rodin. [INHA 56]
 Dear Sir, 
 I take liberty of introducing to you, M. K. Amaoka, who is one of my wife’s friends and a sculptor, and I shall highly esteem your courtesies to him, when he presents himself to you. 
 With my best wishes to you, 
@@ -828,7 +827,7 @@ Expéditeur : Léonce Bénédite ?
 Lieu d’expédition : Paris ?
 Destinataire : Madame Clemenceau
 Lieu destination : Paris
-Note manuscrite. INHA [57]
+Note manuscrite. [INHA 57]
 Amaoka chez Madame Clémenceau. 7 avenue de Bel Air
 M. Matsukata viendra à Paris au printemps prochain.
 Rendez-vous avec M Amaoka. Jeudi matin 9h ½ au musée pour aller à Meudon.
@@ -838,7 +837,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Kawasaki Dockyard, Kobé, de Matsukata à M. Léonce Benedite, Director, The Musée Rodin. INHA [58]
+Lettre typographiée sur papier à en-tête Kawasaki Dockyard, Kobé, de Matsukata à M. Léonce Benedite, Director, The Musée Rodin. [INHA 58]
 Dear Sir, 
 I beg to inform you with my best compliments that I have given my letter of introduction to Mr. Amaoka, a sculptor, and I beg to request you will kindly receive him, when he calls. He may not understand much foreign language ; but I venture to hope that he will be able to appreciate your courtesies through his artist insctinct. I hope this will find you and family members all very well and prosperous, and with my kindest regards for the meanwhile. 
 I remain, dear Sir,
@@ -850,7 +849,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de la lettre de Bénédite à Matsukata, en français puis en anglais. INHA [60-62]
+Brouillon de la lettre de Bénédite à Matsukata, en français puis en anglais. [INHA 60-62]
 Cher M. Matsukata
 J’ai bien reçu votre lettre, ainsi que votre câble. Je n’ai pas répondu encore à la première, parce que j’attendais toujours la visite que vous m’avez annoncée de M. Hioki. Je réponds donc sans plus tarder aux questions que vous me posiez à propos du groupe de Pygmalion et Galathée. Le marbre dont il s’agit doit être évidemment celui qui a été donné par Rodin à Mlle Cladel [sic]. Il avait été vendu par elle à un marchand Georges Bernheim pour le prix de 50.000 frs. Le marchand l’a vendu à un de mes amis M. Laroche qui l’a payé 100.000 fr. Cet amateur l’a ensuite rendu à Georges Bernheim chez qui je l’ai reçu et qui m’a dit qu’il était à vendre au prix de 125.000 frs. Toutefois il l’aurait. Cédé pour 100.000 fr. Par conséquent le prix qu’on vous demandait, 290.000 fr, même en y comprenant la commission due à l’intermédiaire, était fortement exagéré. Mais ce qu’il y a de piquant dans l’affaire, c’est que notre [votre ? c’est illisible] ami Edm Davis m’a envoyé ces jours-ci le catalogue d’une vente qui a lieu à Londres chez Christies comprenant divers ouvrages de Rodin parmi lesquels figure ce marbre. La vente a dû avoir lieu hier 29. J’ai demandé à Mr Davis de me renseigner sur les prix que ce marbre a pu atteindre. Je vous ferai savoir le prix aussitôt mais il est évident que tous les intermédiaires ou marchands qui vous proposeront des Rodin vous majoreront très fortement les prix.
 J’en viens maintenant à votre câble sur la Porte de l’Enfer. Je suis très heureux que ma suggestion vous ait convenu. Il doit y avoir au moule un second exemplaire de ce magnifique monument. C’est bien dans ce musée que vous aurez constitué à la gloire de l’art français qui vous en devra une éternelle gratitude. 
@@ -863,7 +862,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre, manuscrit, de Bénédite à Matsukata, en français sur papier à en-tête American YMCA, « On active service with the American Expeditionary force ». INHA [64-66]
+Brouillon de lettre, manuscrit, de Bénédite à Matsukata, en français sur papier à en-tête American YMCA, « On active service with the American Expeditionary force ». [INHA 64-66]
 Cher M. Matsukata, 
 J’ai bien reçu vos 2 lettres et j’ai quelque confusion d’avoir tardé à répondre à la première. 
 Dans tous les cas, je réponds d’ensemble à toutes les deux. Je commence par vous remercier de l’invitation que vous voulez bien me faire d’assister à l’inauguration du Musée Matsukata. Si les circonstances le permettent, je vous assure que je ne manquerai pas de l’accepter. J’ai une trop grande envie d’aller voir ce pays merveilleux qui a tant fait travailler nos imaginations occidentales. Et les chefs-d’œuvre ont enrichi nos inspirations. Vous pensez qu’à notre tour notre art et nos grands artistes peuvent donner des conseils utiles à vos artistes et former le goût des artisans, je le souhaite fort et ce serait un grand honneur pour eux s’ils y pouvaient réussir. 
@@ -883,7 +882,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobé, à Bénédite. INHA [67]
+Télégramme de Matsukata, Kobé, à Bénédite. [INHA 67]
 I am willing to pay thirty thousand francs average per picture by those artists already chosen so please contract with each one of them STOP our country surely appreciate and unboundedly thank you MATSUKATA
 
 Date : 1920/07/18
@@ -891,7 +890,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre, manuscrit, de Bénédite à Matsukata, en français. INHA [68]
+Brouillon de lettre, manuscrit, de Bénédite à Matsukata, en français. [INHA 68]
 Cher M. Matsukata, 
 J’ai bien reçu votre dernier câble et je vais tâcher en effet d’avoir des maîerts qui vous intéressent leurs tableaux les plus représentatifs bien que certainement tout ce que j’ai pu recueillir à ce jour a une très belle tenue et ce sera digne de votre musée. Je fais des tentatives qui jusqu’à présent m’ont pas abouti pour avoir la pièce capitale de Cottet, la répétition avec modifications de son admirable tableau, de l’Homme noyé. Il désire le garder pour lui-même, peut-être parviendrai-je à le tenter pour le prix. Je n’ai pas du tout réussi auprès de Claude Monet directement, il a l’intention de donner toute son œuvre à l’État pour en constituer un musée spécial et il n’a voulu se défaire à aucun prix des tableaux qui sont chez lui. Il faut donc guetter les occasions dans les ventes ou chez les marchands, mais les prix en sont très élevés. Il en est de même des Renoir, je suis allé voir spécialement M. Durand-Ruel de qui je suis lié depuis longtemps, pour tâcher d’en tirer quelque chose. J’ai vu chez lui quelques beaux Renoir mais à des prix qui vont entre 200 et 300 000 fr. J’y suis allé voir en particulier un tableau de Puvis de Chavannes que j’aurais bien voulu vous acheter. C’est une très belle répétition en hauteur de changeant (illisible) du pauvre pêcheur, qui est au Luxembourg. J’aurais l’intention de proposer une 60 de 1000 fr mais c’est environ 6000 dollars qu’il aurait fallu dire. Durand-Ruel estime ce tableau à environ 300 000 fr. Je me félicite donc de vous avoir eu à des prix vraiment exceptionnels de bon marché ces 2 échantillons si intéressants très rares de Puvis de Chavannes que ne vous ai signalés. 
 Je n’ai pas eu la visite que vous aviez annoncée de Hioki. Quant au marbre dont il s’agit Pygmalion Galatée qui avait été mis en vente à Londres, il a été au dernier moment retiré de la vente par les propriétaires qui ne sont semble-t-il que des marchands. A ce propos, je me permets de vous mettre en garde contre certains intermédiaires qui ont su soit du côté de Londres, soit du côté de Paris, que l’on recrutent [illisible] une collection pour votre musée. J’ai été avisé entre autres tout récemment qu’un marchand qui a la plus fâcheuse réputation et que je soupçonne d’avoir été l’organisateur de cette vente de Londres, avait fait des propositions très importantes au sculpteur Bourdelle pour un amateur japonais. J’ai craint que ce ne fût vous dont il s’agit et je trouverais scandaleux qu’on exploitât les sentiments auxquels vous avez obéis en formant cette magnifique collection française, tandis que j’ai obtenu des artistes de sensibles réductions nouvelles dans le dessin ou l’estampe pour vous remercier du but que vous poursuivez ; il ne faudrait pas que des marchands interlopes abusassent de vus comme il semble qu’on voulait faire pour ce marbre de Pygmalion et Galathée. 
@@ -902,7 +901,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre, manuscrit, de Bénédite à Matsukata, en français sur papier à en-tête American YMCA, « On active service with the American Expeditionary force », poursuivie avec un papier à en-tête du musée Rodin. INHA [69 et 70]
+Brouillon de lettre, manuscrit, de Bénédite à Matsukata, en français sur papier à en-tête American YMCA, « On active service with the American Expeditionary force », poursuivie avec un papier à en-tête du musée Rodin. [INHA 69 et 70]
 Cher M. Matsukata, 
 Vous avez bien tort de vous croire importun en m’entretenant des affaires de votre musée. Je vous ai dit et j’aime à vous le répéter que je porte un très vif intérêt à cette fondation qui doit exalter en Extrême-Orient le prestige de l’art français. 
 Je vous suis donc toujours reconnaissant de m’avoir associé à votre œuvre. 
@@ -923,7 +922,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre de Bénédite à Matsukata. INHA [71] : suite de [69 et 70] ?
+Brouillon de lettre de Bénédite à Matsukata. [INHA 71 : suite de INHA 69 et INHA 70 ?]
 Nous préparons ce travail pour la porte de l’Enfer mais je ne peux avoir de [illisible] précis. 
 Comme je vous l’ai écrit nous allons passer 3 mois en Amérique ma fille et moi, partant les premiers jours d’octobre. SI vous deviez venir en France je serai fâché que nous nous manquions. Est-ce que vous ne devez pas traverser l’Amérique, ne pourrions-nous nous y rencontrer ? 
 Dans tous les cas, en mon absence si vous étiez à Paris, on a des ordres au musée Rodin pour vous montrer toutes vos collections et mon lt Dezarrois reste à vos ordres.
@@ -934,7 +933,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Bénédite, Musée Rodin. INHA [72] 
+Télégramme de Matsukata, Kobe, à Bénédite, Musée Rodin. [INHA 72] 
 Your letter June 30th received may thanks for unfailing kind endeavor STOP agree and approve your letter. MATSUKATA.
 
 Date : 1920/08/27
@@ -942,7 +941,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Kojiro Matsukata, Kobe, sur papier à en-tête Kawasaki Dockyard, President’s Office, à Leone [sic] Bénédite, Musée Rodin. INHA [73]
+Lettre typographiée de Kojiro Matsukata, Kobe, sur papier à en-tête Kawasaki Dockyard, President’s Office, à Leone [sic] Bénédite, Musée Rodin. [INHA 73]
 Dear Sir, 
 I have much pleasure in introducing to you, Mr. K. Shimidzu of Messrs. Yamanako & Co. of London, bearer of this, and shall feel your esteemed courtesies extended to him as personal favours. 
 With best wishes, 
@@ -955,7 +954,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Bénédite, Musée Rodin. INHA [74] 
+Télégramme de Matsukata, Kobe, à Bénédite, Musée Rodin. [INHA 74] 
 Thanks Kenz Letter received gratefully accept your thoughtful advice to have one porte enfer MATSUKATA.
 
 Date : 1920/08/28
@@ -963,7 +962,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C° ?
 Lieu destination : Londres ?
-Note manuscrite. INHA [75] 
+Note manuscrite. [INHA 75] 
 Suzuki
 Achat de Gillot L’Yser : 15 000
 Achat de l’Arsenal de Toulon : 4 000
@@ -986,7 +985,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Kawasaki Dockyard, Kobé, de Kojiro Matsukata à M. Léonce Benedite, Esqu., Musée Rodin. INHA [76, 77]
+Lettre typographiée sur papier à en-tête Kawasaki Dockyard, Kobé, de Kojiro Matsukata à M. Léonce Benedite, Esqu., Musée Rodin. [INHA 76, 77]
 Dear Sir, 
 I had the great pleasure of receiving with many thanks your most interesting letter of the 30th June last, on the 17th ult., when I took liberty of cabling you immediately, reading as follows:
 Your letter June 30th received many thanks for unfailing kind endeavor stop agree and approve your letter Matsukata
@@ -1009,7 +1008,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. INHA [79]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin. [INHA 79]
 Dear Sir, 
 We beg to acknowledge receipt of your letter of 28th ult., together with Certificate of deposit for Pictures which we note with thanks. 
 As requested we beg to enclose sight draft in your favour for Frs. 20,600., upon receipt of same kindly favour us with formal receipt in duplicate as usual. 
@@ -1021,7 +1020,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobé, à Bénédite. INHA [80]
+Télégramme de Matsukata, Kobé, à Bénédite. [INHA 80]
 Your letter 18th July received STOP Please accept heartfelt thanks STOP Please tempt Cottet with price STOP. Heard thereof STOP Please ascertain prics Durand Ruel wants for Renoir and Puvis each STOP thank Darde for kindness STOP give your American addres STOP Don’t visit Paris during your absence STOP with American trip bon voyage. Matsukata
 
 Date : 1920/09/10
@@ -1052,7 +1051,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Note manuscrite de Bénédite à Suzuki. INHA [81]
+Note manuscrite de Bénédite à Suzuki. [INHA 81]
 Suzuki
 Ernest Laurent
 Au Jardin 5000
@@ -1072,7 +1071,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Madame Le Mancel, Musée Rodin, Paris. INHA [82]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Madame Le Mancel, Musée Rodin, Paris. [INHA 82]
 Dear Madam, 
 With reference to M. Leonce Benedite’s letter of 6th inst., we beg to hand you herewith a sight draft for the amount of Fcs. 127,000.00 being the cost of four (4) Paintings by Ernest Laurent and 1 (one) Marble Group by Rodin, which you acquired for account of Mr. Matsukata. The draft is made payable to you, as requested by him in his letter. We shall be much obliged if you will please send us, per return, the receipt of the remittance in Duplicate as before.
 Your prompt attention to the above will be appreciated, 
@@ -1084,7 +1083,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Matsukata à Leone [sic] Benedite, Esque., Musée Rodin. INHA [83]
+Lettre typographiée de Matsukata à Leone [sic] Benedite, Esque., Musée Rodin. [INHA 83]
 Dear Mr. Benedite, 
 I beg to acknowledge with many thanks receipt of your two esteemed letters dated the 18th, July and 14th, August last respectively. I took liberty of cabling you on the 11th, September last, in response to your first mentioned letter, reading as follows. 
 Your letter 18th July received stop Please accept heartfelt thanks stop Please ascertain prices Durand Ruel wants for Renoir an Puvis stop Thank Darde for kindness stop Give your American address stop Don’t visit Paris during your absence stop Wish American trip bon voyage Matsukata
@@ -1112,7 +1111,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Madame Le Mancel, Musée Rodin, Paris. INHA [86]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Madame Le Mancel, Musée Rodin, Paris. [INHA 86]
 [manuscript : Pygmalion 110 000, E. Laurent 27 000 ___ 127 000]
 Dear Madam, 
 Referring to our letter of 20th ult., re the above, we beg to draw to your attention that more than a fortnight has since elapsed without hearing anything from you about our Remittance by a Sight Draft, which was made payable to our goodselves in compliance with M. Leonce Benedite’s requiest in his letter of the 6th ult. The amount of Frcs. 127,000 being the cost of four Paintings and one Marble Group, which you kindly acquired for account of Mr. Matsukata.
@@ -1127,7 +1126,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Rosa Bénédite
 Lieu destination : New York
-Lettre typographiée de Kojiro Matsukata à Miss Rosa Benedite c/o Miss Emmet, 126 East 34th Street, New York City, USA. INHA [87 et 88]
+Lettre typographiée de Kojiro Matsukata à Miss Rosa Benedite c/o Miss Emmet, 126 East 34th Street, New York City, USA. [INHA 87 et 88]
 Dear Miss Benedite, 
 I beg to thank you for your letter from New York just to hand, and beg to hasten to send you my reply. I was surprised to hear that your father was tired and used up when left Paris and that his conditions did not improve during the sea voyage but became much better only quite recently. I am sure you may have a very hard time and must have felt lonesome and troubles away from your mother and in a strange country. I beg to mention my sympathy and kindest enquiries after your father. As you mention, illness is terrible thing to have, I quite agree. 
 I took liberty of sending you a telegram today reading as follows:
@@ -1153,7 +1152,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : New York
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre manuscrite sur papier à en-tête de Park Avenue Hôtel, Park avenue, 32nd and 33rd streets, New York, de Léonce Bénédite à Matsukata. INHA [89, 90]
+Brouillon de lettre manuscrite sur papier à en-tête de Park Avenue Hôtel, Park avenue, 32nd and 33rd streets, New York, de Léonce Bénédite à Matsukata. [INHA 89, 90]
 C/o Miss Emmet, 120 East 34th Street, New York City. 
 Dear Mr Matsukata, 
 I received your two letters, the one Dec 4th addressed to my daughter and the one from Jan 10th to me and they forwarded me another one dated Nov 4th from France. Thank you so much too for your cable. They have been received at a very short distance one from the other because of my trip in the East : the second was half burned on the boat. 
@@ -1174,7 +1173,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Kojiro Matsukata à Leone [sic] Benedite, Musée Rodin, Paris. INHA [91, 92]
+Lettre typographiée de Kojiro Matsukata à Leone [sic] Benedite, Musée Rodin, Paris. [INHA 91, 92]
 I beg to achknowledge with great pleasure and relief receipt of your long-waited-for letter of the 20th, ult. I am very glad indeed to hear from you direct that you are convalescent now and that your Eastern tour of lecture has been successful. 
 I beg to thank you cordially for your kind sympathy for our great bereavement and beg to mention that I have also sympathized with you to have been unfortunate as to be laid up in a strange hospital for two months. It is not cheery enough away from Home and family and in addition thereto, spending such a long time in a hospital must have been more that I can say herein. 
 I am thinking while writing this that you must be back in glorious Paris by this time and am further hoping that you found your family members and friends are very well. 
@@ -1192,7 +1191,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin, Paris. INHA [93]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin, Paris. [INHA 93]
 Dear Sir, 
 We are duly in receipt of your letter of the 7th inst., and in compliance with yourrequest we beg to hand you herewith a Sight Draft for Fcs. 3750.00 in full settlement of the Account on behalf of and for account of Mr. Matsukata. Kindly acknowledge receipt, in Duplicate, per return of post and oblige,
 Yours faithfully
@@ -1239,7 +1238,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Intermédiaires de Kojiro Matsukata
 Lieu destination : Kobe ?
-Brouillon de lettre aux intermédiaires de Kojiro Matsukata. INHA [94]
+Brouillon de lettre aux intermédiaires de Kojiro Matsukata. [INHA 94]
 J’ai bien reçu votre lettre et le chèque de 200.000 francs duquel je vous envoie le reçu en double. Mais je tiens à vous dire que j’ai été très gêné par votre retard d’un mois à m’envoyer la somme demandée, qui m’était indispensable, pour la fin du mois d’avril, ainsi que je l’avais stipulé dans une première lettre. J’ai dû en conséquence suspendre les travaux et j’allais envoyer un câble à M. Matsukata au moment même où m’a été remise votre lettre. 
 J’espère que le retard ne se reproduira plus à l’avenir, comme vous m’en donnez l’assurance. 
 J’ai aujourd’hui comme je vous ­en ai averti à vous demander une somme de nouveau assez importante : j’ai acquis en effet pour le compte de M. Matsukata les ouvrages suivants : 
@@ -1262,7 +1261,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Intermédiaires de Kojiro Matsukata
 Lieu destination : Kobe ?
-Brouillon manuscrit de Bénédite. INHA [95]
+Brouillon manuscrit de Bénédite. [INHA 95]
 Insurances renewed for the works of art : 539f40
 Je dis cent quarante quatre mille cinq cent trente neuf fancs quarante centimes
 Yours truly
@@ -1278,7 +1277,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin, Paris. INHA [96]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin, Paris. [INHA 96]
 Dear Sir, 
 In compliance with the request contained in our letter of last month, we take pleasure in handing you herewith a cheque value Frcs. 144,539.40 for account of Mr. Matsukata, beoing the cost of various artworks which you have bought on his behalf and his account. Kindly send us, per return, your formal receipt in duplicate as customary.
 Yours faithfully
@@ -1289,7 +1288,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre de Benedite à Matsukata, papier à en-tête « direction des musées nationaux ; musée du Luxembourg ». INHA [97]
+Brouillon de lettre de Benedite à Matsukata, papier à en-tête « direction des musées nationaux ; musée du Luxembourg ». [INHA 97]
 Cher Monsieur Matsukata, 
 J’attendais impatiemment de vos nouvelles et je ne savais où vous écrire. J’apprends que vous êtes en ce moment à Londres et que vous devez venir à Paris très prochainement. Je serais très désireux que ce ne fût pas avant le 15, car je dois m’absenter avec notre ministre pour aller du 9 au 14, inaugurer l’exposition de Wiesbaden et faire une tournée en Rhénanie et en Alsace. Je serai désolé de vous manquer. 
 Je serai heureux de vous montrer vos acquisitions récentes et de prendre votre avis pour la suite. Veuillez, je vous prie, m’aviser à l’avance de votre arrivée, car notre ministre et les membres du Conseil du musée Rodin et nos artistes désirent voir l’honneur de vous remercier et de vous témoigner leur gratitiude. 
@@ -1303,7 +1302,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin, Paris. INHA [98]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin, Paris. [INHA 98]
 Dear Sir, 
 We are duly inreceipt of your formal receipt in duplicate of our Remittance for Frcs. 144,539.40 for account of Mr. Matsukata of Kobe, for which we thank you.
 We have not, however, received yet your Certificate of Deposit for Bourdelle, Bronze, Cottel [sic], “The Drowned”, and Dinet “the Blessed”. We shall be obliged if you will send us immediately.
@@ -1315,7 +1314,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata à M. Benedete [sic] INHA [100]
+Télégramme de Matsukata à M. Benedete [sic] [INHA 100]
 London 55299 15 15° 12h10 S
 Thanks letter received expect to go to Paris 22nd Inst Matsukata
 
@@ -1324,7 +1323,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Brouillon de lettre de Benedite aux intermédiaires de Matsukata. INHA [99]
+Brouillon de lettre de Benedite aux intermédiaires de Matsukata. [INHA 99]
 Cher M., 
 En réponse à votre lettre du J’ai l’honneur de vous faire savoir que, en ce qui concerle le tableau de Cottet, Le Noyé, il a été convenu avec Mr Matsukata que l’artiste pourrait le conserver dans son atelier jusqu’à l’envoi au Japon. Je possède une lettre de M. Cottet permettant de le retirer s’il y a lieu. 
 En ce qui concerne le tableau de M. Dinet, le blessé, il figure encore au Salon de la Société nationale. J’ai le récepissé permettant de le reprendre et j’enverrai le certificat de dépôt au musée Rodin au moment qu’il y sera entré. 
@@ -1335,7 +1334,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Brouillon de lettre de Benedite à Matsukata. INHA [101]
+Brouillon de lettre de Benedite à Matsukata. [INHA 101]
 Cher M. M., 
 J’ai bien reçu votre télégramme et j’attends avec impatience votre arrivée pour le 22. Je vous serai obligé de me donner votre adresse à Paris, car je désire vous voir aussitôt. Veuillez me dire aussi combien de jours me retenez [illisible] et l’emploi de votre temps. 
 Je désire vous recevoir chez moi avec les artistes qui vont entrer dans votre musée. Le ministre et le conseil du musée Rodin veulent également vous donner une réception. De plus, j’aimerais aller avec vous à Meudon, dans la maison de Rodin, vous montrer votre Porte de l’Enfer et aussi à Saint Germain chez Maurice Denis. Peut-être même si vous le voulez à Giverny chez Claude Monet.
@@ -1347,7 +1346,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Londres, à M. Benedete [sic] INHA [102]
+Télégramme de Matsukata, Londres, à M. Benedete [sic] [INHA 102]
 Many thanks letter received hope visit you next Wednesday 22nd STOP my hotel unknown yet. Matsukata
 
 Date : 1921/07/08
@@ -1355,7 +1354,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre de Benedite à Matsukata. INHA [103]
+Brouillon de lettre de Benedite à Matsukata. [INHA 103]
 Cher M. M., 
 J’ai demandé à notre ministre que le gouvernement de la République vous donne un témoignage officiel de notre gratitude pour tout ce que vous avez fait pour la mémoire de notre grand Rodin et pour la gloire de l’art français. 
 Le Gouvernement vous a décerné le grade de commandeur dans l’ordre national de la légion d’honneur. Le directeur des Beaux-Arts, [illisible] M. Paul Leon vous en remettra les insignes samedi vers 5h1/2 à son cabinet rue de Valois.Voulez-vous prendre la peine de me prendre demain, samedi, à 5h au musée Rodin. Je pense que votre nièce, Mme Kuroki et son mari, ainsi que vos amis japonais, voudront bien assister à cette petite cérémonie. 
@@ -1366,7 +1365,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Paris
 Destinataire : aucun
 Lieu destination : aucun
-Discours de réception de Matsukata à la Légion d’honneur ? (Sans date : 9 juillet 1921 ?). INHA [299]
+Discours de réception de Matsukata à la Légion d’honneur ? (Sans date : 9 juillet 1921 ?). [INHA 299]
 Mesdames et Messieurs, 
 J’ai l’honneur de souhaiter la bienvenue à votre Excellence et à vous tous, Messieurs les Artistes des Beaux-Arts qui nous entourez ce soir. 
 Votre présence sera un précieux encouragement et un puissant appui pour l’œuvre que j’ai entreprise, c’est-à-dire l’établissement au Japon d’un musée. 
@@ -1451,7 +1450,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Brouillon de lettre de Benedite aux intermédiaires de Matsukata. INHA [104 ; 105 : brouillon en anglais]
+Brouillon de lettre de Benedite aux intermédiaires de Matsukata. [INHA 104 ; 105 : brouillon en anglais]
 Cher M., 
 J’ai l’honneur de vous adresser en duplicata le reçu de la somme de cent un mille francs représentant l’acquisition pour le compte de M. Matsukata de bronzes de Rodin, dont je vous ai retourné la semaine passée, le certificat de dépôt.
 En même temps et comme je vous le faisais préciser, j’ai à vous demander le paiement d’une somme de 230 000 pour achats opérés pendant le séjour à Paris de M. Matsukata à savoir : 
@@ -1473,7 +1472,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin, Paris. INHA [106]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Léonce Benedite, Musée Rodin, Paris. [INHA 106]
 Dear Sir, 
 In compliance with your request in your letter of the 3rd inst., we take pleasure in sending you herewith a Sight Draft for Frcs. 230,000.00, being the cost of several Artworks listed in your letter above referred, bought by your goodself on behalf of and for account of Mr. Matsuata.
 Kindly send us your formal receipt and certificate of deposit (for the Artworks) in duplicate as curtomary, 
@@ -1485,7 +1484,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Copie manuscrite de la dépêche, de la main de Léonce Benedite, Musée Rodin, Paris. INHA [107]
+Copie manuscrite de la dépêche, de la main de Léonce Benedite, Musée Rodin, Paris. [INHA 107]
 Suzuki, 29 Mincing Lane London. Financial department
 Please send sum asked before week-end because I am leaving Saturday.
 Bénédite
@@ -1495,7 +1494,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Suzuki à Bénédite. INHA [108]
+Télégramme de Suzuki à Bénédite. [INHA 108]
 Remitted yesterday. Suzuki 
 
 Date : 1921/09/09
@@ -1513,7 +1512,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Londres, à Bénédite. INHA [109]
+Télégramme de Matsukata, Londres, à Bénédite. [INHA 109]
 My friend art critic wished to publish Rodins Gate of hell photograph in newspaper STOP will you permit him do so please anwer Neatsukata [sic]
 
 Date : 1921/10/10
@@ -1521,7 +1520,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre de Benedite à Matsukata. INHA [110 et 111]
+Brouillon de lettre de Benedite à Matsukata. [INHA 110 et 111]
 Dear Mr. M.
 J’autorise bien volontiers votre ami critique d’art à publier la photo de la Porte de l’Enfer si cela peut vous être agréable. Cependant, je dois vous dire que jusqu’à ce jour, je m’étais abstenu de toute communication à la presse pour éviter des discussions, pour ne pas susciter les convoitises des artistes non choisis. 
 Du moment que le Times de son côté a déjà donné en Angleterre l’indication de vos principales acquisitions, il n’est plus possible de se montrer aussi réservé vis-à-vis des journaux français. 
@@ -1534,7 +1533,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata ?
 Lieu destination : Kobe ?
-Lettre manuscrite de Bénédite aux représentants de Matsukata, papier à en-tête du musée Rodin. INHA [112 à 114]
+Lettre manuscrite de Bénédite aux représentants de Matsukata, papier à en-tête du musée Rodin. [INHA 112 à 114]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître que M. Matsukata a acquis, lors de son passage à Paris et que j’ai acquis, en même temps pour lui, les ouvrages suivants, déposés au Musée Rodin et donc je vous envoie le certificat de dépôt ci inclus.
 Je vous serai obligé de m’en faire parvenir le paiement soit :
@@ -1566,7 +1565,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. INHA [115]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. [INHA 115]
 Dear Sirs, 
 We thank you for your letter of 12st inst. advising us of the purchase by Mr. Matsukata, and also for the certificate of dispatch
 Although you put the total as Fcs. 134.000, we make it Fcs. 139,300, and shall be pleased to have your corrected account per return of post, when we shall remit you the exact account.
@@ -1579,7 +1578,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. INHA [116]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. [INHA 116]
 Dear Sirs, 
 We thank you for your letter of 15th inst. 
 We beg to enclose herewith Demand Draft on Paris for Fcs. 134,000. 
@@ -1592,7 +1591,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. INHA [117]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. [INHA 117]
 Dear Sirs, 
 We beg to confirm our letter of 18th inst., by which we have sent you the Demand Draft on Paris for Fcs. 134,000. 
 Kindly acknowledge receipt by return of post.
@@ -1604,7 +1603,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Suzuki, Londres, à Bénédite. INHA [118]
+Télégramme de Suzuki, Londres, à Bénédite. [INHA 118]
 Telegraph whether francs hundred thirty four thousand remitted eighteen received. Suzuki.
 
 Date : 1921/10/28
@@ -1612,7 +1611,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. INHA [119]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. [INHA 119]
 Dear Sir, 
 We are in receipt of your favour enclosing receipt in duplicate for Frcs 134,000, for which we are obliged. 
 Yours faithfully
@@ -1623,7 +1622,7 @@ Expéditeur : Galeries Georges Petit
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Duplicata de la facture des Galeries Georges Petit, 8 rue de Sèze. INHA [120]
+Duplicata de la facture des Galeries Georges Petit, 8 rue de Sèze. [INHA 120]
 Monsieur Matsukata doit 
 Les trois tableaux suivants par Gustave Moreau : 
 20551. Salomé à la prison, 41x32 : 11 000
@@ -1639,7 +1638,7 @@ Expéditeur : Georges Bernheim
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Duplicata de la facture de Georges Bernheim, 40 rue La Boëtie. INHA [121 et 122]
+Duplicata de la facture de Georges Bernheim, 40 rue La Boëtie. [INHA 121 et 122]
 Monsieur Bénéditte [sic] Conservateur du Musée du Luxembourg. 
 Cher Monsieur, 
 Selon vos désirs, j’ai l’honneur de vous adresser le duplicata des tableaux achetés par Monsieur Matsukata. 
@@ -1660,7 +1659,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata ?
 Lieu destination : Kobe ?
-Lettre manuscrite de Bénédite aux représentants de Matsukata, papier à en-tête du musée Rodin. INHA [123]
+Lettre manuscrite de Bénédite aux représentants de Matsukata, papier à en-tête du musée Rodin. [INHA 123]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître qu’il a été acquis, siot par M. Matsukata directement, soit par moi pour le compte de M. Matsukata, les ouvrages suivants déposés au Musée Rodin, pour lesquels je vous adresse ci-inclus, un certificat de dépôt. 
 Paul Paulin. Buste de M. Le S[illisible] 6000 
@@ -1714,7 +1713,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. INHA [124]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. [INHA 124]
 Dear Sir, 
 In reply to your letter of 26th inst., we have the pleasure of enclosing herewith Demand Draft on Paris for Frcs. 121,107. 
 Kindly favour us with your receipt in duplicate as usual, per return of post. 
@@ -1726,7 +1725,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. INHA [Musée Rodin]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Musée Rodin, Paris. [INHA, Musée Rodin]
 In reply to your letter of 24th inst., we have the pleasure of enclosing herewith Demand Draft for Frcs. 118,000. 
 Kindly favour us with your receipt in due course. 
 Yours faithfully
@@ -1737,7 +1736,7 @@ Expéditeur : Galeries Georges Petit
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de G. Bergaud à [Benedite ?], papier à en-tête des Galeries Georges Petit, 8 rue de Sèze. INHA [125]
+Lettre de G. Bergaud à [Benedite ?], papier à en-tête des Galeries Georges Petit, 8 rue de Sèze. [INHA 125]
 Cher Monsieur, 
 Selon votre désir, je vous adresse ci-inclus la liste des 6 tableaux et aquarelles par Gustave Moreau, qui ont été achetés par M. Matsukata et déposés au musée Rodin, ceci pour vous permettre d’établir le reçu qui nous servira de pièce d’exportation vis-à-vis de l’administration des finances. 
 Veuillez agréer, cher Monsieur, l’expression de nos sentiments les plus distingués.
@@ -1748,7 +1747,7 @@ Expéditeur : Galeries Bernheim Jeune et Cie
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de Bernheim à Benedite, papier à en-tête Bernheim Jeune et Cie, 25 boulevard de la Madeleine. INHA [126]
+Lettre de Bernheim à Benedite, papier à en-tête Bernheim Jeune et Cie, 25 boulevard de la Madeleine. [INHA 126]
 Cher Monsieur, 
 Je m’empresse de vous accuser réception de votre lettre et je vous remets ci-inclus facture avec tous mes remerciements. 
 Veuillez agréer cher Monsieur mes salutations les plus cordiales
@@ -1771,7 +1770,7 @@ Expéditeur : Galerie E. Druet
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de la galerie E. Druet, 20 rue Royale, à Léonce Benedite, 3 rue Duguay Trouin. INHA [127]
+Lettre de la galerie E. Druet, 20 rue Royale, à Léonce Benedite, 3 rue Duguay Trouin. [INHA 127]
 Cher Monsieur, 
 L’Exposition de Maurice Denis étant terminée, je viens vous demander des instructions en ce qui concerne les tableaux que m’a achetés Mr Matsukata et ceux qu’il a achetés chez Maurice Denis. 
 Suivant le désir de Maurice Denis, j’ai fait photographier tous ses tableaux et je suis dès maintenant à même de les faire porter quand vous voudrez au Musée Rodin. 
@@ -1785,7 +1784,7 @@ Expéditeur : Galerie E. Druet
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Récapitulatif de la galerie E. Druet, 20 rue Royale. INHA [128]
+Récapitulatif de la galerie E. Druet, 20 rue Royale. [INHA 128]
 Liste des tableaux appartenant à Mr K. Matsukata livrés à ce jour au Musée Rodin
 Tableaux achetés chez Madame Druet
 N° 9562. Maurice Denis. Plage au Canet
@@ -1824,7 +1823,7 @@ Expéditeur : Georges Bernheim
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Georges Bernheim, 40 rue La Boëtie, à Monsieur Benedite, Conservateur du Musée du Luxembourg, 19 rue de Vaugirard, Paris. INHA [129]
+Lettre typographiée de Georges Bernheim, 40 rue La Boëtie, à Monsieur Benedite, Conservateur du Musée du Luxembourg, 19 rue de Vaugirard, Paris. [INHA 129]
 Cher Monsieur, 
 Je vous serais très reconnaissant de bien vouloir m’accuser réception des tableaux que j’ai fait déposer au Musée Rodin, pour être expédiés à Monsieur Matsukata, à Tokio.
 Vous voudrez bien préciser dans votre lettre que vous avez pris possession de ces tableaux, vous chargeant vous-même de leur expédition, de façon à ce que je ne puisse être incriminé au sujet de taxes fiscales. 
@@ -1838,7 +1837,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata ?
 Lieu destination : Kobe ?
-Brouillon au crayon à papier par Bénédite ?, sans date (27 ( ?) décembre 1921). INHA [130]
+Brouillon au crayon à papier par Bénédite ?, sans date (27 ( ?) décembre 1921). [INHA 130]
 M. Matsukata
 - X La baignade [au-dessus : La plage à Vernon] V Druet
 - X Le goûter. 10 000
@@ -1861,7 +1860,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata ?
 Lieu destination : Kobe ?
-Lettre de Benedite aux intermédiaires de M. Matsukata, papier à en-tête du musée Rodin. INHA [131]
+Lettre de Benedite aux intermédiaires de M. Matsukata, papier à en-tête du musée Rodin. [INHA 131]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître qu’il a été acquis par M. Matsukata lui-même ou pour son compte, les ouvrages suivants déposés au Musée Rodin et dont je vous envoie ci-inclus un certificat de dépôt. Ce sont : 
 Maurice Denis : 
@@ -1898,7 +1897,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Leonce Benedite, Musée Rodin, Paris. INHA [132]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Leonce Benedite, Musée Rodin, Paris. [INHA 132]
 Dear Sir, 
 We beg to acknowledge receipt of your favour dated 27th inst., and note with thanks that you have purchased for account of Mr. K. Matsukata pictures, etc., to the amount of Frcs. 136,000. We beg to enclose herewith Demand Draft for Frcs. 136,000. We beg to enclose herewith Demand Draft for Frcs. 136,000 in payment of your Debit Note, and shall be pleased to be favoured with your receipt by return of post. 
 Yours faithfully
@@ -1909,7 +1908,7 @@ Expéditeur : Compagnie algérienne
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée du PP. de la Compagnie algérienne, 50, rue d’Anjou, Paris, à M. Leonce Benedite, 77 rue de Varennes, Paris. INHA [133]
+Lettre typographiée du PP. de la Compagnie algérienne, 50, rue d’Anjou, Paris, à M. Leonce Benedite, 77 rue de Varennes, Paris. [INHA 133]
 Monsieur, 
 Nous avons l’honneur de vous accuser réception de votre remise du 9 courant d’un chèque de Frs 136.000 dont nous créditerons votre compte après encaissement valeur 11 janvier 1922.
 A votre débit : 
@@ -1922,7 +1921,7 @@ Expéditeur : Galerie E. Druet
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de la galerie E. Druet, 20 rue Royale, à Léonce Benedite, au Musée Rodin, 77 rue de Varnne, Paris. INHA [134]
+Lettre de la galerie E. Druet, 20 rue Royale, à Léonce Benedite, au Musée Rodin, 77 rue de Varnne, Paris. [INHA 134]
 Cher Monsieur, 
 J’ai bien reçu votre honorée et le chèque de quinze mille huit cents francs qu’elle contenait, en paiement des 4 tableaux de Marquet que vous avez acquis pour le compte de Mr. Matsukata, dont ci-joint facture acquittée.
 Je fais appel à votre bienveillante intervention pour me faire obtenir aussitôt que possible, le règlement des autres achats effectués par Mr Matsukata. 
@@ -1934,7 +1933,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Note de Leonce Benedite, sur papier à en-tête du musée Rodin, 77 rue Varennes, Paris. INHA [135 et 136]
+Note de Leonce Benedite, sur papier à en-tête du musée Rodin, 77 rue Varennes, Paris. [INHA 135 et 136]
 Envoi de lettre à M. M. Suzuki.
 Le Conservateur du Musée Rodin soussigné certifie que les ouvrages suivants déposés au Musée Rodin appartiennent à M. Matsukata de Kobe (Japon)
 Besnard : 
@@ -1957,7 +1956,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Leonce Benedite, Musée Rodin, Paris. INHA [137]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à M. Leonce Benedite, Musée Rodin, Paris. [INHA 137]
 Dear Sir, 
 We beg to acknowledge receipt of your favour dated 21st inst., and in payment of your Debit Note we beg to enclose herewith cheque for Frcs. 47,200.
 Kindly favour us with your receipt per return of post.
@@ -1969,7 +1968,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C° ?
 Lieu destination : Londres ?
-Note de Bénédite non datée (janvier 1922 ?). INHA [138]
+Note de Bénédite non datée (janvier 1922 ?). [INHA 138]
 Allard 182.500
 Georges Petit 42.000
 John Levy 101.000
@@ -1986,7 +1985,7 @@ Expéditeur : Galeries Georges Petit
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre des Galeries Georges Petit, 8 rue de Sèze. INHA [139]
+Lettre des Galeries Georges Petit, 8 rue de Sèze. [INHA 139]
 Paris, le 2 février 1922, 
 Livré ce jour au musée Rodin
 77, rue de Varenne, 
@@ -2002,7 +2001,7 @@ Expéditeur : F . & J. Tempelaere
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Note de F.&J. Tempelaere, 36 rue Laffitte, Paris. INHA [140]
+Note de F.&J. Tempelaere, 36 rue Laffitte, Paris. [INHA 140]
 Cher Monsieur, 
 Comme convenu, nous vous faisons remettre par le porteur les quatre natures mortes de Bonvin. 
 Veuillez agréer, cher Monsieur, avec l’assurance de toute notre reconnaissance, l’expression de nos sentiments affectueusement dévoués.
@@ -2013,7 +2012,7 @@ Expéditeur : F . & J. Tempelaere
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Facture de F.&J. Tempelaere, tableaux modernes et bronzes de Barye, 36 rue Laffitte, Paris. INHA [141 et duplicata 142]
+Facture de F.&J. Tempelaere, tableaux modernes et bronzes de Barye, 36 rue Laffitte, Paris. [INHA 141 et duplicata 142]
 Doit Monsieur L. Bénédite pour le compte de Monsieur Kojiro Matsukata à Tokio.
 Paris, le 9 février 1922. 
     • N°7966. F. Bonvin : Nature morte (forme ovale). Ustensiles en cuivre, asperges, bouquet de fleurs sur une nappe blanche (dimensions h. 1m55xl 1m05) signé en bas à droite et daté 1863.
@@ -2027,7 +2026,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : NA
 Lieu destination : NA
-Note manuscrite [non daté] janvier / février 1922 ? [les prix sont au crayon à papier, le reste à l’encre]. INHA [143]
+Note manuscrite [non daté] janvier / février 1922 ? [les prix sont au crayon à papier, le reste à l’encre]. [INHA 143]
 Tableaux de Mr Matsukata achetés à Mr Denis
 Quattro Torri, Campagne de Sienne : 5 000 f
 Cloître St Laurent hors les murs : 8 000 F
@@ -2041,7 +2040,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon du câble à Matsukata envoyé le 4 mars 1922. INHA [144]
+Brouillon du câble à Matsukata envoyé le 4 mars 1922. [INHA 144]
 Désirons receiving order to pay your purchase. Splendid Courbet offered 75.000.
 
 Date : 1922/03/09
@@ -2049,7 +2048,7 @@ Expéditeur : F . & J. Tempelaere
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de F.&J. Tempelaere, tableaux modernes et bronzes de Barye, 36 rue Laffitte, Paris. INHA [145 et 146]
+Lettre de F.&J. Tempelaere, tableaux modernes et bronzes de Barye, 36 rue Laffitte, Paris. [INHA 145 et 146]
 Cher Monsieur, 
 Nous vous faisons remettre par le porteur le tableau d’Etty pour Mr Kojori Matsukata, et permettez-nous à cette occasion de vous renouveler nos remerciements pour votre constante bienveillance à notre égard.
 Vous trouverez également la facture de ce tableau et celle des quatre Bonvin.
@@ -2062,7 +2061,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Benedite musée Rodin. INHA [147]
+Télégramme de Matsukata, Kobe, à Benedite musée Rodin. [INHA 147]
 Thanks please buy Courbet 75000 francs hope all well. Matsukata. 
 
 Date : 1922/03/13
@@ -2070,7 +2069,7 @@ Expéditeur : Seichi Naruse
 Lieu d’expédition : Venise
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre manuscrite de S. Narusé, Venise, Hôtel Danieli, à Léonce Bénédite, sur papier à en-tête de l’hôtel Royal Danieli. INHA [148 à 152]
+Lettre manuscrite de S. Narusé, Venise, Hôtel Danieli, à Léonce Bénédite, sur papier à en-tête de l’hôtel Royal Danieli. [INHA 148 à 152]
 Cher Monsieur Bénédite, 
 Ayant enfin reçue [sic] une dépêche de Monsieur Matsukata, qui m’a suivi ici à Venise, je vous prie d’accepter ci-joint un chèque à 1 355 800 francs et régler le compte des marchands. Il m’a demandé d’attendre payer seulement à Durand Ruel dont le règlement aura lieu après trois mois. Je serai très obligé si vous bien voudriez dire à eux d’attendre jusqu’à la fin juin. 
 Si ça ne vous dérange pas trop, voulez-vous m’envoyer les reçu [sic] des marchands aussitôt que possible chez mon ami (S. Narusé, chez Terasaki 2196 S. Polo Venise) comme je serai ici encore dizaine de jours ? Comme ça, je pourai [sic] donner l’information à Monsieur Matsukata avant mon retour qui ne sera qu’après 15 avril.
@@ -2099,7 +2098,7 @@ Expéditeur : Seichi Naruse
 Lieu d’expédition : Venise
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre manuscrite de S. Narusé, Venise, à Léonce Bénédite. INHA [153 et 154]
+Lettre manuscrite de S. Narusé, Venise, à Léonce Bénédite. [INHA 153 et 154]
 Cher Monsieur Bénédite, 
 J’ai bien reçue [sic] votre aimable lettre et je comprends très bien tout ce que vous avez dit à propos du payement à faire pour Durand Ruel.
 Si vous avez reçue [sic] une réponse de Monsieur Matsukata à ce propos, voulez-vous avoir obligeance de me faire savoir ce que je dois faire aussitôt que possible ? Toutes les correspondances me parviendront avant le 10 avril si vous les adressez à Constant Athènes. Je n’ai pas adresse en Grèce. Peut-être vous pouvez envoyer au Consulat de France comme il n’y a pas fonctionnaire japonais. 
@@ -2114,7 +2113,7 @@ Expéditeur : Knoedler
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre manuscrite d’Hamman pour M. Knoedler, Paris, à Monsieur L. Bénédite, Conservateur du Musée Rodin, 77 rue de Varenne. Papier à en-tête M. Knoedler & C°, Paris 17 place Vendôme, London 15 Old Bond St, New-York, 556&558 Fifth Avenue. INHA [155 et 156]
+Lettre manuscrite d’Hamman pour M. Knoedler, Paris, à Monsieur L. Bénédite, Conservateur du Musée Rodin, 77 rue de Varenne. Papier à en-tête M. Knoedler & C°, Paris 17 place Vendôme, London 15 Old Bond St, New-York, 556&558 Fifth Avenue. [INHA 155 et 156]
 Cher Monsieur, 
 Il nous serait indispensable, au point de vue fiscal, d’avoir les détails de l’expédition des tableaux que nous avons vendus à Mr. Matsukata, c’est-à-dire le numéro de sortie de la déclaration en Douane, le nom et la date du steamer, et au besoin une copie du connaissement. Nous devons pouvoir justifier de la sortie de ces tableaux avec les pièces à l’appui. 
 Vous serait-il possible de nous procurer ces renseignements ou pièces, afin que nous soyons en règle avec la loi ?
@@ -2126,7 +2125,7 @@ Expéditeur : Jos Hessel
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Jos Hessel, expert près la Cour d’Appel, tableaux et objets d’art, 26 rue La Boétie, à Monsieur Léonce Bénédite, Musée Rodin, Paris. INHA [157]
+Lettre typographiée de Jos Hessel, expert près la Cour d’Appel, tableaux et objets d’art, 26 rue La Boétie, à Monsieur Léonce Bénédite, Musée Rodin, Paris. [INHA 157]
 Cher Monsieur, 
 Je m’empresse de vous accuser réception de votre chèque de 9 000 francs d’ordre et pour compte de Monsieur Matsukata de Tokio. Je vous adresse, sous ce pli, la facture acquittée.
 Avec mes remerciements, veuillez agréer, cher Monsieur, l’expression de mes sentiments les plus distingués. 
@@ -2136,7 +2135,7 @@ Expéditeur : Galeries Bernheim Jeune et Cie
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre manuscrite de Bernheim Jeune et Cie, 25 boulevard de la Madeleine, à Monsieur Bénédite, Paris. INHA [158]
+Lettre manuscrite de Bernheim Jeune et Cie, 25 boulevard de la Madeleine, à Monsieur Bénédite, Paris. [INHA 158]
 Cher Monsieur Bénédite, 
 J’ai bien reçu votre lettre et son contenu. Je vous adresse facture acquittée des tableaux achetés par M. Matsukata. 
 Permettez-moi de vous remercier vivement des efforts désintéressés que vous avez montrés pour satisfaire les intérêts des marchands français. 
@@ -2148,7 +2147,7 @@ Expéditeur : Paul Rosenberg
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Paul Rosenberg, 21 rue La Boétie, à Monsieur Bénédite, conservateur du Musée du Luxembourg et du Musée Rodin, Paris. INHA [159]
+Lettre typographiée de Paul Rosenberg, 21 rue La Boétie, à Monsieur Bénédite, conservateur du Musée du Luxembourg et du Musée Rodin, Paris. [INHA 159]
 Cher Monsieur, 
 Suivant les instructions que vous avez bien voulu me donner, je vous fais livrer, par le porteur de la présente, les tableaux suivants, que j’ai eu le plaisir de vendre à Monsieur Matsukata de Kobé.
 1° Pissarro « Le Chemin de Fer »
@@ -2169,7 +2168,7 @@ Expéditeur : Paul Rosenberg
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Paul Rosenberg, 21 rue La Boétie, à Monsieur Bénédite, conservateur du Musée du Luxembourg et du Musée Rodin, Paris. INHA [160]
+Lettre typographiée de Paul Rosenberg, 21 rue La Boétie, à Monsieur Bénédite, conservateur du Musée du Luxembourg et du Musée Rodin, Paris. [INHA 160]
 Cher Monsieur, 
 Je vous prie de vouloir bien m’excuser pour venir vous importuner par une nouvelle demande : 
 A quelle personne dois-je m’adresser pour obtenir le reçu des tableaux que j’ai fait remettre au Musée Rodin, d’ordre de Monsieur Matsukata ?
@@ -2180,7 +2179,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [161]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 161]
 Dear Sir, 
 In accordance with the request contained in your favour dated 5th inst., we beg to enclose herewith cheque for Frcs. 29.928 -, being the cost of six works of art purchased for account of K. Matsukata Esq.
 Kindky acknowledge receipt and oblige, 
@@ -2221,7 +2220,7 @@ Expéditeur : F . & J. Tempelaere
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre manuscrite de F.&J. Tempelaere, 36 rue Laffitte, Paris. INHA [162]
+Lettre manuscrite de F.&J. Tempelaere, 36 rue Laffitte, Paris. [INHA 162]
 Cher Monsieur, 
 Nous avons bien reçu hier votre aimable petit mot et vous remercions bien sincèrement du chèque que vous avez bien voulu y joindre.
 Sous ce pli nous vous adressons la facture acquittée des quatre tableaux de Bonvin que règle ce chèque. 
@@ -2234,7 +2233,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Lettre manuscrite de Bénédite à Suzuki. INHA [Musée Rodin, fonds Bénédite] (on a la version française, illisible)
+Lettre manuscrite de Bénédite à Suzuki. [INHA, Musée Rodin, fonds Bénédite (on a la version française, illisible)]
 Dear Sir, 
 I am answering to your letter of 8 May which I found after an absence of some days. There has been, in fact, a mistake in my second letter because of a false information which was given me. The price of the 2 groups, is, as I put it in my first letter of 75.000 and not 80.000 fr. Have you found this first letter of mine and the certificates of deposit which it contained?
 I tell you in advance that in a week I shall have to ask you a new amount of 50.000 fr for the execution of the casting of the Porte de l’Enfer for which 600.000 fr have been asked and 300.000 fr have already been paid.
@@ -2258,7 +2257,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Copie d’une note de Bénédite aux intermédiaires de Matsukata. INHA [163]
+Copie d’une note de Bénédite aux intermédiaires de Matsukata. [INHA 163]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître que j’ai acquis pour le compte de M. Matsukata un buste en plâtre du Père Aymard par Rodin pour le prix de 3 000 fr. 
 De plus, j’ai payé un supplément pour l’assurance de montant à la somme de 989 fr. 
@@ -2271,7 +2270,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Copie d’une note de Bénédite au crayon à papier. INHA [164]
+Copie d’une note de Bénédite au crayon à papier. [INHA 164]
 Dear Sir, 
 I have the honneur to tell you that I have make the purchase for Sir M. of the following works deposited at the Musée Rodin of which I send you the certificates of deposit. 
 … I give you the confirmation confirm at the same time my letter of June 1st and would be obliged to you if you could send me without delay the sum indicated, for I am obliged in some cases as for the insurances for instance to make personally the advanced.
@@ -2282,7 +2281,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Copie d’une note de Bénédite à l’encre. INHA [164]
+Copie d’une note de Bénédite à l’encre. [INHA 164]
 Rodin : Mater Dolorosa 2 500 fr
 Rodin : La centauresse 1 500 fr
 Dessins
@@ -2296,7 +2295,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Brouillon d’une lettre de Bénédite aux intermédiaires de Matsukata. INHA [165]
+Brouillon d’une lettre de Bénédite aux intermédiaires de Matsukata. [INHA 165]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître que j’ai acquis pour le compte de M. Matsukata les œuvres suivantes qui sont déposées au Musée Rodin et dont je vous envoie ci-joint un certificat de dépôt. 
 Rodin : Mater Dolorosa : 2 500 fr
@@ -2315,7 +2314,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Brouillon d’une lettre de Bénédite aux intermédiaires de Matsukata. INHA [166, traduction en anglais en 167]
+Brouillon d’une lettre de Bénédite aux intermédiaires de Matsukata. [INHA 166, traduction en anglais en 167]
 Cher Monsieur, 
 J’attends impatiemment votre réponse de mes deux lettres que je vous ai adressées l’une le 1er, l’autre le 11 juin. Si vous n’êtes plus chargé des comptes de M. Matsukata, veuillez me le faire savoir, si je n’ai pas de réponse de vous au retour du courrier, je câblerai à M. Matsukata
 Votre bien dévoué 
@@ -2325,7 +2324,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [168]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 168]
 Dear Sir, 
 We beg to acknowledge receipt of your favour dated 30th June, and regret to say that we have delayed in replying to your previous favour which has been mislaid. 
 We now beg to enclose herewith a sight draft for Frcs. 3,989 – in payment of a bust in plaster of Father Aymard by Rodin, purchased for account of Mr. Matsukata.
@@ -2338,7 +2337,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Brouillon d’une lettre de Bénédite aux intermédiaires de Matsukata. INHA [169, brouillon en anglais en 170]
+Brouillon d’une lettre de Bénédite aux intermédiaires de Matsukata. [INHA 169, brouillon en anglais en 170]
 Cher M., 
 Je trouve, en rentrant d’une courte absence, votre réponse à ma lettre du 30 juin. Elle est très singulière, car vous répondez à la demande que je vous ai adressée le 1er juin et vous oubliez celle que je vous ai faite le 11 juin et que je vous rappelle dans une dernière lettre. Ces délais dans les paiements et les oublis se répètent trop souvent. J’ai avisé M. Matsukata que je ne pense, dans ces conditions, continuer à m’occuper de ses achats d’œuvres d’art. 
 En attendant, je vous rappelle [illisible]llement ma lettre du 11 et du 30 juin et vous réclame la somme de …que je vous prie de m’[illisible] sans délai. 
@@ -2348,7 +2347,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Copie d’un télégramme de Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [171, télégramme 172]
+Copie d’un télégramme de Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 171, télégramme 172]
 Your yesterdays letter received regret your previous letter misfiled hence delayed payment remitting you tomorrow writing you full explanation SUZUKI.
 
 Date : 1922/07/14
@@ -2356,7 +2355,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [173]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 173]
 Dear Sir, 
 We are in receipt of your letter of 12th July and regret to note that we caused you misapprehension in regard to the delayed payment of 22,000 frs. We beg to inform you that owing to our accountant in the Finance Department having received from the Translation Department a copy of your certificate written in French and the translator having omitted to attach your letter in English, the Finance Department simply kept this certificate until it was pointed out by your letter of 12th July. Upon receipt of your letter yesterday we telegraphed you apologizing for the mistake causing the delayed remittance. We are sending you today 22 000 Frs. as requested and hope the matter will be in order. 
 As you know, sometimes a mistake of this nature happens; however we shall try not to repeat such mistake and strict instructions have been given to our Department. 
@@ -2370,7 +2369,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata à Benedite. INHA [174]
+Télégramme de Matsukata à Benedite. [INHA 174]
 Our great artist Tekeuchi gave muse Luxemburg his picture wishes to buy Rodins Fannesse [sic] exhibited at Osaka at twelve thousand France [sic] STOP Will you kindly accept it. Matsukata
 
 Date : 1922/07/27
@@ -2390,7 +2389,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Lettre de Bénédite aux intermédiaires de Matsukata. INHA [178]
+Lettre de Bénédite aux intermédiaires de Matsukata. [INHA 178]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaîrte que j’ai acquis pour le compte et sur les indications de M. Matsukata les ouvrages suivants : 
 Dauchez
@@ -2412,7 +2411,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Justificatif de Bénédite aux intermédiaires de Matsukata. INHA [179]
+Justificatif de Bénédite aux intermédiaires de Matsukata. [INHA 179]
 Le conservateur du Musée Rodin soussigné, certifie que les œuvres ci-dessous désiginées, déposées au Musée Rodin, appartiennent à M. Kojiro Matsukata, de Kobe (Japon) : 
 Dauchez : Deux paysages de Bretagne
 Rodin : Deux dessins « Danseuses cambodgiennes »
@@ -2423,7 +2422,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre de Bénédite à Matsukata, papier à en-tête « direction des musées nationaux. Musée du Luxembourg ». INHA [180 à 182]
+Brouillon de lettre de Bénédite à Matsukata, papier à en-tête « direction des musées nationaux. Musée du Luxembourg ». [INHA 180 à 182]
 Cher M. Matsukata, 
 Voilà fort longtemps que je voulais vous écrire pour vous tenir au courant de nos petites affaires : je me suis pourtant abstenu de faire beaucoup d’acquisitions pour vous ayant attendu que vous ayiez tout liquidé avec vos achats fait à Paris. 
 Du côté des œuvres de Rodin, vous m’aviez dit de vous prendre une dizaine de groupes ou petites figures nouveaux. Jusqu’à présent, je n’en ai fait faire que 3 ou 4 et j’attends que vous me confirmiez la commande pour continuer. 
@@ -2446,7 +2445,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [183]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 183]
 Dear Sir, 
 In accordance with the request contained in your letter dated 2nd inst., we have pleasure in handing you Demand Draft for Fcs. 15,898,75 being in payment of works of art mentioned therein purchased by you upon instructions of Mr. Matsukata. 
 Kindly let us have your receipt for this amount in duplicate, and oblige, 
@@ -2458,7 +2457,7 @@ Expéditeur : Romolo Barzoni
 Lieu d’expédition : Venise
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête « Venezia esposizione internazionale », de Romolo Barzoni, à Léonce Bénédite, Musée Rodin, Paris. INHA [184]
+Lettre typographiée sur papier à en-tête « Venezia esposizione internazionale », de Romolo Barzoni, à Léonce Bénédite, Musée Rodin, Paris. [INHA 184]
 Cher Monsieur, 
 Nous avons l’avantage de Vous signifier que nous venons de Vous expédier en Grande Vitesse – par l’entremise de la Maison De La Rancheraye et C°de Paris – une caisse L. B. N. 6. renfermant le tableau « Vespro intimo » de Alessandro Pomi, achetée à notre XIIIème Exposition par le Musée des Beaux-Arts de Tokio. 
 Cet envoi a été fait en conformité aux dispositions de Mr Matsukata du Musée susdit. 
@@ -2471,7 +2470,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Matsukata à Leone [sic] Bénédite, Musée Rodin, Paris. INHA [185-187]
+Lettre typographiée de Matsukata à Leone [sic] Bénédite, Musée Rodin, Paris. [INHA 185-187]
 Dear Sir, 
 Your esteemed letter of the 1st, ult., was duly received and its contents noted with much interest and pleasure. It was really a long time since I saw your last dear letter, and I am very pleased to hear Madame and Misses Benedite as well as your goodself are all well and happy. 
 I have noted with much interest the contents of Items 1 and 2 of your letter and particularly those of the Item 3, referring to Mr. Hansen’s collection. I am more than inclined to buy his collection ; but should like to know in detail, how the payment is to be made and how many and whose pictures altogether I would get for the sum of Frs. 1,800,000, and about Frs. 4,000,000. 
@@ -2490,7 +2489,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Bénédite, Paris. INHA [188]
+Télégramme de Matsukata, Kobe, à Bénédite, Paris. [INHA 188]
 Thanks please inform full particulars of payment. Matsukata 
 
 Date : 1922/12/23
@@ -2498,7 +2497,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Bénédite, Paris. INHA [189]
+Télégramme de Matsukata, Kobe, à Bénédite, Paris. [INHA 189]
 Thanks telegrams received sent Naruse care embassy two cables. Matsukata 
 
 Date : 1922/12/26
@@ -2521,7 +2520,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Seichi Naruse
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Narusé, care Musée Rodin, Paris. INHA [190]
+Télégramme de Matsukata, Kobe, à Narusé, care Musée Rodin, Paris. [INHA 190]
 Thanks three telegrams received regret inability buying Danish collection if payment so soon in spite great desire because money too tight here stop thank Benedite all his troubles kindness stop if Monet wants payment so soon regret cant buy it thanks troubles kindness Matsukata
 
 Date : 1923/01/18
@@ -2529,7 +2528,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Bénédite, Paris. INHA [191]
+Télégramme de Matsukata, Kobe, à Bénédite, Paris. [INHA 191]
 Sorry trouble you again please telegraph what painters how many pidetures I can purchase by four million francs stop easier terms payment very desirable stop already sent Naruse cable. Matsukata
 
 Date : 1923/01/31
@@ -2537,7 +2536,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Seichi Naruse
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Narusé, care Musée Rodin, Paris. INHA [192]
+Télégramme de Matsukata, Kobe, à Narusé, care Musée Rodin, Paris. [INHA 192]
 Cabled twice care our embassy there stop please search them stop anxious to buy about sixty paintings if conditions agreeable stop please inform me before settlement. Matsukata
 [à l’encre : Cher Monsieur Narusé, voici le deux télégrammes qui vous sont adressés, évidemment par Mr. Matsukata. S’il y a du nouveau, prévenez-moi. Bien cordialement, Léonce Bénédite] 
 
@@ -2546,7 +2545,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Seichi Naruse
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Narusé, care Musée Rodin, Paris. INHA [193]
+Télégramme de Matsukata, Kobe, à Narusé, care Musée Rodin, Paris. [INHA 193]
 Addition to my previous cable stop please telegraph pictures numbers in catalogue and ask my decision before settlement. Matsukata
 
 Date : 1923/02/NA
@@ -2554,7 +2553,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Bénédite Paris. INHA [194]
+Télégramme de Matsukata, Kobe, à Bénédite Paris. [INHA 194]
 Telegraphed Naruse and bank my reply request for Hansens hearty thanks for all troubles Matsukata. 
 
 Date : 1923/02/28
@@ -2562,7 +2561,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : intermédiaires de Kojiro Matsukata
 Lieu destination : NA
-Lettre de Bénédite aux intermédiaires de Matsukata. INHA [195]
+Lettre de Bénédite aux intermédiaires de Matsukata. [INHA 195]
 Cher Monsieur, 
 J’ai l’honneur de vous prier de vouloir bien me faire parvenir la somme de soixante trois mille trois cent trente huit francs se rapportant aux achats et payements suivants pour le compte de Monsieur Matsukata. 
 L. E. Gillot : 
@@ -2588,7 +2587,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [196]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 196]
 Dear Sir, 
 As requested in your favour of the 28th February, we have pleasure in enclosing a cheque on Paris for Francs 63.338, in payment of Works of Art purchased by you for account of Mr K. Matsukata. 
 Kindly acknowledge receipt of this remittance in duplicate, and much oblige.
@@ -2600,7 +2599,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Matsukata sur papier à en-tête Kawasaki Dockyard Company, à Léone [sic] Bénédite, Musée Rodin, Paris. INHA [197]
+Lettre typographiée de Matsukata sur papier à en-tête Kawasaki Dockyard Company, à Léone [sic] Bénédite, Musée Rodin, Paris. [INHA 197]
 Dear Sir, 
 With my greatest pleasure, I beg to thank you for your kind message, re. the Hansen’s collection, which was satisfactory settled, by joint kind efforts of your goodself and Mr. Naruse, and I had the pleasure of cabling you today, as per a copy enclosed herewith, just to express you both, my heartfelt gratitude for all troubles you have most kindly undertaken for me. 
 I am most anxious to know which pieces of his collection you have chosen for me, and am awaiting with impatience, the delivery of your letter mentioned in your cable.
@@ -2615,7 +2614,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Seichi Naruse
 Lieu destination : Paris
-Télégramme de Matsukata à Benedite Naruse Muse [sic] Rodin Paris. INHA [198 et 199]
+Télégramme de Matsukata à Benedite Naruse Muse [sic] Rodin Paris. [INHA 198 et 199]
 Pleased heartfelt deepest gratitude all troubles with satisfactory settlement. Matsukata
 
 Date : 1923/03/06
@@ -2623,7 +2622,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Liste typographiée envoyée à Matsukata ( ?). INHA [200]
+Liste typographiée envoyée à Matsukata ( ?). [INHA 200]
 53. Camille Pissarro _ Seinen ved Marly… fr. 30 000
 55. Camille Pissarro _ En Kokkenhave i Pontoise, Vincersoi… 40 000
 56. Camille Pissarro _ Hosten… 22 000
@@ -2653,7 +2652,7 @@ Expéditeur : Em. Dreveton
 Lieu d’expédition : Nice
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre d’Em. Dreveton, Expert agréé du gouvernement, ministère des régions libérées, tribunaux des dommages de guerre, villa Mauresque, 105 promenade des Anglais, Nice, à Léonce Bénédite. INHA [201]
+Lettre d’Em. Dreveton, Expert agréé du gouvernement, ministère des régions libérées, tribunaux des dommages de guerre, villa Mauresque, 105 promenade des Anglais, Nice, à Léonce Bénédite. [INHA 201]
 Monsieur le Conservateur, 
 J’ai l’honneur de vous accuser réception de votre honorée du 7 mars, je m’empresse de vous faire savoir que votre offre de douze mille francs pour le buste en marbre de Marie Bashkirtseff, par René de Saint-Marceaux est acceptée et j’en suis fort heureux. Je serai à Paris lundi et vous pourrez prendre possession le plus tôt possible, mon séjour devant être bref. Pour le règlement, je vous remercie pour votre assurance de rapidité, j’ai souvent déploré les lenteurs administratives privant nos Musées d’excellentes occasions ou ne les ayant qu’en seconde ou troisième main et au prix fort. 
 Veuillez croire je vous prie, Monsieur le Conservateur, à l’assurance de mon respectueux et bien sincère dévouement, 
@@ -2664,7 +2663,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Matsukata à Leone [sic] Bénédite, Muse [sic] Rodin, sur papier à en-tête Kawasaki Dockyard Company, Limited. Paris. INHA [202-203]
+Lettre typographiée de Matsukata à Leone [sic] Bénédite, Muse [sic] Rodin, sur papier à en-tête Kawasaki Dockyard Company, Limited. Paris. [INHA 202-203]
 Dear Sir, 
 I beg to express my gratitude for the purchase of thirty pieces of the Hansen’s collections which was carried out through your joint kind efforts with Mr. Naruse, and I am feeling sincerely pleased and gratified. As you may know, the money market here is still very tight ; but I was more than anxious to secure them, which reluctantly resulted in troubling you and Mr. Naruse as to open another negotiations with the Banque de Française japonaise [sic]. The whole transaction, both the selection and the financing were entirely your joint troubles and I am appreciating the purchase, which was only effected through your untiring kindness for me. I am further thinking that those pictures are the gifts of your esteemed endeavours, and I am feeling very grateful to you. 
 I also beg to mention that my trip to Europe is so far very remote, and I am missing the consolation in coming touch with the latest European fine arts these days which is probably more than I can briefly admit. 
@@ -2680,7 +2679,7 @@ Expéditeur : F. Vizzavona
 Lieu d’expédition : Paris
 Destinataire : M. Barbazanges
 Lieu destination : Paris
-Facture de F. Vizzavona, photographie d’art, 65 rue du Bac, Paris. INHA [204]
+Facture de F. Vizzavona, photographie d’art, 65 rue du Bac, Paris. [INHA 204]
 Doit Monsieur Barbazanges, 109 faubourg Saint-Honoré, 
 9155. 10 premières épreuves 24x30 : 25x10 = 250 fr
 Déplacement : 10 f
@@ -2692,7 +2691,7 @@ Expéditeur : A. Lénars et Cie
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Papier à en-tête A. Lénars et Cie, Paris. Typographie : « livrés le 30 mars 1923 au musée Rodin ». INHA [205]
+Papier à en-tête A. Lénars et Cie, Paris. Typographie : « livrés le 30 mars 1923 au musée Rodin ». [INHA 205]
 Envoi de Monsieur Hansen de Copenhague pour Monsieur Matsukata de Kob. 
 1. La Seine près de Marly. Camille Pissarro. Frs 30 000
 2. Un potager à Pontoise par un soleil d’hiver. Camille Pissarro. 40 000
@@ -2722,7 +2721,7 @@ Expéditeur : A. Lénars et Cie
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Papier à en-tête A. Lénars et Cie, Paris. INHA [206]
+Papier à en-tête A. Lénars et Cie, Paris. [INHA 206]
 Reçu de Messieurs Arthur Lenars et C°, 13 rue Bleue, Paris (IX°), les tableaux suivants : 
 Nr 6. Corot. Madeleine… frs 40 000
 Nr 7. Corot. La ferme Toutain… 55 000. 
@@ -2746,7 +2745,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre de Bénédite, non datée (avril 1923 ? après le règlement Hansen). INHA [285-287]
+Brouillon de lettre de Bénédite, non datée (avril 1923 ? après le règlement Hansen). [INHA 285-287]
 Cher M. Matsukata, 
 Je peux enfin vous écrire maintenant que toute cette affaire Hansen est terminée et que nous avons cessé de vous poursuivre à coup de câbles, M. Narusé et moi. Les tableaux sont en route ou du moins 21 sur 30 et je pense pouvoir vous donner de leurs nouvelles avant de cette lettre. Il est fort regrettable évidemment qu’on n’ait pas eu la collection toute entière. Il y avait dans la partie qui vous a été enlevée par le musée de Copenhague quelques pièces que j’aurais désirées pour vous. Entre autres un magnifique Delacroix. Toutefois, la part que nous avons pu vous réserver forme un ensemble de 30 pièces remarquable dont quelques unes de premier ordre et le tout étant donné les prix actuels, vous est acquis à un prix des plus raisonnables. M. Hansen fait relativement une bonne affaire puisqu’il a acheté ses œuvres à un moment où elles étaient bon marché et parce que les marchands qui doivent escompter leur bénéfice n’auraient pas pu lui offrir le prix que nous avons payé. Mais vous voyez par la liste que je vous envoie avec les prix en regard à quel point ces prix sont modérés. Les Manet entre autres sont aujourd’hui d’un prix inabordable et quant aux cinq Claude Monet qui sont d’une qualité rare, bien supérieur à tout ce qu’on eût pu trouver chez le maître, le plus cher d’entre eux L’Inondation qui est une toile de toute beauté a été payée la moitié du prix qu’on lui payait chez un marchand comme Durand-Ruel ou à Claude Monet lui-même. 
 Je crois donc que vous serez satisfait. Ce sont des pièces semblables qu’il faudrait que soit formée toujours votre collection. 
@@ -2761,7 +2760,7 @@ Expéditeur : F. Vizzavona
 Lieu d’expédition : Paris
 Destinataire : M. Barbazanges
 Lieu destination : Paris
-Facture de F. Vizzavona, photographie d’art, 65 rue du Bac, Paris. INHA [207]
+Facture de F. Vizzavona, photographie d’art, 65 rue du Bac, Paris. [INHA 207]
 Doit Monsieur Barbazanges, 109 faubourg Saint-Honoré, 
 9311. 7 premières épreuves 24x30 : 25x7 = 175 fr
 14 épreuves supplémentaires bnt 3 ?75 : 52,50 fr
@@ -2773,7 +2772,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [208]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 208]
 Dear Sir, 
 We are in receipt of your favour dated 25th inst., and note the purchases you have made for account of Mr. K. Matsukata. As requested, we have pleasure in handing you our cheque on Paris for Fcs 32,000.
 Kindly acknowledge receipt in due course, and oblige. 
@@ -2786,7 +2785,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Matsukata à Leone [sic] Bénédite, Muse [sic] Rodin, sur papier à en-tête Kawasaki Dockyard Company, Limited. Paris. INHA [209]
+Lettre typographiée de Matsukata à Leone [sic] Bénédite, Muse [sic] Rodin, sur papier à en-tête Kawasaki Dockyard Company, Limited. Paris. [INHA 209]
 Dear Sir, 
 Mr. Naruse has kindly advised me all particulars of what you and he has kindly secured for me from the Hansen’s collection, in spite of lots of troubles in this transaction, and for which I don’t know really how to thank you. Please accept my deepest gratitude. Mr. Naruse has not mentioned in his letter what are the remaining ten pieces, and I beg to request you kindly to write me what they are and if possible, please send me their photos. 
 Again, availing on this opportunity, I beg to thank you for all troubles you have most willingly undertaken for me, and hoping that this will find you and all family members very well, 
@@ -2799,7 +2798,7 @@ Expéditeur : Galeries Bernheim Jeune et Cie
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Bernheim Jeune et Cie, experts près la cour d’appel, 15 rue Richepance, Paris [au bas : Répondre à Monsieur Paul Ebstein], à Monsieur Bénédite, Musée Rodin, Paris. INHA [210]
+Lettre typographiée de Bernheim Jeune et Cie, experts près la cour d’appel, 15 rue Richepance, Paris [au bas : Répondre à Monsieur Paul Ebstein], à Monsieur Bénédite, Musée Rodin, Paris. [INHA 210]
 Cher Monsieur, 
 Je vous fais remettre les 5 aquarelles de Signac que vous avez bien voulu nous acheter pour le musée de Tokio. Inclus facture..
 Avec tous nos remerciements, nous vous prions de croire, cher Monsieur, en l’expression de nos sentiments les plus distingués. 
@@ -2809,7 +2808,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Brouillon de lettre de Bénédite à Matsukata. INHA [211-212]
+Brouillon de lettre de Bénédite à Matsukata. [INHA 211-212]
 Cher Monsieur Matsukata, 
 Nous avons eu beaucoup de plaisir à la maison à voir votre charmante fille, nous avons admiré combien elle vous ressemblait au physique et aussi au moral. Nous regrettons seulement de n’avoir pu jouir d’elle comme nous l’eussions voulu. J’espère qu’un prochain voyage on pourra lui faire connaître les nombreuses distractions intelligentes de Paris. 
 Toutes les photos de la collection Hansen ont été faites et je pense que vous les avez déjà reçues. M. Narusé s’était chargé de l’envoi. Je ne l’ai pas vu depuis longtemps car il est toujours en voyage. 
@@ -2823,7 +2822,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Manuscrit, Bénédite. INHA [213]
+Manuscrit, Bénédite. [INHA 213]
 Suzuki. 5 juillet 1923.
 5 aquarelles Signac 4 500 fr
 Coin d’ombre Quost 7 000 : 7 000 fr
@@ -2836,7 +2835,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Manuscrit, Bénédite. INHA [214]
+Manuscrit, Bénédite. [INHA 214]
 Ecrit le 5 juillet 1923 à Sukuzi pour demander le payement de 24 117fr représentant : 
 Rodin : Buste jeune femme terre cuite originale : 10 000
 Signac : Cinq aquarelles 4 500 fr
@@ -2850,7 +2849,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Galerie Barbazanges
 Lieu destination : Paris
-Manuscrit, Bénédite. INHA [215]
+Manuscrit, Bénédite. [INHA 215]
 Avance Barbazanges (pour le compte Matsukata)
 2 617, payé le 9 juillet 23. 
 
@@ -2859,7 +2858,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de Matsukata, Kobé, à Leon Benedite Muse Rodin [sic], sur papier à en-tête Kawasaki Dockyard, President’s office. INHA [216-217]
+Lettre typographiée de Matsukata, Kobé, à Leon Benedite Muse Rodin [sic], sur papier à en-tête Kawasaki Dockyard, President’s office. [INHA 216-217]
 Dear Sir, 
 I beg to advise you with compliments that Mr. Naruse has kindly sent to me 32 photos out of 34 of the Hansen’s collection, and I found out one by Mr. Corot and another by Mr. Sisley are missing. I beg to request you kindly to send me those two at your convenience, consulting Mr. Naruse. 
 I beg to mention once more my gratitude for all your troubles in connection with the whole transaction and that I am most deeply appreciating what you have kindly done for me.
@@ -2874,7 +2873,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [208]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 208]
 Dear Sir, 
 We are in receipt of your favour dated 5th inst., contents of which are noted, and as requested we have pleasure in enclosing herewith cheque on Paris for Fcs. 24,117.
 Kindly send us a receipt of the above in duplicate, and oblige, 
@@ -2896,7 +2895,7 @@ Expéditeur : Galerie Barbazanges
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Galerie Barbazanges, Hodebert Successeur, 109 faubourg St Honoré, Paris. A Léonce Bénédite. INHA [219]
+Lettre typographiée sur papier à en-tête Galerie Barbazanges, Hodebert Successeur, 109 faubourg St Honoré, Paris. A Léonce Bénédite. [INHA 219]
 Reçu de Monsieur Léonce Benedite la somme de Frs 2 617 en un chèque en règlement des frais relatifs à l’acquisition des tableaux de la collection Hansen. 
 
 Date : 1923/07/27
@@ -2904,7 +2903,7 @@ Expéditeur : Galerie Barbazanges
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Galerie Barbazanges, Hodebert Successeur, 109 faubourg St Honoré, Paris. A Léonce Bénédite. INHA [220]
+Lettre typographiée sur papier à en-tête Galerie Barbazanges, Hodebert Successeur, 109 faubourg St Honoré, Paris. A Léonce Bénédite. [INHA 220]
 Mon cher Directeur, 
 Je m’empresse de vous accuser réception de votre lettre du 26 courant contenant un chèque de 2617 francs. 
 Ci inclus, veuillez trouver un reçu de cette somme. Partant à la campagne aujourd’hui, je ne puis aller vous rendre visite, mais à mon retour au mois de Septembre, je me ferai un plaisir d’aller vous voir.
@@ -2915,7 +2914,7 @@ Expéditeur : Bernheim Jeune et Cie
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Facture de Bernheim Jeune et Cie, tableaux modernes de premier ordre, 25 bd de la Madeleine, à Léonce Bénédite. INHA [221]
+Facture de Bernheim Jeune et Cie, tableaux modernes de premier ordre, 25 bd de la Madeleine, à Léonce Bénédite. [INHA 221]
 Vendeu à Monsieur Bénédite pour Monsieur Matsukata Japon, les tableaux suivants qui lui seront expédiés à ses risques et périls : 
     • N° 23416. Paul Signac. Aquarelle : 750 fr
     • N° 23417. Paul Signac. Aquarelle : 1 000 fr
@@ -2929,7 +2928,7 @@ Expéditeur : Em. Dreveton
 Lieu d’expédition : Bagnères-de-Luchon
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de Em. Dreveton, 6 boulevard Charles Tron, Bagnères de Luchon, Haute-Garonne, à Bénédite ?. INHA [222 et 223]
+Lettre de Em. Dreveton, 6 boulevard Charles Tron, Bagnères de Luchon, Haute-Garonne, à Bénédite ?. [INHA 222 et 223]
 Cher Maître, 
 Je crois de mon devoir de vous aviser que « Maroussia » cèderait actuellement tous ses droits sur « Passy » pour dix mille francs. 
 On pourrait arrêter l’affaire par un versement de 2 000 fr le 15 de ce mois, suivi d’une échéance de 3 000 f le 1er septembre et soldé le 15 septembre par 5 000 fr. 
@@ -2976,7 +2975,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Note de Bénédite. INHA [224]
+Note de Bénédite. [INHA 224]
 La Porte de l’Enfer, versements Suzuki :
 10 sept 1920 : 100 000
 18 mai 1921 : 200 000
@@ -2990,7 +2989,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Brouillon de lettre de Bénédite à MM. Suzuki and Co. INHA [225]
+Brouillon de lettre de Bénédite à MM. Suzuki and Co. [INHA 225]
 Cher Monsieur, 
 J’ai l’honneur de vous faire connaître que j’ai acquis pour le compte de M. Kojiro Matsukata les ouvrages suivants : 
 Monticelli : Petit port de pêche (étude d’après nature) : 15 000 fr
@@ -3009,7 +3008,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [226]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 226]
 Dear Sir, 
 We are in receipt of your favour dated 18th inst., and in accordance with your request we have nom pleasure in enclosing cheque on Paris for Fcs. 40 000 – in payment of the pictures enumerated in the above letter for account of Mr. Matsukata. Kindly acknowledge receipt of same in duplicate as usual, and oblige. 
 Yours faithfully
@@ -3020,7 +3019,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Brouillon de lettre de Bénédite à MM. Suzuki and Co. INHA [227]
+Brouillon de lettre de Bénédite à MM. Suzuki and Co. [INHA 227]
 Cher Monsieur, 
 M. Matsukata m’a chargé de faire à M. Dardé, sculpteur, la commande de la fonte en plomb de son (illisible) Faune, placé dans le jardin de l’hôtel Biron. Cette commande se monte à 100 000 francs. Le travail étant en train et assez avancé, je vous prie de me faire parvenir un acompte de 50 000 francs sur ce prix. 
 Votre bien dévoué, 
@@ -3031,7 +3030,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [228]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 228]
 Dear Sir, 
 We beg to acknowledge receipt of your favour dated 8th inst contents of which we have carefully noted. As requested, we enclose herewith cheque for Fcs 50 000 on account. 
 Kindly acknowledge receipt in duplicate, as before. 
@@ -3043,7 +3042,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Lettre non datée (après janvier 1924, exposition Monet chez Petit) de Bénédite à Matsukata. INHA [271-276]
+Lettre non datée (après janvier 1924, exposition Monet chez Petit) de Bénédite à Matsukata. [INHA 271-276]
 Cher M. Matsukata, 
 Voici longtemps que je ( ?) vous donner de nos nouvelles et vous remercier de votre bonne lettre que vous avez eu des( ?) pour M. Naruse. Nous apprenons avec satisfaction que votre pays, avec son unique nature, son esprit de méthode, sa puissance économique de premier ordre, se relève rapidement des épreuves cruelles qui l’ont frappé. Nous les avons ( ?) en francs avec une profonde émotion et une vive sympathie. Cela n’a rien qui vous étonnera, mais vous connaissez l’âme française et toute l’affection de notre pays pour le peuple japonais avec lequel il a tant de similitudes. Notre ( ?) musée Rodin, qui vous doit beaucoup mais qui n’est pas encore très riche, a néanmoins voulu faire un geste envers le Japon, geste qui s’astimait ( ?) instimement ( ?) à vous-même avec reconnaissance, adressant à la souscription pulique une somme de 5000 francs. 
 Nous avons ensuite, mon ami Aman Jean, Dezarrois et moi, organisé sur les trois galeries Georges Petit une exposition de Claude Monet en faveur des victimes de la catastrophe du Japon. Cette exposition a eu un succès considérable, j’y avais prêté trente Monet et on y a admiré tout particulièrement ceux qui venaient de la collection Hansen et qui sont assurément parmi les plus beaux du maître. Durand Ruel en avait prêté plus d’une vingtaine de sa collection puisque cela n’a, malheureusement, pu durer que 15 Jours et n’a rapporté, par suite, malgré le nombre de victimes, qu’une somme de 15 000 francs. Mais le geste était fait et l’ultime démostration que nous tenions personnellement à faire, Claude Monet, seul, a fait semblant d’une miconteurs ( ?). Il s’est plaint qu’on ne l’ait pas prévenu à temps, mais si on l’avait prévenu, il se serait opposé à notre projet. Les mauvaises langues disant qu’il n’est pas content des autres tableaux de lui que j’ai achetés pour vous, puisqu’ils ne viennent pas de chez lui, ils sont cependant parmi les plus beaux et ils ont coûté moins cher.
@@ -3062,7 +3061,7 @@ Expéditeur : Galeries Georges Petit
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée de G. Bergaut, papier à en-tête des Galeries Georges Petit, 8 rue de Sèze, à Léonce Bénédite, conservateur du musée Rodin. INHA [229]
+Lettre typographiée de G. Bergaut, papier à en-tête des Galeries Georges Petit, 8 rue de Sèze, à Léonce Bénédite, conservateur du musée Rodin. [INHA 229]
 Cher Monsieur, 
 L’exposition du nouveau Groupe étant terminée, je vous fais porter les deux tableaux de Lebasque que vous avez bien voulu acheter pour Monsieur Matsukata, et ainsi que vous me l’avez demandé, je joins la facture à ce petit mot. 
 On m’a annoncé une chose quasi-officielle, la très prochaine promotion de Lebourg au grade d’Officier de la Légion d’honneur. Je ne saurais vous dire à quel point j’en suis heureux. Tous les amis et admirateurs de Lebourg vous en seront extrêmement reconnaissants, car c’est à vous que ce grand Artiste devar cette suprême satisfaction.
@@ -3074,7 +3073,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [230]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 230]
 Dear Sir, 
 We have duly received your letter of the 19th instant and note that you require 50 000 francs for account of Mr. Matsukata. As however we have no balance left at present for this account, we shall have to refer to Mr Matsukaa whether it will be in order to pay. We shall inform you as soon as we receive a reply.
 Yours faithfully
@@ -3085,7 +3084,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Au verso de la lettre du 21 février 1924, daté du 26 février 1924, mot de Bénédite. INHA [230] 
+Au verso de la lettre du 21 février 1924, daté du 26 février 1924, mot de Bénédite. [INHA 230]
 J’ai bien reçu votre lettre du 21 février ; cela m’a surpris en ce sens que Mr Matsukata en me demandant de continuer certaines commandes m’avait dit lors de son séjour à Paris qu’il vous faisait un nouveau dépôt de 1 200 000 fr. 
 En attendant la réponse de M. Matsukata relativement au paiement des 50 000 fr que je vous ai demandés pour la fonte du Baiser, je serais désireux de savoir ce qui vous reste exactement des fonds déposés chez vous par M. Matsukata parce qu’ils nous permettraient sans doute de régler un certain nombre de petites notes dont l’ensemble se monte environ à 20 000 fr. 
 Je vous serais très obligé de me donner une réponse urgente à ce sujet, 
@@ -3096,7 +3095,7 @@ Expéditeur : Galeries Georges Petit
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre manuscrite de G. Bergaut, papier à en-tête des Galeries Georges Petit, 8 rue de Sèze, à Léonce Bénédite, conservateur du musée Rodin. INHA [231]
+Lettre manuscrite de G. Bergaut, papier à en-tête des Galeries Georges Petit, 8 rue de Sèze, à Léonce Bénédite, conservateur du musée Rodin. [INHA 231]
 Cher Monsieur, 
 Je m’empresse de vous accuser réception de votre chèque de frs 12 000 que vous avez bien voulu m’adresser en règlement des 2 tableaux de Lebasque que vous achetés pour M. Matsukata. 
 Je vous remercie et vous en remets ci-inclus le reçu.
@@ -3108,7 +3107,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [232]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 232]
 Dear M. Benedite, 
 We have duly received your letter of the 26th instant and note what you write. As a matter of fact, Mr. Matsukata deposited with us a large sum of money (much more than 1,200,000 francs) but this deposit was for his purchases not only from you but from various artists and picture dealers, and his deposit has been used up already for pictures and other things. Consequently we shall have to refer to Mr. Matsukata for any new payment. We think everything will be alright as soon as he authorizes us to make payment and so soon as we receive reply for him, we shall be pleased to approach you. 
 Meantime, 
@@ -3121,7 +3120,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [233]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 233]
 Dear Sir, 
 We have duly received your letter of the 31st ultimo and in reply we have not asyet received an answer from Mr. Matsukata. We hope, however, to hear shortly and as soon as we hear from him we shall be very pleased to approach you.
 Meantime, 
@@ -3134,7 +3133,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Brouillon de lettre de Bénédite à MM. Suzuki and Co. INHA [234]
+Brouillon de lettre de Bénédite à MM. Suzuki and Co. [INHA 234]
 Suzuki and Co
 Nouvelle lettre pour savoir si M. Matsukata a répondu et a enfin envoyé de nouveaux fonds. On réclame en effet une somme de dix mille francs pour paiement des pièces d’assurances de tous les (illisible) conservés à l’Hôtel Biron. 
 
@@ -3143,7 +3142,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [235]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 235]
 Dear Sir, 
 We thank you for your letter of the 7th instant and note what you write. We cannot understand why we have not received as yet any news. If we do not receive an answer by next mail, which we expect within a week or so, we intend telegraphing to ask whether it is in order for us to pay for account of Mr Matsukata 10,000 Francs.
 Meantime, 
@@ -3156,7 +3155,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Brouillon de lettre de Bénédite à MM. Suzuki and Co. INHA [236]
+Brouillon de lettre de Bénédite à MM. Suzuki and Co. [INHA 236]
 Suzuki and Co
 Je suis toujours sans nouvelles de M. Matsukata et j’ai dû avancer la somme de dix mille (10 000 francs) pour couvrir les assurances de ces tableaux. 
 N’avez-vous point reçu, de votre côté, de réponse de lui ? 
@@ -3167,7 +3166,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [237]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 237]
 Dear Sir, 
 We have duly received your letter of the 29th ultimo and are very pleased to say that Mr. Matsukata instructs us to pay you 10,000 francs. He greatly apologises for not having instructed us to do so before as he was so busy since the earthquake. We shall therefore be remitting you 10,000 francs in the course of a day or so.
 Yours faithfully
@@ -3178,7 +3177,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [238]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 238]
 Dear Sir, 
 With further reference to ours of the 2nd inst., we now have pleasure in enclosing cheque for Fcs. 10 000 on account of works of art purchased for Mr. K. Matsukata. 
 Kindly acknowledge receipt in duplicate, and oblige. 
@@ -3190,7 +3189,7 @@ Expéditeur : Seichi Naruse
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre manuscrite de Seichi Narusé, Paris, à Monsieur Bénédite, Paris. INHA [239]
+Lettre manuscrite de Seichi Narusé, Paris, à Monsieur Bénédite, Paris. [INHA 239]
 Cher Monsieur Bénédite, 
 Je viens de rentrer à Paris il y a deux jours pour repartir en Normandie pour le mois d’août. Par Bonheur, juste hier, je reçois une dépêche de Monsieur Matsukata me demandant de vous transférer la somme que je gardais pour lui dans la Banque Franco-japonaise. Ci-joint, je vous envoie le montant total de son argent qui reste dans ma main. Cela aurait été beaucoup mieux que j’aille vous voir, mais ne pouvant pas trouver le temps, étant donné que je pars demain matin de bonne heure, j’ai pris la liberté vous envoyer la somme (de 68 500 francs) en chèque.
 Je serai très reconnaissant si vous voulez bien accuser la réception de la somme à Monsieur Matsukata ainsi qu’à moi (Pavillon Fleuri, rue de la mer Blonville, Calvados). 
@@ -3203,7 +3202,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Banque Suzuki & C°
 Lieu destination : Londres
-Brouillon de lettre de Bénédite à MM. Suzuki and Co. INHA [240]
+Brouillon de lettre de Bénédite à MM. Suzuki and Co. [INHA 240]
 Suzuki and Co
 Envoi des récipissés du 10 juin de 10 000 fr pour les assurances et demande s’il a reçu d’autres fonds pour payer les travaux commandés et notamment ceux de la Porte de l’Enfer. 
 
@@ -3212,7 +3211,7 @@ Expéditeur : Banque Suzuki & C°
 Lieu d’expédition : Londres
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. INHA [241]
+Lettre typographiée sur papier à en-tête Suzuki & C°, 29 Mincing Lane, Londres, à Léonce Bénédite, Musée Rodin, Paris. [INHA 241]
 Dear Sir, 
 We have received your letter of the 21st instant and note what you write. At present, we have no further remittance from Mr. Matsukata but if you could kindly give us a list of all the works together with the money payable to you and the date of payment to be made in future, we intend writing to Mr. Matsukata fully with a request to remit the money so as to enable us to pay you upon application.
 Awaiting your reply, 
@@ -3224,7 +3223,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à Bénédite Care musée Rodin Paris. INHA [242]
+Télégramme de Matsukata, Kobe, à Bénédite Care musée Rodin Paris. [INHA 242]
 Thanks letter received on return from Tokyo STOP will send money later. Matsukata
 
 Date : 1924/08/05
@@ -3232,7 +3231,7 @@ Expéditeur : Paul Rosenberg
 Lieu d’expédition : Deauville
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre de Paul Rosenberg, La Tour Carrée, Deauville, à Bénédite. INHA [243 et 244]
+Lettre de Paul Rosenberg, La Tour Carrée, Deauville, à Bénédite. [INHA 243 et 244]
 Cher Monsieur, 
 Votre lettre me parvient ici, et je m’empresse d’y dépondre et de vous faire parvenir les prix séparés de chacun des tableaux vendus à M. Matsukata
 1° Rodin « La Douleur », frs 6000
@@ -3253,7 +3252,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata
 Lieu destination : Kobe
-Lettre de Léonce Bénédite à Matsukata, en-tête du musée Rodin. INHA [245-247]
+Lettre de Léonce Bénédite à Matsukata, en-tête du musée Rodin. [INHA 245-247]
 Cher Monsieur Matsukata, 
 Il y a vraiment longtemps que je désire vous écrire ; j’ai toujours remis, et j’en ai du remords, à cause de toutes les affaires que j’ai lues ici et de la longue et grave maladie de ma femme, qui aujourd’hui, heureusement, est à peu près rétablie. 
 Je dois commencer par vous dire ce que j’aurais dû faire depuis longtemps que j’ai bien reçu les 58 000 francs qui m’ont été versés de votre part par M. Narusé qui m’ont servi à divers paiements 50 000 ont été versés dont je vous envoie à part le détail. 
@@ -3281,7 +3280,7 @@ Expéditeur : Specie Bank de Yokohama
 Lieu d’expédition : Lyon
 Destinataire : Léonce Bénédite 
 Lieu destination : Paris
-Lettre de la Specie Bank de Yokohama, succursale de Lyon, à Léonce Bénédite chez Musée Rodin Paris. INHA [248]
+Lettre de la Specie Bank de Yokohama, succursale de Lyon, à Léonce Bénédite chez Musée Rodin Paris. [INHA 248]
 Monsieur, 
 Nous avons l’avantage de vous informer que sur nos instructions par fil, le Crédit Lyonnais de notre ville, vous versera : 
 FRS. 100 000
@@ -3295,7 +3294,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite 
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à M. Benedite, musée Rodin. INHA [249]
+Télégramme de Matsukata, Kobe, à M. Benedite, musée Rodin. [INHA 249]
 Please receive one hundred thousand francs from Yokohama specie bank Lyon. Matsukata
 
 Date : 1924/12/30
@@ -3303,7 +3302,7 @@ Expéditeur : Compagnie algérienne
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée du PP. de la Compagnie algérienne, 50, rue d’Anjou, Paris, à M. Leonce Benedite, 77 rue de Varennes, Paris. INHA [251 à 254]
+Lettre typographiée du PP. de la Compagnie algérienne, 50, rue d’Anjou, Paris, à M. Leonce Benedite, 77 rue de Varennes, Paris. [INHA 251 à 254]
 Monsieur, 
 Nous avons l’honneur de vous accuser réception de votre lettre du 26 décembre dont le contenu a été reconnu conforme. 
 Suivant vos instructions, nous avons souscrit à 100.000 Francs de Bons de la Défense Nationale à 1 mois à 3.60% Porteur que nous plaçons dans nos caisses sous votre dossier. 
@@ -3318,7 +3317,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Léonce Bénédite 
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe, à M. Benedite, musée Rodin. INHA [255]
+Télégramme de Matsukata, Kobe, à M. Benedite, musée Rodin. [INHA 255]
 Happy New Year Thanks Letter Received Remit Money Again STOP If necessary Please Transfer Copenhagen Pictures Yamanaka London. Matsukata
 
 Date : 1925/02/10
@@ -3326,7 +3325,7 @@ Expéditeur : Léonce Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata 
 Lieu destination : Kobe
-Brouillon de lettre de Léonce Bénédite à Kojiro Matsukata. INHA [256]
+Brouillon de lettre de Léonce Bénédite à Kojiro Matsukata. [INHA 256]
 Cher M. Matsukata, 
 Vous avez gâté mes filles en leur envoyant ces magnifiques kimonos qui sont d’admirables œuvres d’art. Rosa vous dit mieux que moi le profond plaisir que vous leur avez causé et leur très vive gratitude.
 J’attends toujours anxieusement de vos nouvelles par lettre pour savoir ce que je devrais faire et pourrais faire pour vous. Je vous ai écrit que puisque tous les tableaux de la collection Hansen ont été prêtés à l’exposition de San Francisco, où elles forment le plus beau et le plus important noyau de l’exposition rétrospective française, cette exposition est maintenant prolongée de six mois. Si, à ce moment, vous désiriez qu’on expédie les tableaux à Kobé ou à Tokio, ce serait la moitié du chemin de fait. Mais nous pouvons les reprendre en France, si vous ne ( ?) pas le moment venu de les faire entrer au Japon. Et, comme vous me le câblez, si j’étais plus tard empêché de les conserver, je les adresserais à Londres à la maison Yamanaka. 
@@ -3338,7 +3337,7 @@ Expéditeur : Compagnie algérienne
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre typographiée du PP. de la Compagnie algérienne, 50, rue d’Anjou, Paris, à M. Leonce Benedite, 77 rue de Varennes, Paris. INHA [257]
+Lettre typographiée du PP. de la Compagnie algérienne, 50, rue d’Anjou, Paris, à M. Leonce Benedite, 77 rue de Varennes, Paris. [INHA 257]
 Monsieur, 
 Nous avons l’honneur de vous informer que, sauf avis contraire de votre part, nous parvenant au plus tard 48 heures avant l’échéance, nous procèderons désormais automatiquement, au renouvellement de tout bon de la Défense nationale, compris dans vos titres en garde.
 De plus, nous n’aurez pas à nous envoyer les récépissés de dépôt afférents à ces bons ; nous vous adresserons seulement une lettre vous faisant connaître le numéro et l’échéance des nouveaux bons souscrits. 
@@ -3352,7 +3351,7 @@ Expéditeur : Musée du Louvre
 Lieu d’expédition : Paris
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Lettre manuscrite, conservation du musée du Louvre (signature illisible). INHA [258]
+Lettre manuscrite, conservation du musée du Louvre (signature illisible). [INHA 258]
 Mon cher ami, 
 Je vous remercie de votre lettre et je pensais bien que les tableaux de la collection M. ne pourraient être vendus. Je l’avais déjà dit à San Francisco et si je vous ai posé une fois encore cette question, c’est que j’avais été selon ci par un câble. Du reste, les tableaux sont maintenant sur la route du retour et je pense que je pourrais vous les remettre dans la première quinzaine de mai.
 Croyez bien, cher ami, à mes sentiments tout dévoués, 
@@ -3362,7 +3361,7 @@ Expéditeur : Exposition d’Art Français à Prague
 Lieu d’expédition : Prague
 Destinataire : Léonce Bénédite
 Lieu destination : Paris
-Liste faite par V. Nebesky ? (sans date [Autour de mai 1925]), INHA [297-298]
+Liste faite par V. Nebesky ? (sans date [Autour de mai 1925]), [INHA 297-298]
 Le soussigné, Commissaire Général à l’Exposition d’Art Français à Prague, certifie que les œuvres suivantes appartenant à M. Kojiro Matsukata, de Kobe (Japon), ont été prêtées pour l’exposition par M. Léonce Bénédite, Conservateur du Musée National du Luxembourg et du Musée Rodin et y ont figuré. 
 Cézanne Trois dessins
 Degas Tête de Femme
@@ -3403,7 +3402,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Musée Rodin
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe. INHA [259]
+Télégramme de Matsukata, Kobe. [INHA 259]
 Please accept my heartfelt sympathy and sincere condolence for your esteemed director Monsieur Benedite’s death STOP Yamanaka London come and ask you to help making of my arts under his kind custody please give him every assistance and oblige deeply. Matsukata. 
 
 Date : 1925/06/ ??
@@ -3411,7 +3410,7 @@ Expéditeur : Rosa Bénédite
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata 
 Lieu destination : Kobe
-Lettre manuscrite de Rosa Bénédite à Matsukata (vers juin 1925). INHA [260-262]
+Lettre manuscrite de Rosa Bénédite à Matsukata (vers juin 1925). [INHA 260-262]
 Dear Mr. Matsukata, 
 We are very thankful to you for your sympathy in our great sorrow. You know what my dear father’s death means to us, it is even more painful as it was so unexpected and quick. He took cold, the 30th, was ill for a few days with what seems flu, not of a dangerous kind but the heart failed. He breathed very painfully and could not sleep, they gave him an injection of morphine and we were so hopeful to see him falling asleep peacefully with a quiet breathing. It seemed everything would change for the best the day after, but he died in his sleep without suffering, without knowing he was leaving us. For this we must be grateful as it would have been so hard for him otherwise. 
 We are now very busy in arranging everything, perhaps it is better in our grief to have so much to do. 
@@ -3433,7 +3432,7 @@ Expéditeur : Aman-Jean
 Lieu d’expédition : Château-Thierry
 Destinataire : Rosa Bénédite ? 
 Lieu destination : Paris
-Lettre d’Aman-Jean, Château-Thierry, Aisne, à Madame ?. INHA [263-264]
+Lettre d’Aman-Jean, Château-Thierry, Aisne, à Madame ?. [INHA 263-264]
 Chère Madame, 
 Je vous fais parvenir cette lettre de l’Ambassade du Japon au sujet de l’exposition des tableaux de Monsieur Matsukata, exposition projetée dont nous avions dit quelques mots avant de partir. 
 Je réponds à mon autre de l’Ambassade disant au conseiller que je serai de retour que dans un grand mois, mais que je la tiendrai au courant de ce qui se fera au sujet de cette exposition qui semble les intéresser fort. Comme elle vous intéresse aussi pour la mémoire du cher disparu et que je pense que vous êtes peut-être à Paris, veuillez me dire par un mot si vous pensez bon que j’en écrire à mon Ami et à Metman au Musée des Arts décoratifs qui est je crois le local qui serait le plus favorable à notre projet. 
@@ -3445,7 +3444,7 @@ Expéditeur : Kojiro Matsukata
 Lieu d’expédition : Kobe
 Destinataire : Musée Rodin
 Lieu destination : Paris
-Télégramme de Matsukata, Kobe. INHA [265]
+Télégramme de Matsukata, Kobe. [INHA 265]
 Please cable whether instament payment for port of Hell methinks completed and all castings finished ready for shipment remit you cable expenses. Matsukata. 
 
 Date : 1926/01/21
@@ -3453,7 +3452,7 @@ Expéditeur : André Dezarrois
 Lieu d’expédition : Paris
 Destinataire : Yamanaka and C°
 Lieu destination : Londres
-Lettre typographiée de [Dezarrois ?], musée national du Luxembourg, à Yamanaka and C° Ltd, 127 New Bond Street, London. INHA [266]
+Lettre typographiée de [Dezarrois ?], musée national du Luxembourg, à Yamanaka and C° Ltd, 127 New Bond Street, London. [INHA 266]
 Dear Sir, 
 This is to acknowledge receipt of your letter of January 19th. 
 I don’t understand what Mr Matsukata means about the 100.000 frcs, which he says to have sent this summer. More than a year ago, he sent 100.000 fr to Mr Bénédite, without saying for what purchase he did so. Mr Bénédite then wrote several times to him asking what he as to do with them, as he had then the opportunity of buying interesting works for Mr Matsukata. He got no answer. After his death, end of May, Mademoiselle Bénédite wrote to Mr Matsukata asking him about this money and all what concerned the pictures. She had no answer ; then, last November, she wrote again to Mr Matsukata, telling him to what purchases the 100.000 fr had been affected and that he was still owing to Rodin museum from 300.000 to 400.000 fr for the balance of the “Gates of Hell” and of other works he had ordered. 
@@ -3479,7 +3478,7 @@ Expéditeur : Société de travaux et industries maritimes
 Lieu d’expédition : Paris
 Destinataire : Kojiro Matsukata 
 Lieu destination :  Kobe
-Lettre typographiée de la Société de travaux et industries maritimes, 3 rue Vignon Paris. INHA [268-269]
+Lettre typographiée de la Société de travaux et industries maritimes, 3 rue Vignon Paris. [INHA 268-269]
 Dear Sir, 
 We have carefully studied the packing transport and insurance of the paintings and drawings as mentioned upon the list communicated to ourselves by the “Musée Rodin” : 
 From Musée Rodin, packing in special cases, Transport to London and Insurance : 
@@ -3540,7 +3539,7 @@ Expéditeur : Ambassade du Japon à Paris
 Lieu d’expédition : Paris
 Destinataire : Directeur des Beaux-Arts
 Lieu destination : Paris
-Lettre typographiée de l’Ambassade Impériale du Japon à Paris, à Monsieur le Directeur des Beaux-Arts, Ministère de l’Instruction Publique et des Beaux-Arts, 3 rue de Valois, Paris. INHA [270]
+Lettre typographiée de l’Ambassade Impériale du Japon à Paris, à Monsieur le Directeur des Beaux-Arts, Ministère de l’Instruction Publique et des Beaux-Arts, 3 rue de Valois, Paris. [INHA 270]
 L’Ambassade du Japon à Paris présente ses compliments empressés à Monsieur le Directeur des Beaux-Arts au Ministère de l’Instruction Publique et des Beaux-Arts et a l’honneur de recourir à son extrême obligeance, en le priant de vouloir bien accorder un entretien au porteur de la présente M. K. Hioki qui se présentera à son bureau accompagné de M. Dessarois, Conservateur adjoint.
 L’Ambassade du Japon remercie d’avance Monsieur le Directeur des Beaux-Arts de l’aimable accueil qu’il voudra bien réserver à M. Hioki ainsi qu’à M. le Conservateur Dessarois. 
 
@@ -3567,7 +3566,7 @@ Expéditeur : Musée Rodin
 Lieu d’expédition : Paris
 Destinataire : NA
 Lieu destination : NA
-Note non datée : INHA [293]
+Note non datée : [INHA 293]
 M. Matsukata :
 Bourdelle. La gloire
 Maurice Denir et MceDruet
