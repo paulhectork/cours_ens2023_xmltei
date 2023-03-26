@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 297427651,
+                "osm_type": "relation",
+                "osm_id": 31340,
+                "display_name": "S\u00e8vres, Boulogne-Billancourt, Hauts-de-Seine, \u00cele-de-France, France m\u00e9tropolitaine, 92310, France",
+                "place_rank": 16,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.6152000335842525,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+            },
+            "bbox": [
+                2.1785404,
+                48.8091299,
+                2.2327393,
+                48.835385
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.2127083,
+                    48.8247407
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 344908517,
+                "osm_type": "relation",
+                "osm_id": 175905,
+                "display_name": "City of New York, New York, United States",
+                "place_rank": 10,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 1.017576611451846,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+            },
+            "bbox": [
+                -74.258843,
+                40.476578,
+                -73.700233,
+                40.91763
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.0060152,
+                    40.7127281
+                ]
+            }
+        }
+    ]
+}

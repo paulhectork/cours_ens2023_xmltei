@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 297835595,
+                "osm_type": "relation",
+                "osm_id": 900329,
+                "display_name": "\u795e\u6238\u5e02, \u5175\u5eab\u770c, \u65e5\u672c",
+                "place_rank": 14,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.627043991148161,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+            },
+            "bbox": [
+                134.910023,
+                34.5324108,
+                135.3297266,
+                34.890578
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.1943764,
+                    34.6932379
+                ]
+            }
+        }
+    ]
+}

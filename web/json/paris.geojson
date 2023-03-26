@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 297417241,
+                "osm_type": "relation",
+                "osm_id": 7444,
+                "display_name": "Paris, \u00cele-de-France, France m\u00e9tropolitaine, France",
+                "place_rank": 15,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.9417101715588673,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+            },
+            "bbox": [
+                2.224122,
+                48.8155755,
+                2.4697602,
+                48.902156
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3483915,
+                    48.8534951
+                ]
+            }
+        }
+    ]
+}

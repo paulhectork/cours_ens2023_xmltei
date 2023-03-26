@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 109219,
+                "osm_type": "node",
+                "osm_id": 20962674,
+                "display_name": "Hammersmith, London, Greater London, England, W6 9YA, United Kingdom",
+                "place_rank": 18,
+                "category": "place",
+                "type": "town",
+                "importance": 0.6274612556360587,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_place_town.p.20.png"
+            },
+            "bbox": [
+                -0.2636401,
+                51.4520377,
+                -0.1836401,
+                51.5320377
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.2236401,
+                    51.4920377
+                ]
+            }
+        }
+    ]
+}

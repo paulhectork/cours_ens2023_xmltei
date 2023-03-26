@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 298381569,
+                "osm_type": "relation",
+                "osm_id": 435514,
+                "display_name": "Hlavn\u00ed m\u011bsto Praha, Praha, \u010cesko",
+                "place_rank": 12,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.7434914632787466,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+            },
+            "bbox": [
+                14.2244355,
+                49.9419006,
+                14.7067867,
+                50.1774301
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4212535,
+                    50.0874654
+                ]
+            }
+        }
+    ]
+}

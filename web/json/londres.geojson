@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 344393477,
+                "osm_type": "relation",
+                "osm_id": 65606,
+                "display_name": "London, Greater London, England, United Kingdom",
+                "place_rank": 16,
+                "category": "place",
+                "type": "city",
+                "importance": 0.8307827616237295,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_place_city.p.20.png"
+            },
+            "bbox": [
+                -0.5103751,
+                51.2867601,
+                0.3340155,
+                51.6918741
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12765,
+                    51.5073359
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 297707267,
+                "osm_type": "relation",
+                "osm_id": 170100,
+                "display_name": "Nice, Alpes-Maritimes, Provence-Alpes-C\u00f4te d'Azur, France m\u00e9tropolitaine, France",
+                "place_rank": 16,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.772676330560633,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+            },
+            "bbox": [
+                7.1819535,
+                43.6454189,
+                7.323912,
+                43.7607635
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.2683912,
+                    43.7009358
+                ]
+            }
+        }
+    ]
+}

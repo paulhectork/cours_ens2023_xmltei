@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 297988699,
+                "osm_type": "relation",
+                "osm_id": 44741,
+                "display_name": "Venezia, Veneto, Italia",
+                "place_rank": 16,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.7110194898827333,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+            },
+            "bbox": [
+                12.1668349,
+                45.2312466,
+                12.5965709,
+                45.5779981
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3345898,
+                    45.4371908
+                ]
+            }
+        }
+    ]
+}
