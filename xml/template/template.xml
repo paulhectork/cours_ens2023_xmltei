@@ -21,25 +21,24 @@
     </fileDesc>
     
     <encodingDesc>
-      <!-- informations sur l'encodage -->
-      <editorialDecl>
-        <!-- méthode de production du document XML -->
-      </editorialDecl>
-      <projectDesc>
-        <!-- contexte de production du XML -->
-      </projectDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, décrivant la méthode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
     </encodingDesc>
 
     <profileDesc>
-      <!-- informations non bibliographiques sur le document encodé -->
-      <particDesc>
-        <!-- description des participant.es (personnes 
-             mentionnées dans le corpus de lettres -->
-      </particDesc>
-      <settingDesc>
-        <!-- description des lieux mentionnés dans le
-             corpus de lettres -->
-      </settingDesc>
+      <!-- informations non bibliographiques sur le document encodé 
+           cet élément là sera complété par:
+           - un tei:particDesc, qui décrit tout.es les personnes ayant écrit
+             ou reçu des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui décrit tous les lieux d'expédition/destination
+             des lettres du corpus Matsutaka
+           ces éléments seront rajouté dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->  
+      </correspDesc>
     </profileDesc>
     
   </teiHeader>

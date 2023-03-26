@@ -1,0 +1,99 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L&#233;onceB&#233;n&#233;dite_aucun_19200101_2245702456917593069">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>R&#233;capitulatif non dat&#233;, (janvier 1920 ( ?)). </title>
+        <author>L&#233;once B&#233;n&#233;dite</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-26 01:11:51.292318</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="r&#233;capitulatif">
+          <author>L&#233;once B&#233;n&#233;dite</author>
+          <title>R&#233;capitulatif non dat&#233;, (janvier 1920 ( ?)). </title>
+          <date>1920-01-01</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 279</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName>L&#233;once B&#233;n&#233;dite</persName>
+          <placeName>Paris</placeName>
+          <date when="1920-01-01">1920-01-01</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>aucun</persName>
+          <placeName>aucun</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <p>Premier versement Matsukata : 60 000</p>
+      <p>25 octobre 18 : Cottet, Pontelin ( ?), Harpignies : 52 000</p>
+      <p>22 nov 18 : Besnard, Carolus, H. Martin, aquarelles(?) : 121.200</p>
+      <p>27 janvier 19 : M&#233;nard, Degas, Lequ( ?) : 44 000</p>
+      <p>22 f&#233;vrier 19 : Rodin, erreur r&#233;par&#233; par Baersoen ( ?) : 41 700 + 3000 : 44 700. </p>
+      <p>11 avril 19 : Rodin 73800 ; Fantin ( ?) : 77434.05</p>
+      <p>19 juillet 19 : Aman Jean, Simon etc : 44 190</p>
+      <p>25 ao&#251;t 19 : Rodin 132.300 :</p>
+      <p>[avec le 25 ao&#251;t] DieuB&#226;le ( ?), Barbedienne, Erragnis ( ?) : 147.171 fr</p>
+      <p>Octobre : Cazin : 50 000</p>
+      <p>19 novembre : Cazin supp Baertsoen : 18 000</p>
+      <p>25 nov : B&#226;le : 6000</p>
+      <p>5 d&#233;c : 7000</p>
+      <p>31 d&#233;c : Blonde ( ?) Sur&#233;da, Henner : 20 000</p>
+    </body>
+  </text>
+</TEI>

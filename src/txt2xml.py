@@ -4,7 +4,6 @@ import datetime
 import sys
 import re
 import os
-from tornado import template
 
 
 # *****************************************************************
@@ -24,7 +23,8 @@ XML = os.path.abspath(os.path.join(CURDIR, os.pardir, "xml"))                   
 NS_TEI = {"tei": "http://www.tei-c.org/ns/1.0"}                                  # tei namespace
 NS_XML = {"id": "http://www.w3.org/XML/1998/namespace"}                          # general xml namespace
 TEI_RNG = "https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"  # odd in .rng to validate tei files
-TEMPLATE = etree.parse(os.path.join(XML, "template.xml"))                        # arbre etree contenant la structure XML de base
+# RNG = etree.RelaxNG( etree.parse(os.path.join(XML, "schema", "tei_all.rng")) )   # schéma xml rng de validation de la TEI
+# TEMPLATE = etree.parse(os.path.join(XML, "template.xml"))                        # arbre etree contenant la structure XML de base
 
 
 def corpussplit(corpus):
@@ -116,7 +116,6 @@ def makesense(corpus):
     :param corpus: le corpus sous forme de liste imbriquée
     :returns: `corpus_struct`, une variable avec la structure présentée ci-dessus
     """
-    zzz = []
     corpus_struct = []  # variable de sortie
     meta_keys = ["date", "sender", "sender_place", "recipient", "recipient_place"]
     for lettre in corpus:
@@ -124,11 +123,12 @@ def makesense(corpus):
         if not re.search("^\s*\[[^\]]+\]\s*$", lettre[1]):
             # si le titre n'est pas que entre crochets
             titre = re.sub("\[.+\][\.\?\s]*$", "", lettre[1])  # on supprime ce qui est entre crochets, qui formera notre clé `source` dans `meta`
-            source = re.sub("\[([^\]]+)\][\.\?\s]*$", "\1", lettre[1])  # on créée `source` en extrayant l'identifiant de la lettre source (institution de conservation + cote)
+            source_match = re.search("\[([^\]]+)\][\.\?\s]*$", lettre[1])  # on créée `source` en extrayant l'identifiant de la lettre source (institution de conservation + cote)
+            source = source_match[1] if source_match else "Source inconnue"
         else:
             # sinon, pas moyen de distinguer titre et cote muséale/archivistique => on extrait que le titre
-            titre = lettre[1]
-            source = ""
+            titre = lettre[1] if not re.search("^\s*$", lettre[1]) else "Titre inconnu"
+            source = "Source inconnue"
         
         corps = lettre[2]
         
@@ -313,8 +313,13 @@ def makesense(corpus):
         # 5) CONSTRUIRE L'IDENTIFIANT UNIQUE
         #
         # format: `{expéditeur}_{destinataire}_{date au format iso}_{hash de la lettre en texte sous forme de liste}`
-        idx = f"{meta_dict['sender']}_{meta_dict['recipient']}_{meta_dict['date']}_{hash(str(lettre))}".replace(" ", "")
-        
+        idx = "%s_%s_%s_%s".replace(" ", "") % (
+            "".join( c for c in meta_dict['sender'] if c.isalnum() )
+            , "".join( c for c in meta_dict['recipient'] if c.isalnum() )
+            , "".join( c for c in str(meta_dict['date']) if c.isalnum() )
+            , hash(str(lettre))
+        )
+
         # 6) CONSTRUIRE `lettre_struct` et l'ajouter à notre variable de sortie
         lettre_struct = {
             "idx": idx,
@@ -342,7 +347,10 @@ def corpus2tei(corpus):
     for lettre in corpus:
         # on transforme toutes nos représentations de lettres en documents XML.
         idx = lettre["idx"]
-        tree = etree.parse(os.path.join(XML, "template.xml"))  # notre arbre xml, qui stockera l'arbre xml que l'on est en train de créer
+        tree = etree.parse(
+            os.path.join(XML, "template", "template.xml")     # le fichier à ouvrir
+            , parser=etree.XMLParser(remove_blank_text=True)  # le parseur à utiliser. celui-ci ne prend pas en compte les espaces entre les éléments
+        )  # notre arbre xml, qui stockera l'arbre xml que l'on est en train de créer
         
         # on accède à l'élément racine (`tree.getroot()`
         # et on lui ajoute l'identifiant unique du fichier (`.set("nom de l'attribut", "valeur")`)
@@ -351,24 +359,279 @@ def corpus2tei(corpus):
         tree.getroot().set("{http://www.w3.org/XML/1998/namespace}id", idx)
         
         # on crée le contenu de notre `titleStmt`: 
-        # - un `tei:title` avec le titre de la lettre, 
-        # - un `tei:author` avec l'auteur.ice
+        # - un `title` avec le titre de la lettre, 
+        # - un `author` avec l'auteur.ice
+        # - deux `respStmt`, qui décrivent les personnes 
+        #   responsables de l'édition numérique
         # `etree.SubElement(parent, "titre", namespace)` crée un élément enfant de `parent`;
         # `.text` permet d'ajouter du texte à l'intérieur de l'élement.
-        # QUID DU DESTINATAIRE???
         titleStmt = tree.xpath(".//tei:titleStmt", namespaces=NS_TEI)[0]
+        # titre
+        title = lettre["title"] if not re.search("^\s*$", lettre["title"]) else "Titre inconnu"
         etree.SubElement(
             titleStmt
             , "title"
             , nsmap=NS_TEI
-        ).text = lettre["title"]
+        ).text=title
+        # auteur.ice de la lettre (le/la destinataire sera indiqué.e dans le `profileDesc`) 
         etree.SubElement(
             titleStmt
             , "author"
             , nsmap=NS_TEI
         ).text = lettre["metadata"]["sender"]
+        # le premier respStmt: qui a préparé le document texte pour l'encodage  
+        respStmt = etree.SubElement(
+            titleStmt
+            , "respStmt"
+            , nsmap=NS_TEI
+        )
+        etree.SubElement(
+            respStmt
+            , "resp"
+            , nsmap=NS_TEI
+        ).text="Production et préparation du texte brut"
+        etree.SubElement(
+            respStmt
+            , "persName"
+            , nsmap=NS_TEI
+        ).text="Léa Saint-Raymond"
+        # le second respStmt: qui a préparé produit l'encodage XML
+        respStmt = etree.SubElement(
+            titleStmt
+            , "respStmt"
+            , nsmap=NS_TEI
+        )
+        etree.SubElement(
+            respStmt
+            , "resp"
+            , nsmap=NS_TEI
+        ).text="Transformation automatique du texte brut vers le XML-TEI"
+        etree.SubElement(
+            respStmt
+            , "persName"
+            , nsmap=NS_TEI
+        ).text='Les participant.e.s à l\'atelier "Modéliser et exploiter des corpus textuels" (ENS-PSL, campus d\'Ulm)'
         
-        print(etree.tostring(titleStmt), "\n\n\n\n\n\n")
+        # on passe ensuite au `publicationStmt` , 
+        # qui décrit la publication du document XML
+        publicationStmt = tree.xpath(".//tei:publicationStmt", namespaces=NS_TEI)[0]
+        # `publisher`: l'institution éditant le document
+        etree.SubElement(
+            publicationStmt
+            , "publisher"
+            , nsmap=NS_TEI
+        ).text="ENS-PSL"
+        # `pubPlace`: le lieu de publication
+        etree.SubElement(
+            publicationStmt
+            , "pubPlace"
+            , nsmap=NS_TEI
+        ).text="Paris (France)"
+        # `date`: date de publication, soit maintenant
+        etree.SubElement(
+            publicationStmt
+            , "date"
+            , nsmap=NS_TEI
+        ).text=str(datetime.datetime.utcnow())
+        
+        # le dernier élément du `fileDesc`: le `sourceDesc` est créé, 
+        # qui contient une description bibliographique basique (complétée
+        # par éléments du `profileDesc`: le `correspDesc`
+        sourceDesc = tree.xpath(".//tei:sourceDesc", namespaces=NS_TEI)[0]
+        bibl = etree.SubElement(
+            sourceDesc
+            , "bibl"
+            , type=lettre["typology"]
+            , nsmap=NS_TEI
+        )
+        etree.SubElement(
+            bibl
+            , "author"
+            , nsmap=NS_TEI
+        ).text = lettre["metadata"]["sender"]
+        etree.SubElement(
+            bibl
+            , "title"
+            , nsmap=NS_TEI
+        ).text = lettre["title"]
+        etree.SubElement(
+            bibl
+            , "date"
+            , nsmap=NS_TEI
+        ).text = str(lettre["metadata"]["date"])
+        msIdentifier = etree.SubElement(
+            bibl
+            , "msIdentifier"
+            , nsmap=NS_TEI
+        )
+        if re.search("(INHA|Rodin)", lettre["metadata"]["source"]):
+            institution_name = ("INHA" if re.search("^INHA", lettre["metadata"]["source"]) 
+                                       else "Musée Rodin")
+        else:
+            institution_name = "Lieu de conservation inconnu"
+        etree.SubElement(
+            msIdentifier
+            , "institution"
+            , nsmap=NS_TEI
+        ).text = institution_name
+        etree.SubElement(
+            msIdentifier
+            , "idno"
+            , nsmap=NS_TEI
+        ).text = lettre["metadata"]["source"]
+        
+        # ensuite, on passe à l'encodingDesc: description des normes d'encodage suivies
+        encodingDesc = tree.xpath(".//tei:encodingDesc", namespaces=NS_TEI)[0]
+        editorialDecl = etree.SubElement(
+            encodingDesc
+            , "editorialDecl"
+            , nsmap=NS_TEI
+        )
+        etree.SubElement(
+            editorialDecl
+            , "p"
+            , nsmap=NS_TEI
+        ).text = ("Production de l'encodage XML réalisée automatiquement"
+                  + " avec la librairie LXML de Python à partir d'une version"
+                  + " en texte brut de la correspondance de Matsukata")
+        projectDesc = etree.SubElement(
+            encodingDesc
+            , "projectDesc"
+            , nsmap=NS_TEI
+        )
+        etree.SubElement(
+            projectDesc
+            , "p"
+            , nsmap=NS_TEI
+        ).text = 'L\'atelier "Modéliser et exploiter des corpus textuels" a donné lieu à cet encodage.'
+        
+        # ensuite, dans le `profileDesc`, on ajoute du contenu au 
+        # `correspDesc` qui décrit la correspondance
+        # cf: https://journals.openedition.org/jtei/1433
+        correspDesc = tree.xpath(".//tei:correspDesc", namespaces=NS_TEI)[0]
+        # 1e action contenant le nom de l'expéditeurice
+        correspAction = etree.SubElement(
+            correspDesc
+            , "correspAction"
+            , type="sent"
+            , nsmap=NS_TEI
+        )
+        etree.SubElement(
+            correspAction
+            , "persName"
+            , nsmap=NS_TEI
+        ).text = lettre["metadata"]["sender"]
+        etree.SubElement(
+            correspAction
+            , "placeName"
+            , nsmap=NS_TEI
+        ).text = lettre["metadata"]["sender_place"]
+        etree.SubElement(
+            correspAction
+            , "date"
+            , when = str(lettre["metadata"]["date"])
+            , nsmap=NS_TEI
+        ).text = str(lettre["metadata"]["date"])
+        correspAction = etree.SubElement(
+        # seconde action contenant le nom du/de la destinatairice
+            correspDesc
+            , "correspAction"
+            , type="received"
+            , nsmap=NS_TEI
+        )
+        etree.SubElement(
+            correspAction
+            , "persName"
+            , nsmap=NS_TEI
+        ).text = lettre["metadata"]["recipient"]
+        etree.SubElement(
+            correspAction
+            , "placeName"
+            , nsmap=NS_TEI
+        ).text = lettre["metadata"]["recipient_place"]
+        
+        # pour finir, on a plus qu'à créer le corps texte.
+        body = tree.xpath(".//tei:body", namespaces=NS_TEI)[0]
+        # créer un élément `opener` avec un `salute` contenant la formule de politesse
+        if lettre["body"]["greetings"]:
+            opener = etree.SubElement(
+                body
+                , "opener"
+                , nsmap=NS_TEI
+            )
+            etree.SubElement(
+                opener
+                , "salute"
+                , nsmap=NS_TEI
+            ).text = lettre["body"]["greetings"]
+        # ensuite, le corps de la lettre: un paragraphe par item dans `lettre["body"]["body"]`
+        for p in lettre["body"]["body"]:
+            etree.SubElement(
+                body
+                , "p"
+                , nsmap=NS_TEI
+            ).text = p
+        # on crée un `closer` contenant 
+        # - la formule de politesse dans un `salute` 
+        # - la signature dans un `signed`
+        if lettre["body"]["closing"] != "" or lettre["body"]["signature"] != "":
+            closer = etree.SubElement(
+                body
+                , "closer"
+                , nsmap=NS_TEI
+            )
+            if lettre["body"]["closing"] != "":
+                etree.SubElement(
+                    closer
+                    , "salute"
+                    , nsmap=NS_TEI
+                ).text = lettre["body"]["closing"]
+            if lettre["body"]["signature"] != "":
+                etree.SubElement(
+                    closer
+                    , "signed"
+                    , nsmap=NS_TEI
+                ).text = lettre["body"]["signature"]
+        # enfin, le post-scriptum
+        if lettre["body"]["postscript"] != "":
+            postscript = etree.SubElement(
+                body
+                , "postscript"
+                , nsmap=NS_TEI
+            )
+            etree.SubElement(
+                postscript
+                , "p"
+                , nsmap=NS_TEI
+            ).text = lettre["body"]["postscript"]
+        
+        # on nettoie le fichier: LXML a ajouté l'espace de noms à chaque
+        # élement créé, il faut le retirer: l'espace de nom sera seulement
+        # indiqué à la racine du document xml. on garde seulement le `xmlns`
+        # de la racine, qui pointe vers l'URI canonique de la TEI
+        for el in tree.getiterator():
+            if (el.tag != "{http://www.tei-c.org/ns/1.0}TEI"
+                and not (
+                    isinstance(el, etree._Comment) 
+                    or isinstance(el, etree._ProcessingInstruction)
+                )
+            ):
+                el.tag = etree.QName(el).localname  # strip namespaces
+                etree.strip_attributes(el, "xmlns")
+
+        etree.cleanup_namespaces(tree)
+        
+        # on vérifie que le document est valide
+        # valid = RNG.validate(tree)
+        # if not valid:
+        #     print(RNG.error_log)
+        
+        # enfin, on enregistre le fichier. 
+        etree.ElementTree(tree.getroot()).write(
+            os.path.join(XML, f"{idx}.xml")
+            , pretty_print=True
+        )
+        
     return
     
     

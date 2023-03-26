@@ -1,0 +1,95 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L&#233;onceB&#233;n&#233;dite_KojiroMatsukata_19230401_-3838060927821732405">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Brouillon de lettre de B&#233;n&#233;dite, non dat&#233;e (avril 1923 ? apr&#232;s le r&#232;glement Hansen). </title>
+        <author>L&#233;once B&#233;n&#233;dite</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-26 01:11:51.415440</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="brouillon">
+          <author>L&#233;once B&#233;n&#233;dite</author>
+          <title>Brouillon de lettre de B&#233;n&#233;dite, non dat&#233;e (avril 1923 ? apr&#232;s le r&#232;glement Hansen). </title>
+          <date>1923-04-01</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 285-287</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName>L&#233;once B&#233;n&#233;dite</persName>
+          <placeName>Paris</placeName>
+          <date when="1923-04-01">1923-04-01</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Kojiro Matsukata</persName>
+          <placeName>Kobe</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <opener>
+        <salute>Cher M. Matsukata, </salute>
+      </opener>
+      <p>Je peux enfin vous &#233;crire maintenant que toute cette affaire Hansen est termin&#233;e et que nous avons cess&#233; de vous poursuivre &#224; coup de c&#226;bles, M. Narus&#233; et moi. Les tableaux sont en route ou du moins 21 sur 30 et je pense pouvoir vous donner de leurs nouvelles avant de cette lettre. Il est fort regrettable &#233;videmment qu&#8217;on n&#8217;ait pas eu la collection toute enti&#232;re. Il y avait dans la partie qui vous a &#233;t&#233; enlev&#233;e par le mus&#233;e de Copenhague quelques pi&#232;ces que j&#8217;aurais d&#233;sir&#233;es pour vous. Entre autres un magnifique Delacroix. Toutefois, la part que nous avons pu vous r&#233;server forme un ensemble de 30 pi&#232;ces remarquable dont quelques unes de premier ordre et le tout &#233;tant donn&#233; les prix actuels, vous est acquis &#224; un prix des plus raisonnables. M. Hansen fait relativement une bonne affaire puisqu&#8217;il a achet&#233; ses &#339;uvres &#224; un moment o&#249; elles &#233;taient bon march&#233; et parce que les marchands qui doivent escompter leur b&#233;n&#233;fice n&#8217;auraient pas pu lui offrir le prix que nous avons pay&#233;. Mais vous voyez par la liste que je vous envoie avec les prix en regard &#224; quel point ces prix sont mod&#233;r&#233;s. Les Manet entre autres sont aujourd&#8217;hui d&#8217;un prix inabordable et quant aux cinq Claude Monet qui sont d&#8217;une qualit&#233; rare, bien sup&#233;rieur &#224; tout ce qu&#8217;on e&#251;t pu trouver chez le ma&#238;tre, le plus cher d&#8217;entre eux L&#8217;Inondation qui est une toile de toute beaut&#233; a &#233;t&#233; pay&#233;e la moiti&#233; du prix qu&#8217;on lui payait chez un marchand comme Durand-Ruel ou &#224; Claude Monet lui-m&#234;me. </p>
+      <p>Je crois donc que vous serez satisfait. Ce sont des pi&#232;ces semblables qu&#8217;il faudrait que soit form&#233;e toujours votre collection. </p>
+      <p>J&#8217;ai bien regrett&#233; que vous ne m&#8217;ayiez pas donn&#233; de r&#233;ponse au sujet des sept panneaux de L&#233;on Fr&#233;d&#233;ric le grand peintre belge dont je vous avais envoy&#233; les reproductions. C&#8217;&#233;tait une des plus importantes &#339;uvres de l&#8217;&#233;cole belge, un prix vraiment mod&#233;r&#233;. </p>
+      <p>Ces panneaux ont &#233;t&#233; acquis pour M. Ohara par le peintre Kojima qui est intelligent et toujours &#224; l&#8217;aff&#251;t des bonnes choses pour cet amateur. Que pensez-vous des cartons de Baudry pour l&#8217;Op&#233;ra ? Si cela vous convenait, je pourrais entamer des n&#233;gociations avec la famille et arriver &#224; un prix abordable.</p>
+      <p>J&#8217;ai bien re&#231;u le tableau de M. Seiko Takeuchi. Je l&#8217;ai fait accrocher imm&#233;diatement au Jeu de Paume o&#249; il est d&#233;j&#224; tr&#232;s admir&#233;. </p>
+      <p>Les travaux de la Porte de l&#8217;Enfer sont tr&#232;s avanc&#233;s et seront achev&#233;s certainement avant la fin de l&#8217;ann&#233;e. Nous allons faire d&#8217;ici quelques temps sur une des parties d&#233;j&#224; form&#233;es des essais de dorures tr&#232;s patin&#233;s naturellement mais qui d&#233;tacheront beaucoup mieux les sujets du fond. J&#8217;ai command&#233; comme vous m&#8217;avez dit le faune, de Dard&#233;, qui sera l&#8217;exemplaire unique. Ce sera une chose assez extraordinaire. Nous mettons la pierre dans le jardin du mus&#233;e Rodin. Je vous ai pris de lui quelques neuf ( ?) bronzes tr&#232;s curieux </p>
+      <p>Votre pays a de magnifiques colonies qui auraient besoin de gros capitaux pour les d&#233;velopper et on devrait bien accueillir chaque franc qui pourrait &#234;tre disponible pour de telles fins sans tenir compte de la nationalit&#233; de ceux qui le fournirait. A mon avis, ( ?) mon opinion si mes compatriotes &#233;taient largement engag&#233;s financi&#232;rement dans des entreprises ( ?) ils insisteraient aupr&#232;s de quelques gouvernement qui serait au pouvoir ici de faire toute chose qui se pourrait pour soutenir la France. Vu l&#8217;&#233;tat actuel des choses il y a peu d&#8217;argent anglais plac&#233; dans votre pays pour ainsi dire aucune de vos colonies avant guerre la France pour beaucoup d&#8217;ann&#233;es objecta au placement de capitaux alterna( ?) en Alg&#233;rie ; nous avions encourag&#233; le placement de leur argent dans notre pays et nos colonies et le r&#233;sultat &#233;tant que nous avions tout ce qu&#8217;ils poss&#233;daient. ( ?) le Transvaal tellement ( ?) BLABLABLA. </p>
+    </body>
+  </text>
+</TEI>
