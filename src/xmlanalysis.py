@@ -29,6 +29,7 @@ UNZIP = os.path.abspath(os.path.join(XML, "unzip"))                             
 NS_TEI = {"tei": "http://www.tei-c.org/ns/1.0"}                                  # tei namespace
 NS_XML = {"id": "http://www.w3.org/XML/1998/namespace"}                          # general xml namespace
 TEI_RNG = "https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"  # odd in .rng to validate tei files
+PARSER = etree.XMLParser(remove_blank_text=True)                                 # parser xml custom
 # RNG = etree.RelaxNG( etree.parse(os.path.join(XML, "schema", "tei_all.rng")) )   # schéma xml rng de validation de la TEI
 # TEMPLATE = etree.parse(os.path.join(XML, "template.xml"))                        # arbre etree contenant la structure XML de base
 
@@ -44,13 +45,15 @@ def zip2tei():
     return [ os.path.join(UNZIP, f) for f in os.listdir(UNZIP) ]
 
 
-def setting_desc(corpus):
+def geography(corpus):
     """
     faire des enrichissements géographiques du corpus:
     - créer une liste de tous les lieux d'expédition/récéption du corpus
     - à partir de cette liste, créer un `settingDesc` dans le 
       `profileDesc` du `teiHeader` de chaque corpus. ce `settingDesc` 
       contient une liste de tous les lieux, avec sa géolocalisation
+    - ajouter à chaque `placeName` dans le document encodé un attribut 
+      `@ref` qui pointe vers une entrée du `settingDesc`
     - enregistrer la géolocalisation sous la forme d'un geojson 
       dans le dossier `web/json`.
     
@@ -60,6 +63,7 @@ def setting_desc(corpus):
     
     structure de sortie:
     ~~~~~~~~~~~~~~~~~~~~
+    ce settingDesc sera ajouté à tous les profileDesc
     <settingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
         <listPlace>
             <place xml:id="kobe">
@@ -76,13 +80,14 @@ def setting_desc(corpus):
     :returns: la liste des fichiers xml du corpus, après une mise
               à jour de ces fichiers pour y ajouter le `settingDesc`
     """
+    # 1) DÉFINITION DES VARIABLES ET ÉLÉMENTS DE BASE
+    #
+    # on créé `settingDesc`, notre structure d'accueil pour 
+    # les lieux: un élément tei settingDesc, qui contient un 
+    # `listPlace` qui liste tout les lieux d'expédition/destination 
+    # de notre corpus
     place_list = []  # liste de lieux
     endpoint = "https://nominatim.openstreetmap.org/search?"  # url de l'api nominatim
-    
-    # on créé notre structure d'accueil pour les lieux:
-    # un élément tei settingDesc, qui contient un `listPlace`
-    # qui liste tout les lieux d'expédition/destination de notre
-    # corpus
     settingDesc = etree.Element(
         "settingDesc"
         , nsmap=NS_TEI
@@ -93,11 +98,12 @@ def setting_desc(corpus):
         , nsmap=NS_TEI
     )
     
-    
+    # 2) CRÉATION D'UNE LISTE DE LIEUX
+    #
     # d'abord, on construit une liste dédoublonnée de tous les différents
     # lieux d'expédition / récéption de lettres
     for fpath in corpus:
-        tree = etree.parse(fpath)
+        tree = etree.parse(fpath, parser=PARSER)
         for place in tree.xpath(".//tei:correspAction/tei:placeName", namespaces=NS_TEI):
             place = place.text.replace("?", "").strip()  # simplifier la chaîne de caractères
             if (
@@ -108,8 +114,11 @@ def setting_desc(corpus):
                 # en supprimant les notations équivalentes à "NA" (lieu inconnu)
                 place_list.append(place)                
     
+    # 3) GÉOLOCALISATION DES LIEUX
+    # 
     # ensuite, en utilisant l'API nominatim, récupérer 
-    # les géolocalisations des différents lieux
+    # les géolocalisations des différents lieux + enregistrer
+    # des geojson de ces lieux
     for placename in place_list:
         # créer un identifiant unique @xml:id
         idx = "".join( c for c in placename.lower() if c.isalnum())
@@ -185,12 +194,57 @@ def setting_desc(corpus):
             else:
                 # il n'y a pas de coordonnées, c'est étrange => on print
                 print(f"pas de coordonnées pour '{placename}'", "\n", res, "\n\n")
-    print(etree.tostring(settingDesc))
-        
-            
-        
-        
     
+    # 4) MISE À JOUR DES FICHIERS XML
+    # 
+    # ensuite, on met à jour les fichiers xml:
+    # - on ajoute le `settingDesc` au `profileDesc`
+    # - on ajoute des `@ref` aux `placeName` en dehors du
+    #   `settingDesc` qui pointent vers les `@xml:id` du 
+    #   `settingDesc`
+    # - enfin, on enregistre les fichiers
+    for fpath in corpus:
+        tree = etree.parse(fpath, parser=PARSER)
+        
+        # ajout du `settingDesc`
+        tree.xpath(".//tei:profileDesc", namespaces=NS_TEI)[0].append(settingDesc)
+        
+        # ajout des `@ref` aux `placeName`.
+        # pour ce faire, on simplifie juste le nom de lieu en supprimant espaces et 
+        # caractères non alphanumériques, ce qui revient à la manière dont on a créé
+        # les @xml:id de chaque lieu à partir du nom du lieu du `settingDesc`. 
+        # on préfixe toujours la valeur d'un `@ref` par un `#`
+        for placename in tree.xpath(".//*[not(tei:settingDesc)]//tei:placeName", namespaces=NS_TEI):
+            placetext = "".join( c for c in placename.text.lower() if c.isalnum() )
+            # inconnu, aucun => on donne la valeur `#na` à `@ref`
+            if re.search("^(inconnu|aucun)$", placetext):
+                placename.set("ref", "#na")
+            # pour vérifier que tous les `@ref` des `placename` renvoient bien à l'un
+            # des `@xml:id` du `settingDesc`. rien ne devrait être printé à cette étape
+            elif placetext not in settingDesc.xpath(".//@xml:id", namespaces=NS_TEI):
+                print(f"no @xml:id found matching with {placename.text}: {placetext} not in "
+                      + f"@xml:id list: {settingDesc.xpath('.//@xml:id', namespaces=NS_TEI)}")
+            # pour tous les autres cas, on définit le `@ref`.
+            else:
+                placename.set("ref", f"#{placetext}")
+                
+        # enfin, on écrit les arbres xml mis à jour dans les bons fichiers
+        etree.cleanup_namespaces(tree)
+        etree.ElementTree(tree.getroot()).write(
+            fpath
+            , pretty_print=True
+        )
+        
+    return corpus
+
+
+def entity(corpus):
+    """
+    créer des enrichissements sur les personnes mentionnées
+    dans le corpus
+    
+    :return: corpus, la liste des chemins vers les fichiers
+    """
     return corpus
 
 
@@ -208,8 +262,13 @@ def pipeline():
     # extraire tous les fichiers zippés
     corpus = zip2tei()
     
-    # créer le `settingDesc` dans le `profileDesc`
-    corpus = setting_desc(corpus)
+    # créer le `settingDesc` dans le `profileDesc` 
+    # + produire des informations spatiales pour chaque lettre
+    corpus = geography(corpus)
+    
+    # créer le `particDesc` + faire de la reconnaissance
+    # d'entités nommées pour chaque lettre du corpus
+    corpus = entity(corpus)
     
     return
 

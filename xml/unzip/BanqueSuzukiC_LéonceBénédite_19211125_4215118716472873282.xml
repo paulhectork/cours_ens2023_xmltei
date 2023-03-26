@@ -65,14 +65,123 @@
         <!-- description de la correspondance -->
         <correspAction type="sent">
           <persName>Banque Suzuki &amp; C&#176;</persName>
-          <placeName>Londres</placeName>
+          <placeName ref="#londres">Londres</placeName>
           <date when="1921-11-25">1921-11-25</date>
         </correspAction>
         <correspAction type="received">
           <persName>L&#233;once B&#233;n&#233;dite</persName>
-          <placeName>Paris</placeName>
+          <placeName ref="#paris">Paris</placeName>
         </correspAction>
       </correspDesc>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="kobe">
+            <placeName>Kobe</placeName>
+            <location>
+              <geo>135.1943764 34.6932379</geo>
+            </location>
+          </place>
+          <place xml:id="paris">
+            <placeName>Paris</placeName>
+            <location>
+              <geo>2.3483915 48.8534951</geo>
+            </location>
+          </place>
+          <place xml:id="londres">
+            <placeName>Londres</placeName>
+            <location>
+              <geo>-0.12765 51.5073359</geo>
+            </location>
+          </place>
+          <place xml:id="na">
+            <placeName>NA</placeName>
+          </place>
+          <place xml:id="abondant">
+            <placeName>Abondant</placeName>
+            <location>
+              <geo>1.4411738 48.7822754</geo>
+            </location>
+          </place>
+          <place xml:id="boulognebillancourt">
+            <placeName>Boulogne-Billancourt</placeName>
+            <location>
+              <geo>2.240206 48.8356649</geo>
+            </location>
+          </place>
+          <place xml:id="newyork">
+            <placeName>New York</placeName>
+            <location>
+              <geo>-74.0060152 40.7127281</geo>
+            </location>
+          </place>
+          <place xml:id="ch&#226;teauthierry">
+            <placeName>Ch&#226;teau-Thierry</placeName>
+            <location>
+              <geo>3.4027111 49.0457362</geo>
+            </location>
+          </place>
+          <place xml:id="venise">
+            <placeName>Venise</placeName>
+            <location>
+              <geo>12.3345898 45.4371908</geo>
+            </location>
+          </place>
+          <place xml:id="malakoff">
+            <placeName>Malakoff</placeName>
+            <location>
+              <geo>2.3019814 48.8211559</geo>
+            </location>
+          </place>
+          <place xml:id="s&#232;vres">
+            <placeName>S&#232;vres</placeName>
+            <location>
+              <geo>2.2127083 48.8247407</geo>
+            </location>
+          </place>
+          <place xml:id="lyon">
+            <placeName>Lyon</placeName>
+            <location>
+              <geo>4.8320114 45.7578137</geo>
+            </location>
+          </place>
+          <place xml:id="nice">
+            <placeName>Nice</placeName>
+            <location>
+              <geo>7.2683912 43.7009358</geo>
+            </location>
+          </place>
+          <place xml:id="bagn&#232;resdeluchon">
+            <placeName>Bagn&#232;res-de-Luchon</placeName>
+            <location>
+              <geo>0.5912279 42.7910617</geo>
+            </location>
+          </place>
+          <place xml:id="kobejapon">
+            <placeName>Kobe, Japon</placeName>
+          </place>
+          <place xml:id="prague">
+            <placeName>Prague</placeName>
+            <location>
+              <geo>14.4212535 50.0874654</geo>
+            </location>
+          </place>
+          <place xml:id="deauville">
+            <placeName>Deauville</placeName>
+            <location>
+              <geo>0.0752778 49.36</geo>
+            </location>
+          </place>
+          <place xml:id="hammersmith">
+            <placeName>Hammersmith</placeName>
+            <location>
+              <geo>-0.2236401 51.4920377</geo>
+            </location>
+          </place>
+          <place xml:id="hassocks31sussex">
+            <placeName>Hassocks 31, Sussex</placeName>
+          </place>
+        </listPlace>
+      </settingDesc>
     </profileDesc>
   </teiHeader>
   <text>
