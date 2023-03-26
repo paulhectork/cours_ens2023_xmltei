@@ -1,3 +1,4 @@
+from zipfile import ZipFile
 from pprint import pprint
 from lxml import etree
 import datetime
@@ -12,7 +13,10 @@ import os
 #
 # crédits:
 # - code: Paul Kervegan, 2023. code sous licence `GNU GPLv3.0`
-# - données source: Léa Saint-Raymond (ENS-PSL)
+# - données source: Léa Saint-Raymond (ENS-PSL) à partir 
+#   d'originaux conservés au Musée Rodin et à l'INHA.
+#   licence propriétaire: l'utilisation des données en 
+#   dehors de cet atelier est interdite
 # *****************************************************************
 
 
@@ -338,8 +342,14 @@ def corpus2tei(corpus):
     """
     transformer le corpus en documents TEI
     
-    exemple d'encodage TEI de lettre:
-    https://gist.github.com/dhscratch/378e31e8e69dbb54d82b6be2634f4e7f
+    exemples / références utilisés pour l'encodage de lettres en TEI:
+    - Peter Stadler, Marcel Illetschko and Sabine Seifert. Towards a Model for 
+      Encoding Correspondence in the TEI: Developing and Implementing <correspDesc>.
+      Journal of the Text Encoding Initiative. Issue 9 | September 2016 - December 2017
+      https://doi.org/10.4000/jtei.1433
+      https://journals.openedition.org/jtei/1433
+    - @dhscratch, letter-template-annotated.xml : 
+      https://gist.github.com/dhscratch/378e31e8e69dbb54d82b6be2634f4e7f
     
     exemple avancé d'utilisation de LXML:
     https://github.com/katabase/Application/blob/main/APP/utils/api_classes/representations_tei.py
@@ -507,7 +517,6 @@ def corpus2tei(corpus):
         
         # ensuite, dans le `profileDesc`, on ajoute du contenu au 
         # `correspDesc` qui décrit la correspondance
-        # cf: https://journals.openedition.org/jtei/1433
         correspDesc = tree.xpath(".//tei:correspDesc", namespaces=NS_TEI)[0]
         # 1e action contenant le nom de l'expéditeurice
         correspAction = etree.SubElement(
@@ -622,16 +631,40 @@ def corpus2tei(corpus):
         etree.cleanup_namespaces(tree)
         
         # on vérifie que le document est valide
+        # ça cause des erreurs de validation un peu 
+        # cryptiques à cause des namespaces
         # valid = RNG.validate(tree)
         # if not valid:
         #     print(RNG.error_log)
         
         # enfin, on enregistre le fichier. 
         etree.ElementTree(tree.getroot()).write(
-            os.path.join(XML, f"{idx}.xml")
+            os.path.join(XML, "unzip", f"{idx}.xml")
             , pretty_print=True
         )
         
+    return
+
+
+def tei2zip():
+    """
+    transformer le corpus de documents xml Matsutaka 
+    en une archive zip
+    """
+    # chemin de tous les fichiers xml dans xml/unzip
+    xmlfiles = [ 
+        f for f in os.listdir(os.path.join(XML, "unzip")) 
+        if os.path.isfile(os.path.join(XML, "unzip", f)) 
+    ]
+    print(xmlfiles)
+    
+    # écrire tous ces fichiers dans l'archive zip
+    with ZipFile( os.path.join(XML, "corpus_matsutaka.zip"), mode="w" ) as zip:
+        for f in xmlfiles:
+            # en premier argument, le chemin vers le fichier à zipper. 
+            # en deuxième, le nom du fichier dans l'archive zip
+            zip.write( os.path.join(XML, "unzip", f), arcname=f )
+    
     return
     
     
@@ -640,6 +673,10 @@ def pipeline():
     chaîne de conversion de la correspondance Matsutaka 
     depuis le format .txt vers .xml
     """
+    # créer le dossier de sortie pour les fichiers xml
+    if not os.path.isdir(os.path.join(XML, "unzip")):
+        os.makedirs(os.path.join(XML, "unzip"))
+    
     # ouvrir le fichier texte avec `with open()`, lire son contenu et l'assigner
     # à la variable `corpus`
     with open(os.path.join(TXT, "correspondance_matsutaka.txt"), mode="r") as fh:
@@ -659,6 +696,9 @@ def pipeline():
     
     # traduire cette structuration sémantique en xml-tei
     corpus2tei(corpus)
+    
+    # produire une archive zip à partir des fichers xml
+    tei2zip()
 
     return
 

@@ -1,0 +1,102 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L&#233;onceB&#233;n&#233;dite_KojiroMatsukata_19200630_-6841636596507991009">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Brouillon de lettre, manuscrit, de B&#233;n&#233;dite &#224; Matsukata, en fran&#231;ais sur papier &#224; en-t&#234;te American YMCA, &#171; On active service with the American Expeditionary force &#187;. </title>
+        <author>L&#233;once B&#233;n&#233;dite</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-26 16:02:14.304553</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="brouillon">
+          <author>L&#233;once B&#233;n&#233;dite</author>
+          <title>Brouillon de lettre, manuscrit, de B&#233;n&#233;dite &#224; Matsukata, en fran&#231;ais sur papier &#224; en-t&#234;te American YMCA, &#171; On active service with the American Expeditionary force &#187;. </title>
+          <date>1920-06-30</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 64-66</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName>L&#233;once B&#233;n&#233;dite</persName>
+          <placeName>Paris</placeName>
+          <date when="1920-06-30">1920-06-30</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Kojiro Matsukata</persName>
+          <placeName>Kobe</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <opener>
+        <salute>Cher M. Matsukata, </salute>
+      </opener>
+      <p>J&#8217;ai bien re&#231;u vos 2 lettres et j&#8217;ai quelque confusion d&#8217;avoir tard&#233; &#224; r&#233;pondre &#224; la premi&#232;re. </p>
+      <p>Dans tous les cas, je r&#233;ponds d&#8217;ensemble &#224; toutes les deux. Je commence par vous remercier de l&#8217;invitation que vous voulez bien me faire d&#8217;assister &#224; l&#8217;inauguration du Mus&#233;e Matsukata. Si les circonstances le permettent, je vous assure que je ne manquerai pas de l&#8217;accepter. J&#8217;ai une trop grande envie d&#8217;aller voir ce pays merveilleux qui a tant fait travailler nos imaginations occidentales. Et les chefs-d&#8217;&#339;uvre ont enrichi nos inspirations. Vous pensez qu&#8217;&#224; notre tour notre art et nos grands artistes peuvent donner des conseils utiles &#224; vos artistes et former le go&#251;t des artisans, je le souhaite fort et ce serait un grand honneur pour eux s&#8217;ils y pouvaient r&#233;ussir. </p>
+      <p>L&#8217;honneur que vous faites &#224; notre &#201;cole m&#8217;attache tout particuli&#232;rement &#224; vous seconder de tout mon pouvoir et de tout mon c&#339;ur dans l&#8217;&#339;uvre que vous voulez accomplir. Je pense vous avoir remis jusqu&#8217;&#224; pr&#233;sent un certain nombre de pi&#232;ces qui ont valeur d&#8217;art et dans des conditions particuli&#232;rement avantageuses, au point de vue des achats. Je n&#8217;osais gu&#232;re jusqu&#8217;&#224; ce jour m&#8217;aventurer plus loin hors des noms que nous avions fix&#233;s ensemble et je mettais une r&#233;serve naturelle &#224; ne pas vous pousser entra&#238;ner &#224; des d&#233;penses qui puissent exc&#233;der le chiffre de 12000 francs que vous aviez mis &#224; ma disposition pour le paiement des Rodin et pour votre collection de peintures. </p>
+      <p>Puisque vous m&#8217;autorisez et puisque vous b&#233;n&#233;ficiez actuellement des avantages formidables du change, je vais toujours avec prudence d&#8217;ailleurs compl&#233;ter votre collection dans le sens que vous m&#8217;indiquez. Je devais aller chez Claude Monet, ce lundi de P&#226;ques, mais il a &#233;t&#233; souffrant et a remis notre rendez-vous au lundi de la Pentec&#244;te qui est tr&#232;s prochain, c&#8217;est-&#224;-dire le 24 de ce mois. Il est pr&#233;venu du choix que je dois faire chez lui de tableaux pour votre mus&#233;e. Je ne crois pas qu&#8217;il soit possible de mettre moins de 30 000 francs pour une toile. </p>
+      <p>Quant &#224; Renoir, dont je dois faire l&#8217;exposition au printemps prochain, les h&#233;ritiers ne veulent faire aucune vente avant l&#8217;ann&#233;e prochaine, l&#8217;un des fils &#233;tant encore mineur, mais je ne d&#233;sesp&#232;re pas de faire quelque acquisition auparavant, les prix cependant restent de ce c&#244;t&#233; tr&#232;s &#233;lev&#233;s. </p>
+      <p>Pour Carri&#232;re qui est mort depuis 13 ans et qui a &#233;t&#233; mon ami, c&#8217;est moi qui ai fait son exposition posthume en 1907, j&#8217;ai voulu vous acheter au moins une toile &#224; la vente r&#233;cente de son atelier au sujet de laquelle vous avez vu mon article dans la Rev l&#8217;A A &amp; M. Les prix ont &#233;t&#233; si &#233;lev&#233;s que je n&#8217;ai pas os&#233; suivre les ench&#232;res, mais puisque vous le d&#233;sirez, je vais voir aupr&#232;s de la famille ou des amis. </p>
+      <p>Je compl&#232;terai vos achats pour Aman Jean et j&#8217;ai bien l&#8217;intention de m&#8217;adresser &#224; Maurice Denis qui est un grand artiste et un de mes amis. Je vais d&#8217;ailleurs faire une tourn&#233;e aux Salons pour relever les ouvrages qui pourraient dignement figurer dans votre collection. C&#8217;est une grande satisfaction pour moi de pr&#233;parer ainsi librement un mus&#233;e selon mes id&#233;es, d&#8217;apr&#232;s le go&#251;t d&#8217;un vrai amateur d&#8217;art &#233;clair&#233; et g&#233;n&#233;reux. </p>
+      <p>En ce qui concerne le mus&#233;e Rodin, les reproductions que vous avez command&#233;es sont tr&#232;s avanc&#233;es. Sur les 6 bourgeois de Calais. Il y en a d&#233;j&#224; 3 de fondus, les 3 autres sont en train. </p>
+      <p>On met en train &#233;galement le St Jean Baptiste, la m&#233;ditation et l&#8217;Orph&#233;e. Ce sont les derni&#232;res pi&#232;ces qui restent &#224; faire. Je m&#8217;en suis tenu l&#224; jusqu&#8217;&#224; ce jour, puisque ces sujets ont &#233;t&#233; d&#233;sign&#233;s par vous-m&#234;me. Il y aurait eu peut-&#234;tre int&#233;r&#234;t &#224; apporter &#224; cet ensemble quelques autres pi&#232;ces in&#233;dites &#233;tant donn&#233;s les avantages momentan&#233;s que vous avez gr&#226;ce au change. Mais je ne veux rien faire dans ce sens sans votre autorisation pr&#233;cise. Il y a en particulier un grand projet dont je crois devoir vous entretenir.</p>
+      <p>On m&#8217;a propos&#233; du c&#244;t&#233; am&#233;ricain d&#8217;acqu&#233;rir une reproduction en bronze de la Porte de l&#8217;Enfer en m&#8217;offrant en &#233;change de payer l&#8217;ex&#233;cution compl&#232;te de l&#8217;exemplaire qui resterait au Mus&#233;e Rodin et de mani&#232;re qu&#8217;il n&#8217;y ait que ces 2 exemplaires au monde. On n&#8217;a pas trouv&#233; &#224; ce moment ce que f&#251;t un avantage suffisant pour le mus&#233;e Rodin et je n&#8217;ai pas r&#233;pondu &#224; cette proposition. Je vous la signale pour le cas o&#249; cela pourrait vous int&#233;resser de votre c&#244;t&#233;. La Porte de l&#8217;Enfer est l&#8217;&#339;uvre capitale et unique de Rodin dans ses 186 figures, elle r&#233;sume toute la puissance et toute la gr&#226;ce de son g&#233;nie. Il avait r&#234;v&#233; que les montants et le fronton fussent ex&#233;cut&#233;s en marbre et le centre en bronze. Aujourd&#8217;hui, je crois qu&#8217;il faudrait ex&#233;cuter le tout en bronze. Ce travail formidable de fonte s&#8217;&#233;l&#232;verait n&#233;cessairement &#224; un prix tr&#232;s &#233;lev&#233;. Je crois qu&#8217;il faudrait compter pour chacune des portes reproductions fontes un somme d&#8217;environ 250 &#224; 300 000 francs, en tout pour les 2 par suite ce serait une somme de 500 &#224; 600 000 fr. Etant donn&#233; le taux actuel du change, ce ne serait donc que la &#189; pour une commande pay&#233;e en lire [illisible]. Au cas o&#249; cette suggestion conviendrait, veuillez bien m&#8217;en aviser aussit&#244;t pour que je fasse mettre en &#233;tat les moules qui apr&#232;s ces travaux seraient d&#233;truits.</p>
+      <p>Je compte partir au moins de septembre en Am&#233;rique avec ma fille [ ? illisible]. J&#8217;esp&#232;re qbien que si vous venez en France cet &#233;t&#233; comme vous me le faisiez esp&#233;rer, ce serait avant mon d&#233;part. Le r&#234;ve serait que ma fille et moi puissions aller de San Francisco pour vous dire bonjour &#224; Kob&#233;. Mais c&#8217;est si loin qu&#8217;on ne peut que r&#234;ver et qu&#8217;on n&#8217;est s&#251;r de rien. Je suis si sensible &#224; la pens&#233;e que vous avez de me faire accorder une distinction honorifique du Japon, ce serait certainement la plus flatteuse que j&#8217;aurais re&#231;ue de ma vie : ce ne serait d&#8217;ailleurs qu&#8217;&#224; titre d&#8217;&#233;change car le gouvernement fran&#231;ais ne saurait trop faire pour reconna&#238;tre les services &#233;minents que vous rendez en &#233;tendant le rayonnement du g&#233;nie fran&#231;ais dans les limites lointaines de l&#8217;Empire du Levant.</p>
+      <closer>
+        <salute>Ma fille se joint &#224; moi pour vous envoyer ses meilleurs souvenirs. Mon Lt Dezarrois vous fait tous ses compliments. </salute>
+      </closer>
+    </body>
+  </text>
+</TEI>

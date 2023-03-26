@@ -1,0 +1,98 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KojiroMatsukata_L&#233;onceB&#233;n&#233;dite_19210318_-3998331204219170324">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Lettre typographi&#233;e de Kojiro Matsukata &#224; Leone </title>
+        <author>Kojiro Matsukata</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-26 16:02:14.321711</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="lettre">
+          <author>Kojiro Matsukata</author>
+          <title>Lettre typographi&#233;e de Kojiro Matsukata &#224; Leone </title>
+          <date>1921-03-18</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 91, 92</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName>Kojiro Matsukata</persName>
+          <placeName>Kobe</placeName>
+          <date when="1921-03-18">1921-03-18</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>L&#233;once B&#233;n&#233;dite</persName>
+          <placeName>Paris</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <p>I beg to achknowledge with great pleasure and relief receipt of your long-waited-for letter of the 20th, ult. I am very glad indeed to hear from you direct that you are convalescent now and that your Eastern tour of lecture has been successful. </p>
+      <p>I beg to thank you cordially for your kind sympathy for our great bereavement and beg to mention that I have also sympathized with you to have been unfortunate as to be laid up in a strange hospital for two months. It is not cheery enough away from Home and family and in addition thereto, spending such a long time in a hospital must have been more that I can say herein. </p>
+      <p>I am thinking while writing this that you must be back in glorious Paris by this time and am further hoping that you found your family members and friends are very well. </p>
+      <p>I am ever thankful to you for the constant troubles you are taking on my behalf and I don&#8217;t know really how to thank you in adequate words. Please arrange with M. Denis as you kindly intend and I beg to request you to do your best regarding M. Barde as well. I am thinking that my nephew has made arrangements with M. Monet and already selected five pictures. </p>
+      <p>I am now hoping to be in New York on or about the 6th or 7th, May and to be in Paris some time early in June, when I hope to go over those all pictures and sculptures with you.</p>
+      <p>The letter from M. Durand Ruel enclosed in yours was carefully perused and I am hoping to be able to see these pictures mentioned therein. I shall also be glad if you will kindly look round in Paris for M. Renoir&#8217;s of later dates, as I am desirous of finding more of his good works.</p>
+      <p>I am now in the eve of my sailing and beg to leave over all other items until the day I shall have the pleasure of seeing you in Paris and talking over personally. </p>
+      <p>With my kindest regards to you and particularly to Miss Benedite for the meanwhile, </p>
+      <p>I remain, </p>
+      <closer>
+        <salute>Yours faithfully</salute>
+        <signed>Kojiro Matsukata</signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

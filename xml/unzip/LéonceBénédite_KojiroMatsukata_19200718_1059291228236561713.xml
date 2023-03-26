@@ -1,0 +1,93 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L&#233;onceB&#233;n&#233;dite_KojiroMatsukata_19200718_1059291228236561713">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Brouillon de lettre, manuscrit, de B&#233;n&#233;dite &#224; Matsukata, en fran&#231;ais. </title>
+        <author>L&#233;once B&#233;n&#233;dite</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-26 16:02:14.306376</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="brouillon">
+          <author>L&#233;once B&#233;n&#233;dite</author>
+          <title>Brouillon de lettre, manuscrit, de B&#233;n&#233;dite &#224; Matsukata, en fran&#231;ais. </title>
+          <date>1920-07-18</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 68</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName>L&#233;once B&#233;n&#233;dite</persName>
+          <placeName>Paris</placeName>
+          <date when="1920-07-18">1920-07-18</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Kojiro Matsukata</persName>
+          <placeName>Kobe</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <opener>
+        <salute>Cher M. Matsukata, </salute>
+      </opener>
+      <p>J&#8217;ai bien re&#231;u votre dernier c&#226;ble et je vais t&#226;cher en effet d&#8217;avoir des ma&#238;erts qui vous int&#233;ressent leurs tableaux les plus repr&#233;sentatifs bien que certainement tout ce que j&#8217;ai pu recueillir &#224; ce jour a une tr&#232;s belle tenue et ce sera digne de votre mus&#233;e. Je fais des tentatives qui jusqu&#8217;&#224; pr&#233;sent m&#8217;ont pas abouti pour avoir la pi&#232;ce capitale de Cottet, la r&#233;p&#233;tition avec modifications de son admirable tableau, de l&#8217;Homme noy&#233;. Il d&#233;sire le garder pour lui-m&#234;me, peut-&#234;tre parviendrai-je &#224; le tenter pour le prix. Je n&#8217;ai pas du tout r&#233;ussi aupr&#232;s de Claude Monet directement, il a l&#8217;intention de donner toute son &#339;uvre &#224; l&#8217;&#201;tat pour en constituer un mus&#233;e sp&#233;cial et il n&#8217;a voulu se d&#233;faire &#224; aucun prix des tableaux qui sont chez lui. Il faut donc guetter les occasions dans les ventes ou chez les marchands, mais les prix en sont tr&#232;s &#233;lev&#233;s. Il en est de m&#234;me des Renoir, je suis all&#233; voir sp&#233;cialement M. Durand-Ruel de qui je suis li&#233; depuis longtemps, pour t&#226;cher d&#8217;en tirer quelque chose. J&#8217;ai vu chez lui quelques beaux Renoir mais &#224; des prix qui vont entre 200 et 300 000 fr. J&#8217;y suis all&#233; voir en particulier un tableau de Puvis de Chavannes que j&#8217;aurais bien voulu vous acheter. C&#8217;est une tr&#232;s belle r&#233;p&#233;tition en hauteur de changeant (illisible) du pauvre p&#234;cheur, qui est au Luxembourg. J&#8217;aurais l&#8217;intention de proposer une 60 de 1000 fr mais c&#8217;est environ 6000 dollars qu&#8217;il aurait fallu dire. Durand-Ruel estime ce tableau &#224; environ 300 000 fr. Je me f&#233;licite donc de vous avoir eu &#224; des prix vraiment exceptionnels de bon march&#233; ces 2 &#233;chantillons si int&#233;ressants tr&#232;s rares de Puvis de Chavannes que ne vous ai signal&#233;s. </p>
+      <p>Je n&#8217;ai pas eu la visite que vous aviez annonc&#233;e de Hioki. Quant au marbre dont il s&#8217;agit Pygmalion Galat&#233;e qui avait &#233;t&#233; mis en vente &#224; Londres, il a &#233;t&#233; au dernier moment retir&#233; de la vente par les propri&#233;taires qui ne sont semble-t-il que des marchands. A ce propos, je me permets de vous mettre en garde contre certains interm&#233;diaires qui ont su soit du c&#244;t&#233; de Londres, soit du c&#244;t&#233; de Paris, que l&#8217;on recrutent [illisible] une collection pour votre mus&#233;e. J&#8217;ai &#233;t&#233; avis&#233; entre autres tout r&#233;cemment qu&#8217;un marchand qui a la plus f&#226;cheuse r&#233;putation et que je soup&#231;onne d&#8217;avoir &#233;t&#233; l&#8217;organisateur de cette vente de Londres, avait fait des propositions tr&#232;s importantes au sculpteur Bourdelle pour un amateur japonais. J&#8217;ai craint que ce ne f&#251;t vous dont il s&#8217;agit et je trouverais scandaleux qu&#8217;on exploit&#226;t les sentiments auxquels vous avez ob&#233;is en formant cette magnifique collection fran&#231;aise, tandis que j&#8217;ai obtenu des artistes de sensibles r&#233;ductions nouvelles dans le dessin ou l&#8217;estampe pour vous remercier du but que vous poursuivez ; il ne faudrait pas que des marchands interlopes abusassent de vus comme il semble qu&#8217;on voulait faire pour ce marbre de Pygmalion et Galath&#233;e. </p>
+      <postscript>
+        <p>Il y a un sculpteur qui vient d&#8217;avoir un succ&#232;s formidable au Salon ; les &#233;chos ont d&#251; en parvenir s&#251;rement jusqu&#8217;au Japon. C&#8217;est Paul Dard&#233;, qui a obtenu pour un faune le prix national. L&#8217;UAT lui a acquis pour le Luxembourg un morceau extraordinaire inspir&#233; de l&#8217;Enfer de Dante : une t&#234;te de femme dans un enchev&#234;trement de serpents qu&#8217;il a appel&#233;e l&#8217;Eternelle Douleur. Dard&#233; en a ex&#233;cut&#233; 2 exemplaires en bronze qui sont uniques. Il en a vendu un au Victoria et Albert Museum de Londres au prix de 30 000 fr, il en a c&#233;d&#233; l&#8217;autre pour vous au prix de 15 000. Voyez desquels sentiments sont anim&#233;s &#224; votre &#233;gard les artistes fran&#231;ais. </p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
