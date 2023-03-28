@@ -64,12 +64,12 @@
       <correspDesc>
         <!-- description de la correspondance -->
         <correspAction type="sent">
-          <persName>Kojiro Matsukata</persName>
+          <persName ref="#kojiromatsukata">Kojiro Matsukata</persName>
           <placeName ref="#kobe">Kobe</placeName>
           <date when="1924-07-29">1924-07-29</date>
         </correspAction>
         <correspAction type="received">
-          <persName>L&#233;once B&#233;n&#233;dite</persName>
+          <persName ref="#leoncebenedite">L&#233;once B&#233;n&#233;dite</persName>
           <placeName ref="#paris">Paris</placeName>
         </correspAction>
       </correspDesc>
@@ -114,7 +114,7 @@
               <geo>-74.0060152 40.7127281</geo>
             </location>
           </place>
-          <place xml:id="ch&#226;teauthierry">
+          <place xml:id="chateauthierry">
             <placeName>Ch&#226;teau-Thierry</placeName>
             <location>
               <geo>3.4027111 49.0457362</geo>
@@ -132,7 +132,7 @@
               <geo>2.3019814 48.8211559</geo>
             </location>
           </place>
-          <place xml:id="s&#232;vres">
+          <place xml:id="sevres">
             <placeName>S&#232;vres</placeName>
             <location>
               <geo>2.2127083 48.8247407</geo>
@@ -150,7 +150,7 @@
               <geo>7.2683912 43.7009358</geo>
             </location>
           </place>
-          <place xml:id="bagn&#232;resdeluchon">
+          <place xml:id="bagneresdeluchon">
             <placeName>Bagn&#232;res-de-Luchon</placeName>
             <location>
               <geo>0.5912279 42.7910617</geo>
@@ -182,6 +182,160 @@
           </place>
         </listPlace>
       </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="kojiromatsukata">
+            <persName>Kojiro Matsukata</persName>
+          </person>
+          <person xml:id="seichinaruse">
+            <persName>Seichi Naruse</persName>
+          </person>
+          <person xml:id="leoncebenedite">
+            <persName>L&#233;once B&#233;n&#233;dite</persName>
+            <persName>L&#233;once B&#233;n&#233;dite ?</persName>
+          </person>
+          <person type="PERSON" xml:id="na">
+            <persName>NA</persName>
+            <persName>inconnu</persName>
+            <persName>aucun</persName>
+          </person>
+          <person type="PERSON" xml:id="vizzavona">
+            <persName>F. Vizzavona</persName>
+          </person>
+          <person type="PERSON" xml:id="barbazanges">
+            <persName>M. Barbazanges</persName>
+          </person>
+          <person type="PERSON" xml:id="hioki">
+            <persName>Hioki</persName>
+          </person>
+          <person type="PERSON" xml:id="georgesgrappe">
+            <persName>Georges Grappe</persName>
+          </person>
+          <person type="PERSON" xml:id="havemeyer">
+            <persName>Mrs. H. O. Havemeyer</persName>
+          </person>
+          <person xml:id="banquesuzukic">
+            <persName>Banque Suzuki &amp; C&#176;</persName>
+            <persName>Banque Suzuki &amp; C&#176; ?</persName>
+          </person>
+          <person type="PERSON" xml:id="intermediairesdekojiromatsukata">
+            <persName>interm&#233;diaires de Kojiro Matsukata ?</persName>
+            <persName>interm&#233;diaires de Kojiro Matsukata</persName>
+            <persName>Interm&#233;diaires de Kojiro Matsukata</persName>
+          </person>
+          <person type="PERSON" xml:id="georgesbernheim">
+            <persName>Georges Bernheim</persName>
+          </person>
+          <person type="PERSON" xml:id="paulrosenberg">
+            <persName>Paul Rosenberg</persName>
+          </person>
+          <person xml:id="lenarsetcie">
+            <persName>A. L&#233;nars et Cie</persName>
+          </person>
+          <person xml:id="societedetravauxetindustriesmaritimes">
+            <persName>Soci&#233;t&#233; de travaux et industries maritimes</persName>
+          </person>
+          <person type="PERSON" xml:id="amanjean">
+            <persName>Aman-Jean</persName>
+          </person>
+          <person type="PERSON" xml:id="rosabenedite">
+            <persName>Rosa B&#233;n&#233;dite ?</persName>
+            <persName>Rosa B&#233;n&#233;dite</persName>
+          </person>
+          <person type="PERSON" xml:id="andredezarrois">
+            <persName>Andr&#233; Dezarrois</persName>
+          </person>
+          <person type="PERSON" xml:id="rudier">
+            <persName>A. Rudier</persName>
+          </person>
+          <person type="PERSON" xml:id="joshessel">
+            <persName>Jos Hessel</persName>
+          </person>
+          <person type="PERSON" xml:id="galeriedruet">
+            <persName>Galerie E. Druet</persName>
+          </person>
+          <person xml:id="galeriesgeorgespetit">
+            <persName>Galeries Georges Petit</persName>
+          </person>
+          <person type="PERSON" xml:id="romolobarzoni">
+            <persName>Romolo Barzoni</persName>
+          </person>
+          <person type="PERSON" xml:id="galeriebarbazanges">
+            <persName>Galerie Barbazanges</persName>
+          </person>
+          <person xml:id="directeurdesbeauxarts">
+            <persName>Directeur des Beaux-Arts</persName>
+          </person>
+          <person type="PERSON" xml:id="ftempelaere">
+            <persName>F . &amp; J. Tempelaere</persName>
+          </person>
+          <person type="PERSON" xml:id="edmonddavis">
+            <persName>Edmond Davis</persName>
+          </person>
+          <person type="PERSON" xml:id="bernheimjeuneetcie">
+            <persName>Bernheim Jeune et Cie</persName>
+          </person>
+          <person type="PERSON" xml:id="eugenerudier">
+            <persName>Eug&#232;ne Rudier</persName>
+          </person>
+          <person type="PERSON" xml:id="lehallierauprat">
+            <persName>Lehallier Auprat&#176;</persName>
+          </person>
+          <person xml:id="directeurgeneraldesbeauxarts">
+            <persName>Directeur G&#233;n&#233;ral des Beaux-Arts</persName>
+          </person>
+          <person type="PERSON" xml:id="dreveton">
+            <persName>Em. Dreveton</persName>
+          </person>
+          <person type="PERSON" xml:id="etienneclementel">
+            <persName>Etienne Clementel</persName>
+          </person>
+          <person type="PERSON" xml:id="takahatarepresentantdekojiromatsukata">
+            <persName>M. Takahata, repr&#233;sentant de Kojiro Matsukata</persName>
+          </person>
+          <person type="PERSON" xml:id="knoedler">
+            <persName>Knoedler</persName>
+          </person>
+          <person type="PERSON" xml:id="tirant">
+            <persName>M. Tirant</persName>
+          </person>
+          <person type="PERSON" xml:id="madameclemenceau">
+            <persName>Madame Clemenceau</persName>
+          </person>
+          <person xml:id="yamanakaandc">
+            <persName>Yamanaka and C&#176;</persName>
+          </person>
+          <person xml:id="frankbrangwyn">
+            <persName>Frank Brangwyn</persName>
+          </person>
+        </listPerson>
+        <listOrg>
+          <org type="FAC" xml:id="museedulouvre">
+            <orgName>Mus&#233;e du Louvre</orgName>
+          </org>
+          <org type="ORG" xml:id="compagniealgerienne">
+            <orgName>Compagnie alg&#233;rienne</orgName>
+          </org>
+          <org type="ORG" xml:id="museerodin">
+            <orgName>Mus&#233;e Rodin</orgName>
+          </org>
+          <org type="ORG" xml:id="galeriesbernheimjeuneetcie">
+            <orgName>Galeries Bernheim Jeune et Cie</orgName>
+          </org>
+          <org type="FAC" xml:id="ambassadedujaponaparis">
+            <orgName>Ambassade du Japon &#224; Paris</orgName>
+          </org>
+          <org type="WORK_OF_ART" xml:id="presse">
+            <orgName>Presse</orgName>
+          </org>
+          <org type="ORG" xml:id="speciebankdeyokohama">
+            <orgName>Specie Bank de Yokohama</orgName>
+          </org>
+          <org type="GPE" xml:id="expositiondartfrancaisaprague">
+            <orgName>Exposition d&#8217;Art Fran&#231;ais &#224; Prague</orgName>
+          </org>
+        </listOrg>
+      </particDesc>
     </profileDesc>
   </teiHeader>
   <text>

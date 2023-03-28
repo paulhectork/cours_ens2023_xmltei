@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 297987980,
+                "osm_type": "relation",
+                "osm_id": 106255,
+                "display_name": "Bagn\u00e8res-de-Luchon, Saint-Gaudens, Haute-Garonne, Occitanie, France m\u00e9tropolitaine, 31110, France",
+                "place_rank": 16,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.8585244104019205,
+                "icon": "https://nominatim.openstreetmap.org/ui/mapicons/poi_boundary_administrative.p.20.png"
+            },
+            "bbox": [
+                0.5703992,
+                42.689588,
+                0.6828406,
+                42.8096381
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5912279,
+                    42.7910617
+                ]
+            }
+        }
+    ]
+}
