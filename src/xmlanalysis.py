@@ -5,6 +5,8 @@ from zipfile import ZipFile
 from lxml import etree
 import unidecode
 import requests
+import folium
+import shutil
 import spacy
 import json
 import time
@@ -14,7 +16,10 @@ import os
 
 
 # *****************************************************************
-# analyse de la correspondance Matsutaka en XML-TEI
+# analyse de la correspondance Matsutaka en XML-TEI.
+# pour lire le code, commencer par regarder la fonction
+# `pipeline()` à la fin. elle appelle toutes les autres
+# fonctions dans ce script : ) 
 # 
 # crédits:
 # - code: Paul Kervegan, 2023. code sous licence `GNU GPLv3.0`
@@ -35,6 +40,10 @@ NS_TEI = {"tei": "http://www.tei-c.org/ns/1.0"}                                 
 NS_XML = {"id": "http://www.w3.org/XML/1998/namespace"}                          # general xml namespace
 TEI_RNG = "https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"  # odd in .rng to validate tei files
 PARSER = etree.XMLParser(remove_blank_text=True)                                 # parser xml custom
+COLORS = { "green": "#8fc7b1",                                                   # codes couleurs html 
+           "gold": "#da9902", 
+           "plum": "#710551", 
+           "darkgreen": "#00553e" }
 # RNG = etree.RelaxNG( etree.parse(os.path.join(XML, "schema", "tei_all.rng")) )   # schéma xml rng de validation de la TEI
 # TEMPLATE = etree.parse(os.path.join(XML, "template.xml"))                        # arbre etree contenant la structure XML de base
 
@@ -542,6 +551,11 @@ def network(corpus):
         }
     ]
     
+    pyvis
+    ~~~~~
+    https://pyvis.readthedocs.io/en/latest/tutorial.html
+    https://pyvis.readthedocs.io/en/latest/documentation.html
+    
     :param corpus: la liste de chemins vers les fichiers xml
     :returns: pareil, le corpus
     """
@@ -558,11 +572,11 @@ def network(corpus):
         
         # @xml:id de l'expéditeurice et du/de la destinataire
         sender = tree.xpath(
-                ".//tei:correspAction[@type='sent']/(tei:persName or tei:orgName)/@ref"
+                "//tei:correspAction[@type='sent']/*[not(tei:placeName)][not(tei:date)]/@ref"
                 , namespaces=NS_TEI
             )[0].replace("#", "")
         receiver = tree.xpath(
-                ".//tei:correspAction[@type='received']/(tei:persName or tei:orgName)/@ref"
+                "//tei:correspAction[@type='received']/*[not(tei:placeName)][not(tei:date)]/@ref"
                 , namespaces=NS_TEI
             )[0].replace("#", "")
                 
@@ -600,10 +614,72 @@ def network(corpus):
                     idx = edges.index(edge)
             edges[idx]["count"] += 1  # on incrémente son compteur
         
-    print(nodes)
-    print(edges)
+    # 2) CRÉER LE RÉSEAU
+    #
+    # on crée un objet `network` de `pyvis` et on ajoute 
+    # d'abord les nœuds (`add_node()`, et ensuite les arrêtes du graphe (`add_edge()`)
+    ntw = Network( 
+        directed=True                # on travaille avec un graphe orienté
+        , bgcolor=COLORS["gold"]    # couleur d'arrière-plan
+        , font_color=COLORS["darkgreen"]  # couleur de police
+        , filter_menu=True                # un menu pour filtrer par les propriétés des nœuds et arrêtes
+        # , select_menu=True                # menu pour filtrer par les propriétés des nœuds et arrêtes
+    )
+    for k, v in nodes.items():
+        ntw.add_node(
+            k                       # l'identifiant du nœud: un @xml:id
+            , label=v[0]            # le nom affiché
+            , size=v[1]             # la taille du nœud, déterminée par le nb d'occurrences dans le corpus
+            , shape="dot"           # la forme
+            , color=COLORS["plum"]  # la couleur du nœud
+            , title=f"{v[0]} participe à {v[1]} échanges dans le corpus."  # texte à afficher quand on clique s/ le nœud
+        )
+    for edge in edges:
+        ntw.add_edge(
+            edge["from"]           # identifiant du nœud représentant l'expéditeur.ice (défini dans `.add_nodes()`)
+            , edge["to"]           # identifiant du nœud représentant le/la destinatairice
+            , width=edge["count"]  # l'épaisseur de l'arrête dépend du nombre d'envois
+            , title=f"{edge['count']} lettres de { nodes[edge['from']][0] } pour { nodes[edge['to']][0] }"
+        )
+    ntw.barnes_hut(overlap=1, gravity=-40000)  # on modifie légèrement le modèle de gravité (qui définit la position des points du réseau)
+    ntw.toggle_physics(True)  # conseillé par la doc
+    # ntw.show(os.path.join(WEB, "network.html"), notebook=False)  # montrer le réseau
+    ntw.write_html(os.path.join(WEB, "network.html"), local=True, notebook=False, open_browser=True)
+    shutil.move(os.path.join(CURDIR, os.pardir, "lib"), os.path.join(WEB, "lib"))  # déplacer les fichiers annexes du réseau
     
     return corpus
+
+
+def map(corpus):
+    """
+    créer une représentation cartographique du corpus,
+    avec un  point par lieu d'expédition.
+    en fait un crée quelque chose de proche de `network()`: on crée
+    un graphe, cette fois-ci non dirigé mais géoréférencé
+    
+    :param corpus: la liste de chemins vers tous les fichiers xml
+    :returns: cette même liste
+    """ 
+    # 1) EXTRACTION DE DONNÉES
+    #
+    # on parse tous les fichiers XML et on extrait tous les 
+    # @xml:id des lieux d'expédition/destination du `correspAction`.
+    places = {}  # dictionnaire associant l'@xml:id d'un lieu au nombre de fois où il est lieu d'expédition/réception
+    for fpath in corpus:
+        tree = etree.parse(fpath, parser=PARSER)
+        
+        idx = tree.xpath(".//tei:correspAction/tei:placeName/@ref", namespaces=NS_TEI)[0].replace("#", "")
+        if idx not in places.keys():
+            places[idx] = 1
+        else:
+            places[idx] += 1
+    print(places)
+        
+        
+        
+    
+    return corpus
+    
 
 
 def pipeline():
@@ -634,6 +710,10 @@ def pipeline():
     # faire une visualisation en graphique
     print("visualisation de réseau")
     corpus = network(corpus)
+    
+    # enfin, on fait une carte
+    print("cartographie du corpus")
+    corpus = map(corpus)
     
     return
 
