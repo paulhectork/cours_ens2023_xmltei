@@ -69,7 +69,7 @@
           <date when="1928-01-01">1928-01-01</date>
         </correspAction>
         <correspAction type="received">
-          <persName ref="#na">NA</persName>
+          <persName ref="#napartic">NA</persName>
           <placeName ref="#na">NA</placeName>
         </correspAction>
       </correspDesc>
@@ -194,7 +194,7 @@
             <persName>L&#233;once B&#233;n&#233;dite</persName>
             <persName>L&#233;once B&#233;n&#233;dite ?</persName>
           </person>
-          <person type="PERSON" xml:id="na">
+          <person type="PERSON" xml:id="napartic">
             <persName>NA</persName>
             <persName>inconnu</persName>
             <persName>aucun</persName>

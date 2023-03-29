@@ -1,5 +1,6 @@
-from langdetect import detect, detect_langs
-from collections import Counter
+from pyvis.network import Network
+from langdetect import detect
+from statistics import mode
 from zipfile import ZipFile
 from lxml import etree
 import unidecode
@@ -361,13 +362,13 @@ def entity(corpus):
             #   à utiliser sur les noms extraits
             idx = xmlid(re.sub("((?<=\s)|(?<=^))[A-Z][a-zàâäéèûüùîïì]*\.", "", pers.text))
             
-            # traitement spécifique pour `na` et équivalents
+            # traitement spécifique pour `na` et équivalents: l'@xml:id défini sera `napartic`
             if re.search("^(inconnu|aucun|na)$", idx):
-                if "na" not in entities.keys():
-                    entities["na"] = { "name": [pers.text], "type": "", "lang": [lang] }
-                elif pers.text not in entities["na"]["name"]:
-                    entities["na"]["name"].append(pers.text)
-                    entities["na"]["lang"].append(lang)
+                if "napartic" not in entities.keys():
+                    entities["napartic"] = { "name": [pers.text], "type": "", "lang": [lang] }
+                elif pers.text not in entities["napartic"]["name"]:
+                    entities["napartic"]["name"].append(pers.text)
+                    entities["napartic"]["lang"].append(lang)
             # pour les autres noms:
             else:
                 if idx not in entities.keys():
@@ -382,7 +383,10 @@ def entity(corpus):
     # ses orthographes et aux langues des lettres où le nom apparaît
     # ensuite, on détecte le type d'entité nommée contenue dans `entities`
     for k in entities.keys():
-        entities[k]["lang"] = Counter(entities[k]["lang"]).most_common(1)[0][0]  # on extrait le mode, soit la langue la + utilisée pour les lettres avec ce nom
+        if len(entities[k]["lang"]) > 0:
+            entities[k]["lang"] = mode(entities[k]["lang"])  # on extrait le mode, soit la langue la plus répandue pour la liste de lettres avec ce nom
+        else:
+            entities[k]["lang"] = ""  
         for name in entities[k]["name"]:
             # on sélectionne le bon modèle en fonction du langage. 
             # si le langage détecté n'est ni le français, ni l'anglais,
@@ -403,8 +407,10 @@ def entity(corpus):
             # dans `name` à `entities`. spacy produit plusieurs entités nommées => on extrait
             # le mode, soit le type d'entité le + souvent détecté dans notre `name`. vu la 
             # taille de notre corpus c'est un peu inutile, mais bon
-            type_ = Counter([ ent.label_ for ent in doc.ents ]).most_common(1)
-            entities[k]["type"] = type_[0][0] if len(type_) > 0 else ""
+            if len(list(doc.ents)) > 0:
+                entities[k]["type"] = mode([ ent.label_ for ent in doc.ents ])  # on calcule le mode parmi tous les types d'entités nommées relevées
+            else:
+                entities[k]["type"] = ""
             # pour une explication de chaque entité nommée identifiée dans `name`,
             # décocher le bloc ci-dessous
             # for ent in doc.ents: 
@@ -498,6 +504,108 @@ def entity(corpus):
     return corpus
 
 
+def network(corpus):
+    """
+    faire une visualisation en graphes / réseau du corpus de lettres:
+    réseau d'expéditeur.ices et destinataires des lettres dans le 
+    `correspAction`.
+    
+    structure de `nodes`: nodes représente les expéditeur.ice.s/destinataires
+    ~~~~~~~~~~~~~~~~~~~~
+    {
+        # 1ere entrée
+        "@xml:id de la personne": [
+            "nom complet qui sera affiché"
+            , <nombre de fois qu'iel est mentionnée comme expéditeur.ice ou destinataire>
+        ]
+        # 2e entrée
+        , "@xml:id": [
+            "nom complet"
+            , <décompte>
+        ]
+    }
+    
+    structure de `edges`: edges représente les liens entre 2 nœuds du réseau
+    ~~~~~~~~~~~~~~~~~~~~
+    [
+        # 1ere relation
+        { 
+            "from": "@xml:id de l'expéditeur.ice",
+            "to": "@xml:id du destinataire"
+            "count": <nombre de relations dans ce sens entre expéditeur.ice et destinataire>
+        }
+        # 2e relation
+        , {
+            "from": "@xml:id",
+            "to":"@xml:id",
+            "count": <décompte>
+        }
+    ]
+    
+    :param corpus: la liste de chemins vers les fichiers xml
+    :returns: pareil, le corpus
+    """
+    # 1) EXTRACTION DE DONNÉES
+    #
+    # on lit toutes les lettres du corpus, extrait les données pour 
+    # construire un graphe (noms des expéditeur.ice.s/destinataire et 
+    # nombre de mention de chacun.e, relation orientées entre expéditeur.ice
+    # et destinataire et nombre de relations orientées)
+    nodes = {}
+    edges = []
+    for fpath in corpus:
+        tree = etree.parse(fpath, parser=PARSER)
+        
+        # @xml:id de l'expéditeurice et du/de la destinataire
+        sender = tree.xpath(
+                ".//tei:correspAction[@type='sent']/(tei:persName or tei:orgName)/@ref"
+                , namespaces=NS_TEI
+            )[0].replace("#", "")
+        receiver = tree.xpath(
+                ".//tei:correspAction[@type='received']/(tei:persName or tei:orgName)/@ref"
+                , namespaces=NS_TEI
+            )[0].replace("#", "")
+                
+            # en utilisant l'@xml:id, on prend le nom canonique du `particDesc`
+        sender_name = tree.xpath(
+                f".//tei:particDesc//*[@xml:id='{sender}']/*"
+                , namespaces=NS_TEI
+            )[0].text
+        receiver_name = tree.xpath(
+                f".//tei:particDesc//*[@xml:id='{receiver}']/*"
+                , namespaces=NS_TEI
+            )[0].text
+        # except:
+        #     print(sender, receiver, sender_name, receiver_name, "\n", fpath, "\n\n\n")
+        
+        # on ajoute `sender`/`receiver` à `nodes`. on ne distingue pas le rôle d'expéditeur/destinataire
+        if sender not in nodes.keys():
+            nodes[sender] = [ sender_name, 1 ]      # 1ere fois que `sender` est identifié comme nœud => créer une nv entrée
+        else:
+            nodes[sender][1] += 1                   # sinon, on incrémente le compteur d'occurrences pour cette entité
+        if receiver not in nodes.keys():
+            nodes[receiver] = [ receiver_name, 1 ]  # 1ere fois que `receiver` est identifié comme nœud => nv entrée
+        else:
+            nodes[receiver][1] +=1                  # sinon, on incrémente le compteur d'occurrences pour cette entité
+            
+        # on ajoute la relation entre `sender` & `receiver` à `edges`
+        # si la relation orientée expéditeurice->destinataire n'existe pas on l'ajoute
+        if not any( [sender, receiver] == [edge["from"], edge["to"]] for edge in edges ):
+            edges.append({ "from": sender, "to": receiver, "count": 1 })
+        # sinon, on récupère le dictionnaire dans `edges` qui décrit la bonne relation et on incrémente son compteur 
+        else:
+            # on sélectionne l'index de la bonne relation
+            for edge in edges:
+                if [edge["from"], edge["to"]] == [sender, receiver]:
+                    idx = edges.index(edge)
+            edges[idx]["count"] += 1  # on incrémente son compteur
+        
+    print(nodes)
+    print(edges)
+    
+    return corpus
+
+
 def pipeline():
     """
     chaîne de traitement globale pour l'analyse du corpus en XML
@@ -522,6 +630,10 @@ def pipeline():
     # d'entités nommées pour chaque lettre du corpus
     print("traitement des noms de personnes et d'organisations")
     corpus = entity(corpus)
+    
+    # faire une visualisation en graphique
+    print("visualisation de réseau")
+    corpus = network(corpus)
     
     return
 
