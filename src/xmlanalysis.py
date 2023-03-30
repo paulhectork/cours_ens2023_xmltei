@@ -822,20 +822,20 @@ def pipeline():
     
     # créer le `settingDesc` dans le `profileDesc` 
     # + produire des informations spatiales pour chaque lettre
-    print("enrichissement géographique des fichiers")
+    print("\nenrichissement géographique des fichiers")
     corpus = geography(corpus)
     
     # créer le `particDesc` + faire de la reconnaissance
     # d'entités nommées pour chaque lettre du corpus
-    print("traitement des noms de personnes et d'organisations")
+    print("\ntraitement des noms de personnes et d'organisations")
     corpus = entity(corpus)
     
     # faire une visualisation en graphique
-    print("visualisation de réseau")
+    print("\nvisualisation de réseau")
     corpus = network(corpus)
     
     # enfin, on fait une carte
-    print("cartographie du corpus")
+    print("\ncartographie du corpus")
     corpus = map(corpus)
     
     return
