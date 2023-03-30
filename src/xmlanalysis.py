@@ -828,11 +828,11 @@ def pipeline():
     # créer le `particDesc` + faire de la reconnaissance
     # d'entités nommées pour chaque lettre du corpus
     print("traitement des noms de personnes et d'organisations")
-    # corpus = entity(corpus)
+    corpus = entity(corpus)
     
     # faire une visualisation en graphique
     print("visualisation de réseau")
-    # corpus = network(corpus)
+    corpus = network(corpus)
     
     # enfin, on fait une carte
     print("cartographie du corpus")
