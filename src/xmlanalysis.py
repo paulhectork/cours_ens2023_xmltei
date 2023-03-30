@@ -10,6 +10,7 @@ import shutil
 import spacy
 import json
 import time
+import math
 import sys
 import re
 import os
@@ -643,9 +644,13 @@ def network(corpus):
         )
     ntw.barnes_hut(overlap=1, gravity=-40000)  # on modifie légèrement le modèle de gravité (qui définit la position des points du réseau)
     ntw.toggle_physics(True)  # conseillé par la doc
-    # ntw.show(os.path.join(WEB, "network.html"), notebook=False)  # montrer le réseau
+    
+    # enregistrer le fichier. les dépendances javascript nécessaires sont stockées à la racine
+    # du dossier => on les déplace dans WEB, en supprimant si besoin la version précédente
     ntw.write_html(os.path.join(WEB, "network.html"), local=True, notebook=False, open_browser=True)
-    shutil.move(os.path.join(CURDIR, os.pardir, "lib"), os.path.join(WEB, "lib"))  # déplacer les fichiers annexes du réseau
+    if os.path.isdir(os.path.join(WEB, "lib")):
+        shutil.rmtree(os.path.join(WEB, "lib"))
+    shutil.move(os.path.join(CURDIR, os.pardir, "lib"), WEB)
     
     return corpus
 
@@ -657,26 +662,144 @@ def map(corpus):
     en fait un crée quelque chose de proche de `network()`: on crée
     un graphe, cette fois-ci non dirigé mais géoréférencé
     
+    pour créer notre carte, on utilise `folium`, un port python de la
+    librairie javascript Leaflet, l'une des plus utilisées pour faire
+    des cartes Web. la syntaxe folium est, à peu de choses prêt, exactement
+    la même que la syntaxe leaflet.
+    
+    modèles de données
+    ~~~~~~~~~~~~~~~~~~
+    nodes compte le nombre de fois qu'une ville est une ville d'expédition/réception de lettre
+    nodes = { "@xml:id": <compteur d'occurences> }
+    edges compte le nombre de relations non-directionnelles qui existent entre deux villes
+    edges = [ { "a": "villeA", "b": "villeB", "count": <compteur d'occurrences> } ]  # l'ordre de 'a' et 'b' n'a pas d'importance
+    
     :param corpus: la liste de chemins vers tous les fichiers xml
     :returns: cette même liste
     """ 
     # 1) EXTRACTION DE DONNÉES
     #
     # on parse tous les fichiers XML et on extrait tous les 
-    # @xml:id des lieux d'expédition/destination du `correspAction`.
-    places = {}  # dictionnaire associant l'@xml:id d'un lieu au nombre de fois où il est lieu d'expédition/réception
+    # @xml:id des lieux d'expédition/destination du `correspAction`
+    # afin de construire nodes et edges. dans les deux cas, on ne 
+    # traite pas les index ayant pour valeur `na`, puisqu'ils ne sont
+    # pas géoréférencés
+    nodes = {}
+    edges = []
+    geojson_files = [ os.path.splitext(os.path.basename(fp))[0] 
+                      for fp in os.listdir(os.path.join(WEB, "json")) ]  # liste de noms de geojson sans extension
     for fpath in corpus:
         tree = etree.parse(fpath, parser=PARSER)
+        indexes = tree.xpath(".//tei:correspAction/tei:placeName/@ref", namespaces=NS_TEI)
+        indexes = [ idx.replace("#", "") for idx in indexes ]  # on supprime le `#` au début pour retrouver l'@xml:id
         
-        idx = tree.xpath(".//tei:correspAction/tei:placeName/@ref", namespaces=NS_TEI)[0].replace("#", "")
-        if idx not in places.keys():
-            places[idx] = 1
+        # d'abord, on remplit `nodes`: 
+        for idx in indexes:
+            if idx not in nodes.keys() and idx != "na":
+                nodes[idx] = 1
+            elif idx != "na":
+                nodes[idx] += 1
+                
+        # ensuite, on remplit `edges`.
+        # on utilise `range` qui à chaque itération émet un index de `edges` =>
+        # permet d'itérer à travers tous les items de `edges`.
+        # on vérifie dans les 2 sens si `indexes` a déjà une entrée dans `edges`
+        # si oui, on incrémente le compteur. sinon, on ajoute une nouvelle entrée
+        # à `edges` pour représenter la nouvelle relation entre deux villes.
+        # on ne traite une correspondance que si la ville A et la ville B sont géoréférencées
+        if all(i in geojson_files for i in indexes):
+            sender, receiver = indexes
+            
+            # si la relation a<->b n'existe pas, on l'ajoute
+            if not any( [sender, receiver] == [edge["a"], edge["b"]] for edge in edges ):
+                edges.append({ 'a': sender, "b": receiver, "count": 1 })
+            # sinon, on incrémente le compteur
+            else:
+                for i in range(len(edges)):
+                    if [sender, receiver] == [edges[i]["a"], edges[i]["b"]]:
+                        edges[i]["count"] += 1
+    
+    # `edges` est pour le moment une relation orientée: il peut y avoir
+    # une entrée de la liste où ['a': 'Paris', 'b': 'Kobe'] et une autre
+    # où ['a': 'Kobe', 'b': 'Paris'], chacune avec son compteur. 
+    # on croise donc ces deux entrées et additionne les compteurs pour que
+    # de `edges` représente des relations non-dirigées
+    edges_undirected = []  # variable pour stocker le graphe non dirigé
+    for edge in edges:
+        for i in range(len(edges)):
+            if [ edge["a"], edge["b"] ] == [ edges[i]["b"], edges[i]["a"] ]:
+                edge["count"] += edges[i]["count"]
+        edges_undirected.append(edge)
+    edges = edges_undirected
+    
+    # 2) CONSTRUCTION DE LA CARTE
+    #
+    # on crée une carte `folium` et on y ajoute les marqueurs, cad les villes
+    map = folium.Map(location=[48.8534951, 2.3483915], tiles="Stamen Toner")
+    markers = {}  # dictionnaire mappant un @xml:id à un objet `folium.CircleMarker`. sera utilisé pour construire les relations entre les villes
+    node_titles = {}  # dictionnaire mappant l'@xml:id d'un lieu à son nom lisible
+    
+    # on ajoute d'abord nos nœuds sur la carte
+    for k, v in nodes.items():
+        # on ne traite que les clés qui ont un geojson, soit des infos géographiques
+        # attachées.
+        if k not in geojson_files:
+            print(f"pas de geojson pour l'@xml:id: {k}. ce lieu n'est pas traité")
+            continue
+
+        # on charge tous nos fichiers geojson. ils contiennent toutes
+        # les infos dont on a besoin (et bien plus)! on s'en sert pour extraire
+        # des géocoordonnées et le nom de l'endroit. on pourrait directement afficher
+        # un point sur la carte en ajoutant le geojson à notre carte leaflet, mais
+        # celui-ci aurait un diamètre fixe (alors qu'on veut un diamètre adapté
+        # au nombre de lettres associées au lieu) => on extrait des infos pour
+        # créer un `CircleMarker` folium
+        with open(os.path.join(WEB, "json", f"{k}.geojson"), mode="r") as fh:
+            geojson = json.load(fh)                                   # on ouvre le fichier geojson 
+        coordinates = geojson["features"][0]["geometry"]["coordinates"]  # géocoordonnées
+        title = geojson["features"][0]["properties"]["display_name"]     # nom complet
+        
+        node_titles[k] = title
+        
+        # pour garantir la lisibilité, on représente v (nombre de lettres liées à
+        # un endroit) sur une échelle logarithmique et on multiplie cette échelle
+        # logarithmique par 5. cela permet d'éviter que les gros marqueurs bloquent
+        # toute la carte et que les petits soient invisibles, tout en conservant
+        # un ordre de grandeur
+        if v > 1:
+            vlog = math.log(v) * 5
         else:
-            places[idx] += 1
-    print(places)
+            vlog = v * 5
         
+        markers[k] = folium.CircleMarker(
+            location=[ coordinates[1], coordinates[0] ]          # positionnement
+            , radius=vlog                                        # taille du marqueur
+            , color=COLORS["plum"]                               # couleur de bordure
+            , fill_color=COLORS["gold"]                          # couleur de remplissage
+            , fill_opacity=1                                     # opacité
+            , popup=f"<b>{title}</b>: <br/><br/> <b>{v}</b> lettres reçues ou expédiées"  # popup s'affichant quand on clicke sur le marker
+        )
+        markers[k].add_to(map)
+    
+    # ensuite, on ajoute nos arrêtes: les relations entre 2 villes
+    maxcount = max([ e["count"] for e in edges ])  # +gd nombre de relations
+    for edge in edges:
+        # on définit l'opacité en fonction du nombre de lettres envoyées: 
+        # 0.3 + 0.7 x <proportion du nombre de lettres entre les 2 villes actuelles 
+        #              par rapport au nombre maximal de lettres envoyées entre 2 villes>
+        opacity = (edge["count"] / maxcount) * 0.7 + 0.3
+        folium.PolyLine(
+            locations=[ markers[edge["a"]].location, markers[edge["b"]].location ]  # positions des 2 villes
+            , color=COLORS["plum"]
+            , stroke=5
+            , opacity=opacity
+            , fillColor=COLORS["plum"]
+            , fillOpacity=opacity
+            , popup=f"<b>{edge['count']}</b> lettres échangées entre <b>{node_titles[edge['a']]}</b> et <b>{node_titles[edge['b']]}</b>"
+            , tooltip=f"<b>{node_titles[edge['a']]}</b> <br/><br/> <b>{node_titles[edge['b']]}</b>"
+        ).add_to(map)
         
-        
+    map.save(os.path.join(WEB, "map.html"))
     
     return corpus
     
@@ -705,11 +828,11 @@ def pipeline():
     # créer le `particDesc` + faire de la reconnaissance
     # d'entités nommées pour chaque lettre du corpus
     print("traitement des noms de personnes et d'organisations")
-    corpus = entity(corpus)
+    # corpus = entity(corpus)
     
     # faire une visualisation en graphique
     print("visualisation de réseau")
-    corpus = network(corpus)
+    # corpus = network(corpus)
     
     # enfin, on fait une carte
     print("cartographie du corpus")
