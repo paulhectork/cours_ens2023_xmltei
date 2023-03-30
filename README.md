@@ -1,21 +1,17 @@
-# ANNOTER ET MODÉLISER DES CORPUS TEXTUELS
+# MODÉLISER ET EXPLOITER DES CORPUS TEXTUELS
 
 ![banner](./img/banner.png)
 
-Supports pour la journée d'atelier [Annoter et modéliser des corpus textuels](https://odhn.ens.psl.eu/evenements/atelier-modeliser-et-exploiter-des-corpus-textuels), donnée avec Léa Saint-Raymond à l'ENS-PSL (31.03.2023). Cette journée 
+Supports pour la journée d'atelier [Modéliser et exploiter des corpus textuels](https://odhn.ens.psl.eu/evenements/atelier-modeliser-et-exploiter-des-corpus-textuels), donnée avec Léa Saint-Raymond à l'ENS-PSL (31.03.2023). Cette journée 
 vise à introduire aux bases de la modélisation en XML-TEI, et surtout, aux méthodes d'analyse automatique,
 de fouille de texte et de visualisation de corpus XML avec Python. 
 
 La journée est organisée en deux parties:
 - le matin, on présente l'histoire du XML et de la TEI ainsi que les principes de base de la TEI
   à partir d'un atelier d'encodage "à la main".
-- l'après-midi est consacré à l'analyse outillée d'un corpus encodé en XML avec Python. Sont présentées 
-les bases des techniques suivantes:
-- extraction d'informations dans des documents XML (LXML)
-- enrichissement automatique de documents XML (LXML, Requests)
-- reconnaissance d'entités nommées, TAL (SpaCy)
-- analyse de réseau (PyVis)
-- cartographie de corpus (Folium)
+- l'après-midi est consacré à l'analyse outillée d'un corpus encodé en XML avec Python (analyse de 
+  réseaux, cartographie, reconnaissance d'entités nommées, API, manipulation et fouille de documents
+  TEI)
 
 ---
 
@@ -65,12 +61,16 @@ les bases des techniques suivantes:
 - **`xmlanalysis`**: l'atelier en tant que tel. chaîne de traitement et d'enrichissement automatique
   du corpus en TEI.
   - extraction **d'informations géographiques** depuis `Openstreetmap`, ajouts aux documents TEI d'un 
-    `tei:settingDesc` documentant les lieux d'expédition/destination de toutes les lettres du corpus
+    `tei:settingDesc` documentant les lieux d'expédition/destination de toutes les lettres du corpus.
+    Librairies: `lxml`, `requests`
   - **extraction d'informations sur les entités** (personnes, organisations) qui sont auteur.ice.s de lettres
     du corpus: extraction automatique, classification à l'aide de SpaCy (résolution d'entités nommées),
-    création d'un `tei:particDesc` documentant ces auteur.ice.s et ajout de cet élément aux documents TEI
-  - visualisation et **analyse du réseaux** d'expéditeur.ice.s / destinataires présent.e.s dans le corpus
-  - **cartographie** des villes de réception/expédition des différentes lettres du corpus
+    création d'un `tei:particDesc` documentant ces auteur.ice.s et ajout de cet élément aux documents TEI.
+    Librairies: `lxml`, `spacy`
+  - visualisation et **analyse du réseaux** d'expéditeur.ice.s / destinataires présent.e.s dans le corpus.
+    Librairies: `pyvis`, `lxml`
+  - **cartographie** des villes de réception/expédition des différentes lettres du corpus. Librairies 
+    `lxml`, `folium`
 
   
 pour la visualisation de réseaux: [pyvis](https://pyvis.readthedocs.io/en/latest/tutorial.html)
