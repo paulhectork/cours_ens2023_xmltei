@@ -1,0 +1,95 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L&#233;onceB&#233;n&#233;dite_KojiroMatsukata_19180801_7990546958811316468">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Brouillon de la lettre du 22 ao&#251;t, non dat&#233;, de Matsukata &#224; B&#233;n&#233;dite ( ?). En-t&#234;te &#171; Mus&#233;e national du Luxembourg &#187;. </title>
+        <author>L&#233;once B&#233;n&#233;dite</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-31 03:27:18.357133</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="brouillon">
+          <author>L&#233;once B&#233;n&#233;dite</author>
+          <title>Brouillon de la lettre du 22 ao&#251;t, non dat&#233;, de Matsukata &#224; B&#233;n&#233;dite ( ?). En-t&#234;te &#171; Mus&#233;e national du Luxembourg &#187;. </title>
+          <date>1918-08-01</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 2</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName>L&#233;once B&#233;n&#233;dite</persName>
+          <placeName>Paris</placeName>
+          <date when="1918-08-01">1918-08-01</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Kojiro Matsukata</persName>
+          <placeName>Kobe, Japon</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <opener>
+        <salute>Cher Monsieur,</salute>
+      </opener>
+      <p>Je vous confirme la commande que je vous ai faite de reproductions d&#8217;&#339;uvres de Rodin, destin&#233;es &#224; une galerie que je compte ouvrir publiquement &#224; Tokio.  </p>
+      <p>Ces &#339;uvres sont indiqu&#233;es dans le catalogue que je vous ai remis. J&#8217;accepte les prix marqu&#233;s avec la r&#233;duction de 10% sur le total de la commande. </p>
+      <p>Je vous demande de vouloir bien faire proc&#233;der &#224; la fonte de ces ouvrages d&#232;s &#224; pr&#233;sent en vous priant toutefois de les conserver &#224; l&#8217;H&#244;tel Biron jusqu&#8217;&#224; la fin des hostilit&#233;s. </p>
+      <p>Pour le payement, j&#8217;accepte de vous avancer une somme de 60 000 francs pour payer les premiers frais de reproduction. </p>
+      <p>Je r&#232;glerai ensuite le prix de chacune des pi&#232;ces au fur et &#224; mesure de leur ex&#233;cution que vous voudrez bien me faire conna&#238;tre par une lettre qui me servira de certificat de d&#233;p&#244; et, par suite, de ditre de propri&#233;t&#233;. </p>
+      <p>Yours very truly, </p>
+      <p>Matsukata. [suite la traduction au crayon &#224; papier, en anglais, une autre &#233;criture]</p>
+    </body>
+  </text>
+</TEI>

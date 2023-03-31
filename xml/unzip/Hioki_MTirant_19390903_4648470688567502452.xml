@@ -1,0 +1,97 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hioki_MTirant_19390903_4648470688567502452">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Lettre manuscrite d&#8217;Hioki &#224; Monsieur Tirant (illisible). </title>
+        <author>Hioki</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-31 03:27:18.573645</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="lettre">
+          <author>Hioki</author>
+          <title>Lettre manuscrite d&#8217;Hioki &#224; Monsieur Tirant (illisible). </title>
+          <date>1939-09-03</date>
+          <msIdentifier>
+            <institution>Mus&#233;e Rodin</institution>
+            <idno>Mus&#233;e Rodin</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName>Hioki</persName>
+          <placeName>Boulogne-Billancourt</placeName>
+          <date when="1939-09-03">1939-09-03</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>M. Tirant</persName>
+          <placeName>Paris</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <opener>
+        <salute>Cher Monsieur, </salute>
+      </opener>
+      <p>J&#8217;ai bien re&#231;u votre lettre du 29 ao&#251;t, au sujet de la collection de M. Matsukata. En effet, je suis all&#233; &#224; Paris le premier septembre. </p>
+      <p>La Circonstance m&#8217;a fait rentrer de suite sans vous voir que je regrette. Je vous serais tr&#232;s reconnaissant de bien vouloir me faire savoir le texte de t&#233;l&#233;gramme de M. Matsukata que vous venez de recevoir et vous remercie d&#8217;avancer. </p>
+      <closer>
+        <salute>Veuillez agr&#233;er, cher Monsieur, mes salutations les plus distingu&#233;es.</salute>
+        <signed>Hioki</signed>
+      </closer>
+      <postscript>
+        <p>PS : D&#232;s que la communication soit commode, je serais tr&#232;s heureux de vous voir.  </p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
