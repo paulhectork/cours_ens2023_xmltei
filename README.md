@@ -72,7 +72,7 @@ python src/txt2xml.py  # faire la transfo texte brut vers tei sous macos/linux
 python src\txt2xml.py  # sous windows
 
 python src/xmlanalysis.py  # faire la pipeline d'analyse sous linux/macos
-python src\xmlanalysis.pip  # windows
+python src\xmlanalysis.py  # windows
 
 jupyter notebook  # lancer les notebooks
 ```

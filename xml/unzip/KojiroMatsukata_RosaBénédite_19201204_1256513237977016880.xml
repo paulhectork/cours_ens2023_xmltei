@@ -1,0 +1,371 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KojiroMatsukata_RosaB&#233;n&#233;dite_19201204_1256513237977016880">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Lettre typographi&#233;e de Kojiro Matsukata &#224; Miss Rosa Benedite c/o Miss Emmet, 126 East 34th Street, New York City, USA. </title>
+        <author>Kojiro Matsukata</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-31 04:53:28.741501</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="lettre">
+          <author>Kojiro Matsukata</author>
+          <title>Lettre typographi&#233;e de Kojiro Matsukata &#224; Miss Rosa Benedite c/o Miss Emmet, 126 East 34th Street, New York City, USA. </title>
+          <date>1920-12-04</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 87 et 88</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName ref="#kojiromatsukata">Kojiro Matsukata</persName>
+          <placeName ref="#kobe">Kobe</placeName>
+          <date when="1920-12-04">1920-12-04</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#rosabenedite">Rosa B&#233;n&#233;dite</persName>
+          <placeName ref="#newyork">New York</placeName>
+        </correspAction>
+      </correspDesc>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="kobe">
+            <placeName>Kobe</placeName>
+            <location>
+              <geo>135.1943764 34.6932379</geo>
+            </location>
+          </place>
+          <place xml:id="paris">
+            <placeName>Paris</placeName>
+            <location>
+              <geo>2.3483915 48.8534951</geo>
+            </location>
+          </place>
+          <place xml:id="abondant">
+            <placeName>Abondant</placeName>
+            <location>
+              <geo>1.4411738 48.7822754</geo>
+            </location>
+          </place>
+          <place xml:id="londres">
+            <placeName>Londres</placeName>
+            <location>
+              <geo>-0.12765 51.5073359</geo>
+            </location>
+          </place>
+          <place xml:id="newyork">
+            <placeName>New York</placeName>
+            <location>
+              <geo>-74.0060152 40.7127281</geo>
+            </location>
+          </place>
+          <place xml:id="na">
+            <placeName>NA</placeName>
+          </place>
+          <place xml:id="deauville">
+            <placeName>Deauville</placeName>
+            <location>
+              <geo>0.0752778 49.36</geo>
+            </location>
+          </place>
+          <place xml:id="boulognebillancourt">
+            <placeName>Boulogne-Billancourt</placeName>
+            <location>
+              <geo>2.240206 48.8356649</geo>
+            </location>
+          </place>
+          <place xml:id="sevres">
+            <placeName>S&#232;vres</placeName>
+            <location>
+              <geo>2.2127083 48.8247407</geo>
+            </location>
+          </place>
+          <place xml:id="nice">
+            <placeName>Nice</placeName>
+            <location>
+              <geo>7.2683912 43.7009358</geo>
+            </location>
+          </place>
+          <place xml:id="bagneresdeluchon">
+            <placeName>Bagn&#232;res-de-Luchon</placeName>
+            <location>
+              <geo>0.5912279 42.7910617</geo>
+            </location>
+          </place>
+          <place xml:id="kobejapon">
+            <placeName>Kobe, Japon</placeName>
+          </place>
+          <place xml:id="venise">
+            <placeName>Venise</placeName>
+            <location>
+              <geo>12.3345898 45.4371908</geo>
+            </location>
+          </place>
+          <place xml:id="hammersmith">
+            <placeName>Hammersmith</placeName>
+            <location>
+              <geo>-0.2236401 51.4920377</geo>
+            </location>
+          </place>
+          <place xml:id="chateauthierry">
+            <placeName>Ch&#226;teau-Thierry</placeName>
+            <location>
+              <geo>3.4027111 49.0457362</geo>
+            </location>
+          </place>
+          <place xml:id="prague">
+            <placeName>Prague</placeName>
+            <location>
+              <geo>14.4212535 50.0874654</geo>
+            </location>
+          </place>
+          <place xml:id="malakoff">
+            <placeName>Malakoff</placeName>
+            <location>
+              <geo>2.3019814 48.8211559</geo>
+            </location>
+          </place>
+          <place xml:id="hassocks31sussex">
+            <placeName>Hassocks 31, Sussex</placeName>
+          </place>
+          <place xml:id="lyon">
+            <placeName>Lyon</placeName>
+            <location>
+              <geo>4.8320114 45.7578137</geo>
+            </location>
+          </place>
+        </listPlace>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="kojiromatsukata">
+            <persName>Kojiro Matsukata</persName>
+          </person>
+          <person xml:id="leoncebenedite">
+            <persName>L&#233;once B&#233;n&#233;dite</persName>
+            <persName>L&#233;once B&#233;n&#233;dite ?</persName>
+          </person>
+          <person type="PERSON" xml:id="hioki">
+            <persName>Hioki</persName>
+          </person>
+          <person type="PERSON" xml:id="georgesgrappe">
+            <persName>Georges Grappe</persName>
+          </person>
+          <person type="PERSON" xml:id="bernheimjeuneetcie">
+            <persName>Bernheim Jeune et Cie</persName>
+          </person>
+          <person type="PERSON" xml:id="intermediairesdekojiromatsukata">
+            <persName>interm&#233;diaires de Kojiro Matsukata ?</persName>
+            <persName>Interm&#233;diaires de Kojiro Matsukata</persName>
+            <persName>interm&#233;diaires de Kojiro Matsukata</persName>
+          </person>
+          <person xml:id="banquesuzukic">
+            <persName>Banque Suzuki &amp; C&#176; ?</persName>
+            <persName>Banque Suzuki &amp; C&#176;</persName>
+          </person>
+          <person type="PERSON" xml:id="paulrosenberg">
+            <persName>Paul Rosenberg</persName>
+          </person>
+          <person type="PERSON" xml:id="vizzavona">
+            <persName>F. Vizzavona</persName>
+          </person>
+          <person type="PERSON" xml:id="barbazanges">
+            <persName>M. Barbazanges</persName>
+          </person>
+          <person type="PERSON" xml:id="knoedler">
+            <persName>Knoedler</persName>
+          </person>
+          <person type="PERSON" xml:id="ftempelaere">
+            <persName>F . &amp; J. Tempelaere</persName>
+          </person>
+          <person type="PERSON" xml:id="edmonddavis">
+            <persName>Edmond Davis</persName>
+          </person>
+          <person type="PERSON" xml:id="lehallierauprat">
+            <persName>Lehallier Auprat&#176;</persName>
+          </person>
+          <person xml:id="seichinaruse">
+            <persName>Seichi Naruse</persName>
+          </person>
+          <person type="PERSON" xml:id="georgesbernheim">
+            <persName>Georges Bernheim</persName>
+          </person>
+          <person type="PERSON" xml:id="napartic">
+            <persName>NA</persName>
+            <persName>inconnu</persName>
+            <persName>aucun</persName>
+          </person>
+          <person xml:id="societedetravauxetindustriesmaritimes">
+            <persName>Soci&#233;t&#233; de travaux et industries maritimes</persName>
+          </person>
+          <person xml:id="museerodin">
+            <persName>Mus&#233;e Rodin</persName>
+          </person>
+          <person type="PERSON" xml:id="madameclemenceau">
+            <persName>Madame Clemenceau</persName>
+          </person>
+          <person type="PERSON" xml:id="havemeyer">
+            <persName>Mrs. H. O. Havemeyer</persName>
+          </person>
+          <person xml:id="lenarsetcie">
+            <persName>A. L&#233;nars et Cie</persName>
+          </person>
+          <person type="PERSON" xml:id="galeriedruet">
+            <persName>Galerie E. Druet</persName>
+          </person>
+          <person xml:id="directeurdesbeauxarts">
+            <persName>Directeur des Beaux-Arts</persName>
+          </person>
+          <person type="PERSON" xml:id="dreveton">
+            <persName>Em. Dreveton</persName>
+          </person>
+          <person xml:id="galeriesgeorgespetit">
+            <persName>Galeries Georges Petit</persName>
+          </person>
+          <person type="PERSON" xml:id="galeriebarbazanges">
+            <persName>Galerie Barbazanges</persName>
+          </person>
+          <person type="PERSON" xml:id="etienneclementel">
+            <persName>Etienne Clementel</persName>
+          </person>
+          <person type="PERSON" xml:id="tirant">
+            <persName>M. Tirant</persName>
+          </person>
+          <person type="PERSON" xml:id="rosabenedite">
+            <persName>Rosa B&#233;n&#233;dite</persName>
+            <persName>Rosa B&#233;n&#233;dite ?</persName>
+          </person>
+          <person xml:id="takahatarepresentantdekojiromatsukata">
+            <persName>M. Takahata, repr&#233;sentant de Kojiro Matsukata</persName>
+          </person>
+          <person type="PERSON" xml:id="joshessel">
+            <persName>Jos Hessel</persName>
+          </person>
+          <person xml:id="directeurgeneraldesbeauxarts">
+            <persName>Directeur G&#233;n&#233;ral des Beaux-Arts</persName>
+          </person>
+          <person type="PERSON" xml:id="andredezarrois">
+            <persName>Andr&#233; Dezarrois</persName>
+          </person>
+          <person xml:id="frankbrangwyn">
+            <persName>Frank Brangwyn</persName>
+          </person>
+          <person xml:id="yamanakaandc">
+            <persName>Yamanaka and C&#176;</persName>
+          </person>
+          <person type="PERSON" xml:id="amanjean">
+            <persName>Aman-Jean</persName>
+          </person>
+          <person type="PERSON" xml:id="eugenerudier">
+            <persName>Eug&#232;ne Rudier</persName>
+          </person>
+          <person type="PERSON" xml:id="rudier">
+            <persName>A. Rudier</persName>
+          </person>
+          <person type="PERSON" xml:id="romolobarzoni">
+            <persName>Romolo Barzoni</persName>
+          </person>
+        </listPerson>
+        <listOrg>
+          <org type="ORG" xml:id="galeriesbernheimjeuneetcie">
+            <orgName>Galeries Bernheim Jeune et Cie</orgName>
+          </org>
+          <org type="ORG" xml:id="compagniealgerienne">
+            <orgName>Compagnie alg&#233;rienne</orgName>
+          </org>
+          <org type="FAC" xml:id="ambassadedujaponaparis">
+            <orgName>Ambassade du Japon &#224; Paris</orgName>
+          </org>
+          <org type="WORK_OF_ART" xml:id="presse">
+            <orgName>Presse</orgName>
+          </org>
+          <org type="FAC" xml:id="museedulouvre">
+            <orgName>Mus&#233;e du Louvre</orgName>
+          </org>
+          <org type="GPE" xml:id="expositiondartfrancaisaprague">
+            <orgName>Exposition d&#8217;Art Fran&#231;ais &#224; Prague</orgName>
+          </org>
+          <org type="ORG" xml:id="speciebankdeyokohama">
+            <orgName>Specie Bank de Yokohama</orgName>
+          </org>
+        </listOrg>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <opener>
+        <salute>Dear Miss Benedite, </salute>
+      </opener>
+      <p>I beg to thank you for your letter from New York just to hand, and beg to hasten to send you my reply. I was surprised to hear that your father was tired and used up when left Paris and that his conditions did not improve during the sea voyage but became much better only quite recently. I am sure you may have a very hard time and must have felt lonesome and troubles away from your mother and in a strange country. I beg to mention my sympathy and kindest enquiries after your father. As you mention, illness is terrible thing to have, I quite agree. </p>
+      <p>I took liberty of sending you a telegram today reading as follows:</p>
+      <p>&#8220;Miss Benedite C/o Mis Emmet 126 East 34th Street New York</p>
+      <p>Thanks letter received exceedingly sorry your father illness praying entirely recovered. Matsukata</p>
+      <p>Mr and Mrs Louis V. Ledoux shall be welcomed by me, when they will arrive here, and I shall be much pleased to hear all news about your father and your goodself.&#8221;</p>
+      <p>I am very glad that your father has successfully concluded negotiations with Mons. Cottet about his big master piece. The artist&#8217;s conditions are quite agreeable to me and I beg to thank your father for all his troubles. The price is surprisingly moderate and I highly appreciate the artist&#8217;s concession to part with his master piece with noble idea of exhibiting the French art to the Japanese public [manuscrit: and to help Japanese art]</p>
+      <p>I beg to mention that the question on Pygmalion &amp; Galathee has been settled and I am very thankful to your father that it was obtained cheap through his kind efforts for me. I wish you will particularly mention this to him. </p>
+      <p>I feel more than pleased to hear your high praises for a small and humble souvenir sent to your father. It was only sent to him to show that I have not forgotten about him at all and that I availed on a good chance to express my remembrance of his kindness and troubles taken for me. I am looking for another souvenir to keep in memory his most valuable assistances for me, when my Museum will be completed. </p>
+      <p>My niece&#8217;s husband is living in Paris now and I have received a telegram from him as copied below:</p>
+      <p>&#8220;Pleased to advise you that I am very friendly with Claude Monet who tells me he will part with any of his paintings for your gallery stop can consult artists Kojima and Saito for choice reply urgent care Japanese Embassy Kuroki&#8221;</p>
+      <p>I sent him a reply today reading as follows:</p>
+      <p>&#8220;Thanks sincerely and appreciate unboundedly for Japanese arts make Mons Monet kindly agreed part with his works which I asked through Mons Benedite before stop please buy with his own choice three large Museum pictures and if possible three of four smaller sizes consulting Kojima and Saito as Japanese public earnestly desire his many various works stop please tell he unlimitedly helps our arts stop if you [illisible]ire wait Benedite return from America Matsukata.&#8221;</p>
+      <p>The above telegrams will be explanatory by themselves; but I wish to mention my thanks to your father that negotiations with Mons. Monet resulted so favourably, because it was all due to his kind influence and helps for me.</p>
+      <p>When I wrote to your father, I requested him for his American address, as I wished very much to request him just to cross over the Pacific and come over to Japan as my guest, when he came so far as Californi ; but of course, it could not be realized on account of his unexpected illness. It is my desire to request four father to visit Japan as my guest, when my Museum was completed and I wish very much you will accompany him on the trip.</p>
+      <p>Trusting that your father is very much better now and with my kindest regards to him and to your goodself for the meanwhile.</p>
+      <p>I remain, dear Miss Benedite, </p>
+      <closer>
+        <salute>Yours sincerely, </salute>
+        <signed>Kojiro Matsukata</signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

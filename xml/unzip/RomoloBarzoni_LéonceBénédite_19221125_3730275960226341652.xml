@@ -1,0 +1,358 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RomoloBarzoni_L&#233;onceB&#233;n&#233;dite_19221125_3730275960226341652">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Lettre typographi&#233;e sur papier &#224; en-t&#234;te &#171; Venezia esposizione internazionale &#187;, de Romolo Barzoni, &#224; L&#233;once B&#233;n&#233;dite, Mus&#233;e Rodin, Paris. </title>
+        <author>Romolo Barzoni</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-31 04:53:28.788979</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="lettre">
+          <author>Romolo Barzoni</author>
+          <title>Lettre typographi&#233;e sur papier &#224; en-t&#234;te &#171; Venezia esposizione internazionale &#187;, de Romolo Barzoni, &#224; L&#233;once B&#233;n&#233;dite, Mus&#233;e Rodin, Paris. </title>
+          <date>1922-11-25</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 184</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName ref="#romolobarzoni">Romolo Barzoni</persName>
+          <placeName ref="#venise">Venise</placeName>
+          <date when="1922-11-25">1922-11-25</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#leoncebenedite">L&#233;once B&#233;n&#233;dite</persName>
+          <placeName ref="#paris">Paris</placeName>
+        </correspAction>
+      </correspDesc>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="kobe">
+            <placeName>Kobe</placeName>
+            <location>
+              <geo>135.1943764 34.6932379</geo>
+            </location>
+          </place>
+          <place xml:id="paris">
+            <placeName>Paris</placeName>
+            <location>
+              <geo>2.3483915 48.8534951</geo>
+            </location>
+          </place>
+          <place xml:id="abondant">
+            <placeName>Abondant</placeName>
+            <location>
+              <geo>1.4411738 48.7822754</geo>
+            </location>
+          </place>
+          <place xml:id="londres">
+            <placeName>Londres</placeName>
+            <location>
+              <geo>-0.12765 51.5073359</geo>
+            </location>
+          </place>
+          <place xml:id="newyork">
+            <placeName>New York</placeName>
+            <location>
+              <geo>-74.0060152 40.7127281</geo>
+            </location>
+          </place>
+          <place xml:id="na">
+            <placeName>NA</placeName>
+          </place>
+          <place xml:id="deauville">
+            <placeName>Deauville</placeName>
+            <location>
+              <geo>0.0752778 49.36</geo>
+            </location>
+          </place>
+          <place xml:id="boulognebillancourt">
+            <placeName>Boulogne-Billancourt</placeName>
+            <location>
+              <geo>2.240206 48.8356649</geo>
+            </location>
+          </place>
+          <place xml:id="sevres">
+            <placeName>S&#232;vres</placeName>
+            <location>
+              <geo>2.2127083 48.8247407</geo>
+            </location>
+          </place>
+          <place xml:id="nice">
+            <placeName>Nice</placeName>
+            <location>
+              <geo>7.2683912 43.7009358</geo>
+            </location>
+          </place>
+          <place xml:id="bagneresdeluchon">
+            <placeName>Bagn&#232;res-de-Luchon</placeName>
+            <location>
+              <geo>0.5912279 42.7910617</geo>
+            </location>
+          </place>
+          <place xml:id="kobejapon">
+            <placeName>Kobe, Japon</placeName>
+          </place>
+          <place xml:id="venise">
+            <placeName>Venise</placeName>
+            <location>
+              <geo>12.3345898 45.4371908</geo>
+            </location>
+          </place>
+          <place xml:id="hammersmith">
+            <placeName>Hammersmith</placeName>
+            <location>
+              <geo>-0.2236401 51.4920377</geo>
+            </location>
+          </place>
+          <place xml:id="chateauthierry">
+            <placeName>Ch&#226;teau-Thierry</placeName>
+            <location>
+              <geo>3.4027111 49.0457362</geo>
+            </location>
+          </place>
+          <place xml:id="prague">
+            <placeName>Prague</placeName>
+            <location>
+              <geo>14.4212535 50.0874654</geo>
+            </location>
+          </place>
+          <place xml:id="malakoff">
+            <placeName>Malakoff</placeName>
+            <location>
+              <geo>2.3019814 48.8211559</geo>
+            </location>
+          </place>
+          <place xml:id="hassocks31sussex">
+            <placeName>Hassocks 31, Sussex</placeName>
+          </place>
+          <place xml:id="lyon">
+            <placeName>Lyon</placeName>
+            <location>
+              <geo>4.8320114 45.7578137</geo>
+            </location>
+          </place>
+        </listPlace>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="kojiromatsukata">
+            <persName>Kojiro Matsukata</persName>
+          </person>
+          <person xml:id="leoncebenedite">
+            <persName>L&#233;once B&#233;n&#233;dite</persName>
+            <persName>L&#233;once B&#233;n&#233;dite ?</persName>
+          </person>
+          <person type="PERSON" xml:id="hioki">
+            <persName>Hioki</persName>
+          </person>
+          <person type="PERSON" xml:id="georgesgrappe">
+            <persName>Georges Grappe</persName>
+          </person>
+          <person type="PERSON" xml:id="bernheimjeuneetcie">
+            <persName>Bernheim Jeune et Cie</persName>
+          </person>
+          <person type="PERSON" xml:id="intermediairesdekojiromatsukata">
+            <persName>interm&#233;diaires de Kojiro Matsukata ?</persName>
+            <persName>Interm&#233;diaires de Kojiro Matsukata</persName>
+            <persName>interm&#233;diaires de Kojiro Matsukata</persName>
+          </person>
+          <person xml:id="banquesuzukic">
+            <persName>Banque Suzuki &amp; C&#176; ?</persName>
+            <persName>Banque Suzuki &amp; C&#176;</persName>
+          </person>
+          <person type="PERSON" xml:id="paulrosenberg">
+            <persName>Paul Rosenberg</persName>
+          </person>
+          <person type="PERSON" xml:id="vizzavona">
+            <persName>F. Vizzavona</persName>
+          </person>
+          <person type="PERSON" xml:id="barbazanges">
+            <persName>M. Barbazanges</persName>
+          </person>
+          <person type="PERSON" xml:id="knoedler">
+            <persName>Knoedler</persName>
+          </person>
+          <person type="PERSON" xml:id="ftempelaere">
+            <persName>F . &amp; J. Tempelaere</persName>
+          </person>
+          <person type="PERSON" xml:id="edmonddavis">
+            <persName>Edmond Davis</persName>
+          </person>
+          <person type="PERSON" xml:id="lehallierauprat">
+            <persName>Lehallier Auprat&#176;</persName>
+          </person>
+          <person xml:id="seichinaruse">
+            <persName>Seichi Naruse</persName>
+          </person>
+          <person type="PERSON" xml:id="georgesbernheim">
+            <persName>Georges Bernheim</persName>
+          </person>
+          <person type="PERSON" xml:id="napartic">
+            <persName>NA</persName>
+            <persName>inconnu</persName>
+            <persName>aucun</persName>
+          </person>
+          <person xml:id="societedetravauxetindustriesmaritimes">
+            <persName>Soci&#233;t&#233; de travaux et industries maritimes</persName>
+          </person>
+          <person xml:id="museerodin">
+            <persName>Mus&#233;e Rodin</persName>
+          </person>
+          <person type="PERSON" xml:id="madameclemenceau">
+            <persName>Madame Clemenceau</persName>
+          </person>
+          <person type="PERSON" xml:id="havemeyer">
+            <persName>Mrs. H. O. Havemeyer</persName>
+          </person>
+          <person xml:id="lenarsetcie">
+            <persName>A. L&#233;nars et Cie</persName>
+          </person>
+          <person type="PERSON" xml:id="galeriedruet">
+            <persName>Galerie E. Druet</persName>
+          </person>
+          <person xml:id="directeurdesbeauxarts">
+            <persName>Directeur des Beaux-Arts</persName>
+          </person>
+          <person type="PERSON" xml:id="dreveton">
+            <persName>Em. Dreveton</persName>
+          </person>
+          <person xml:id="galeriesgeorgespetit">
+            <persName>Galeries Georges Petit</persName>
+          </person>
+          <person type="PERSON" xml:id="galeriebarbazanges">
+            <persName>Galerie Barbazanges</persName>
+          </person>
+          <person type="PERSON" xml:id="etienneclementel">
+            <persName>Etienne Clementel</persName>
+          </person>
+          <person type="PERSON" xml:id="tirant">
+            <persName>M. Tirant</persName>
+          </person>
+          <person type="PERSON" xml:id="rosabenedite">
+            <persName>Rosa B&#233;n&#233;dite</persName>
+            <persName>Rosa B&#233;n&#233;dite ?</persName>
+          </person>
+          <person xml:id="takahatarepresentantdekojiromatsukata">
+            <persName>M. Takahata, repr&#233;sentant de Kojiro Matsukata</persName>
+          </person>
+          <person type="PERSON" xml:id="joshessel">
+            <persName>Jos Hessel</persName>
+          </person>
+          <person xml:id="directeurgeneraldesbeauxarts">
+            <persName>Directeur G&#233;n&#233;ral des Beaux-Arts</persName>
+          </person>
+          <person type="PERSON" xml:id="andredezarrois">
+            <persName>Andr&#233; Dezarrois</persName>
+          </person>
+          <person xml:id="frankbrangwyn">
+            <persName>Frank Brangwyn</persName>
+          </person>
+          <person xml:id="yamanakaandc">
+            <persName>Yamanaka and C&#176;</persName>
+          </person>
+          <person type="PERSON" xml:id="amanjean">
+            <persName>Aman-Jean</persName>
+          </person>
+          <person type="PERSON" xml:id="eugenerudier">
+            <persName>Eug&#232;ne Rudier</persName>
+          </person>
+          <person type="PERSON" xml:id="rudier">
+            <persName>A. Rudier</persName>
+          </person>
+          <person type="PERSON" xml:id="romolobarzoni">
+            <persName>Romolo Barzoni</persName>
+          </person>
+        </listPerson>
+        <listOrg>
+          <org type="ORG" xml:id="galeriesbernheimjeuneetcie">
+            <orgName>Galeries Bernheim Jeune et Cie</orgName>
+          </org>
+          <org type="ORG" xml:id="compagniealgerienne">
+            <orgName>Compagnie alg&#233;rienne</orgName>
+          </org>
+          <org type="FAC" xml:id="ambassadedujaponaparis">
+            <orgName>Ambassade du Japon &#224; Paris</orgName>
+          </org>
+          <org type="WORK_OF_ART" xml:id="presse">
+            <orgName>Presse</orgName>
+          </org>
+          <org type="FAC" xml:id="museedulouvre">
+            <orgName>Mus&#233;e du Louvre</orgName>
+          </org>
+          <org type="GPE" xml:id="expositiondartfrancaisaprague">
+            <orgName>Exposition d&#8217;Art Fran&#231;ais &#224; Prague</orgName>
+          </org>
+          <org type="ORG" xml:id="speciebankdeyokohama">
+            <orgName>Specie Bank de Yokohama</orgName>
+          </org>
+        </listOrg>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <opener>
+        <salute>Cher Monsieur, </salute>
+      </opener>
+      <p>Nous avons l&#8217;avantage de Vous signifier que nous venons de Vous exp&#233;dier en Grande Vitesse &#8211; par l&#8217;entremise de la Maison De La Rancheraye et C&#176;de Paris &#8211; une caisse L. B. N. 6. renfermant le tableau &#171; Vespro intimo &#187; de Alessandro Pomi, achet&#233;e &#224; notre XIII&#232;me Exposition par le Mus&#233;e des Beaux-Arts de Tokio. </p>
+      <p>Cet envoi a &#233;t&#233; fait en conformit&#233; aux dispositions de Mr Matsukata du Mus&#233;e susdit. </p>
+      <p>En attendant de Votre part un courtois mot de r&#233;ception, nous sommes heureux de saisir l&#8217;occasion pour Vous exprimer cher Monsieur B&#233;n&#233;dite, l&#8217;assurance de nos sentiments les plus cordiaux et distingu&#233;s</p>
+      <closer>
+        <salute>Tr&#232;s d&#233;vou&#233;</salute>
+        <signed>Romolo Barzoni</signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

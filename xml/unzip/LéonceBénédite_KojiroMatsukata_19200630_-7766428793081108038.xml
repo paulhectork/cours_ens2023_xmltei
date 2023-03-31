@@ -1,0 +1,356 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L&#233;onceB&#233;n&#233;dite_KojiroMatsukata_19200630_-7766428793081108038">
+  <!-- le document XML, dans sa forme actuelle, n'est pas valide selon la syntaxe TEI:
+       la structure d&#233;finie ici devrait contenir d'autres &#233;l&#233;ments -->
+  <teiHeader>
+    <!-- l'en-t&#234;te de notre document, contenant les m&#233;tadonn&#233;es -->
+    <fileDesc>
+      <!-- description du fichier encod&#233; et de sa source -->
+      <titleStmt>
+        <!-- titre du document -->
+        <title>Brouillon de la lettre de B&#233;n&#233;dite &#224; Matsukata, en fran&#231;ais puis en anglais. </title>
+        <author>L&#233;once B&#233;n&#233;dite</author>
+        <respStmt>
+          <resp>Production et pr&#233;paration du texte brut</resp>
+          <persName>L&#233;a Saint-Raymond</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transformation automatique du texte brut vers le XML-TEI</resp>
+          <persName>Les participant.e.s &#224; l'atelier "Mod&#233;liser et exploiter des corpus textuels" (ENS-PSL, campus d'Ulm)</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <!-- informations sur le document XML encod&#233; -->
+        <publisher>ENS-PSL</publisher>
+        <pubPlace>Paris (France)</pubPlace>
+        <date>2023-03-31 04:53:28.731704</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- informations sur la source: la lettre que l'on encode -->
+        <bibl type="brouillon">
+          <author>L&#233;once B&#233;n&#233;dite</author>
+          <title>Brouillon de la lettre de B&#233;n&#233;dite &#224; Matsukata, en fran&#231;ais puis en anglais. </title>
+          <date>1920-06-30</date>
+          <msIdentifier>
+            <institution>INHA</institution>
+            <idno>INHA 60-62</idno>
+          </msIdentifier>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!-- informations sur l'encodage :
+           - tei:editorialDecl, d&#233;crivant la m&#233;thode de production du document XML 
+           - tei:projectDesc, contexte de production du XML 
+      -->
+      <editorialDecl>
+        <p>Production de l'encodage XML r&#233;alis&#233;e automatiquement avec la librairie LXML de Python &#224; partir d'une version en texte brut de la correspondance de Matsukata</p>
+      </editorialDecl>
+      <projectDesc>
+        <p>L'atelier "Mod&#233;liser et exploiter des corpus textuels" a donn&#233; lieu &#224; cet encodage.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <!-- informations non bibliographiques sur le document encod&#233; 
+           cet &#233;l&#233;ment l&#224; sera compl&#233;t&#233; par:
+           - un tei:particDesc, qui d&#233;crit tout.es les personnes ayant &#233;crit
+             ou re&#231;u des lettres dans le corpus Matsutaka
+           - un tei:settingDesc, qui d&#233;crit tous les lieux d'exp&#233;dition/destination
+             des lettres du corpus Matsutaka
+           ces &#233;l&#233;ments seront rajout&#233; dans le notebook du cours.
+      -->
+      <correspDesc>
+        <!-- description de la correspondance -->
+        <correspAction type="sent">
+          <persName ref="#leoncebenedite">L&#233;once B&#233;n&#233;dite</persName>
+          <placeName ref="#paris">Paris</placeName>
+          <date when="1920-06-30">1920-06-30</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#kojiromatsukata">Kojiro Matsukata</persName>
+          <placeName ref="#kobe">Kobe</placeName>
+        </correspAction>
+      </correspDesc>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="kobe">
+            <placeName>Kobe</placeName>
+            <location>
+              <geo>135.1943764 34.6932379</geo>
+            </location>
+          </place>
+          <place xml:id="paris">
+            <placeName>Paris</placeName>
+            <location>
+              <geo>2.3483915 48.8534951</geo>
+            </location>
+          </place>
+          <place xml:id="abondant">
+            <placeName>Abondant</placeName>
+            <location>
+              <geo>1.4411738 48.7822754</geo>
+            </location>
+          </place>
+          <place xml:id="londres">
+            <placeName>Londres</placeName>
+            <location>
+              <geo>-0.12765 51.5073359</geo>
+            </location>
+          </place>
+          <place xml:id="newyork">
+            <placeName>New York</placeName>
+            <location>
+              <geo>-74.0060152 40.7127281</geo>
+            </location>
+          </place>
+          <place xml:id="na">
+            <placeName>NA</placeName>
+          </place>
+          <place xml:id="deauville">
+            <placeName>Deauville</placeName>
+            <location>
+              <geo>0.0752778 49.36</geo>
+            </location>
+          </place>
+          <place xml:id="boulognebillancourt">
+            <placeName>Boulogne-Billancourt</placeName>
+            <location>
+              <geo>2.240206 48.8356649</geo>
+            </location>
+          </place>
+          <place xml:id="sevres">
+            <placeName>S&#232;vres</placeName>
+            <location>
+              <geo>2.2127083 48.8247407</geo>
+            </location>
+          </place>
+          <place xml:id="nice">
+            <placeName>Nice</placeName>
+            <location>
+              <geo>7.2683912 43.7009358</geo>
+            </location>
+          </place>
+          <place xml:id="bagneresdeluchon">
+            <placeName>Bagn&#232;res-de-Luchon</placeName>
+            <location>
+              <geo>0.5912279 42.7910617</geo>
+            </location>
+          </place>
+          <place xml:id="kobejapon">
+            <placeName>Kobe, Japon</placeName>
+          </place>
+          <place xml:id="venise">
+            <placeName>Venise</placeName>
+            <location>
+              <geo>12.3345898 45.4371908</geo>
+            </location>
+          </place>
+          <place xml:id="hammersmith">
+            <placeName>Hammersmith</placeName>
+            <location>
+              <geo>-0.2236401 51.4920377</geo>
+            </location>
+          </place>
+          <place xml:id="chateauthierry">
+            <placeName>Ch&#226;teau-Thierry</placeName>
+            <location>
+              <geo>3.4027111 49.0457362</geo>
+            </location>
+          </place>
+          <place xml:id="prague">
+            <placeName>Prague</placeName>
+            <location>
+              <geo>14.4212535 50.0874654</geo>
+            </location>
+          </place>
+          <place xml:id="malakoff">
+            <placeName>Malakoff</placeName>
+            <location>
+              <geo>2.3019814 48.8211559</geo>
+            </location>
+          </place>
+          <place xml:id="hassocks31sussex">
+            <placeName>Hassocks 31, Sussex</placeName>
+          </place>
+          <place xml:id="lyon">
+            <placeName>Lyon</placeName>
+            <location>
+              <geo>4.8320114 45.7578137</geo>
+            </location>
+          </place>
+        </listPlace>
+      </settingDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="kojiromatsukata">
+            <persName>Kojiro Matsukata</persName>
+          </person>
+          <person xml:id="leoncebenedite">
+            <persName>L&#233;once B&#233;n&#233;dite</persName>
+            <persName>L&#233;once B&#233;n&#233;dite ?</persName>
+          </person>
+          <person type="PERSON" xml:id="hioki">
+            <persName>Hioki</persName>
+          </person>
+          <person type="PERSON" xml:id="georgesgrappe">
+            <persName>Georges Grappe</persName>
+          </person>
+          <person type="PERSON" xml:id="bernheimjeuneetcie">
+            <persName>Bernheim Jeune et Cie</persName>
+          </person>
+          <person type="PERSON" xml:id="intermediairesdekojiromatsukata">
+            <persName>interm&#233;diaires de Kojiro Matsukata ?</persName>
+            <persName>Interm&#233;diaires de Kojiro Matsukata</persName>
+            <persName>interm&#233;diaires de Kojiro Matsukata</persName>
+          </person>
+          <person xml:id="banquesuzukic">
+            <persName>Banque Suzuki &amp; C&#176; ?</persName>
+            <persName>Banque Suzuki &amp; C&#176;</persName>
+          </person>
+          <person type="PERSON" xml:id="paulrosenberg">
+            <persName>Paul Rosenberg</persName>
+          </person>
+          <person type="PERSON" xml:id="vizzavona">
+            <persName>F. Vizzavona</persName>
+          </person>
+          <person type="PERSON" xml:id="barbazanges">
+            <persName>M. Barbazanges</persName>
+          </person>
+          <person type="PERSON" xml:id="knoedler">
+            <persName>Knoedler</persName>
+          </person>
+          <person type="PERSON" xml:id="ftempelaere">
+            <persName>F . &amp; J. Tempelaere</persName>
+          </person>
+          <person type="PERSON" xml:id="edmonddavis">
+            <persName>Edmond Davis</persName>
+          </person>
+          <person type="PERSON" xml:id="lehallierauprat">
+            <persName>Lehallier Auprat&#176;</persName>
+          </person>
+          <person xml:id="seichinaruse">
+            <persName>Seichi Naruse</persName>
+          </person>
+          <person type="PERSON" xml:id="georgesbernheim">
+            <persName>Georges Bernheim</persName>
+          </person>
+          <person type="PERSON" xml:id="napartic">
+            <persName>NA</persName>
+            <persName>inconnu</persName>
+            <persName>aucun</persName>
+          </person>
+          <person xml:id="societedetravauxetindustriesmaritimes">
+            <persName>Soci&#233;t&#233; de travaux et industries maritimes</persName>
+          </person>
+          <person xml:id="museerodin">
+            <persName>Mus&#233;e Rodin</persName>
+          </person>
+          <person type="PERSON" xml:id="madameclemenceau">
+            <persName>Madame Clemenceau</persName>
+          </person>
+          <person type="PERSON" xml:id="havemeyer">
+            <persName>Mrs. H. O. Havemeyer</persName>
+          </person>
+          <person xml:id="lenarsetcie">
+            <persName>A. L&#233;nars et Cie</persName>
+          </person>
+          <person type="PERSON" xml:id="galeriedruet">
+            <persName>Galerie E. Druet</persName>
+          </person>
+          <person xml:id="directeurdesbeauxarts">
+            <persName>Directeur des Beaux-Arts</persName>
+          </person>
+          <person type="PERSON" xml:id="dreveton">
+            <persName>Em. Dreveton</persName>
+          </person>
+          <person xml:id="galeriesgeorgespetit">
+            <persName>Galeries Georges Petit</persName>
+          </person>
+          <person type="PERSON" xml:id="galeriebarbazanges">
+            <persName>Galerie Barbazanges</persName>
+          </person>
+          <person type="PERSON" xml:id="etienneclementel">
+            <persName>Etienne Clementel</persName>
+          </person>
+          <person type="PERSON" xml:id="tirant">
+            <persName>M. Tirant</persName>
+          </person>
+          <person type="PERSON" xml:id="rosabenedite">
+            <persName>Rosa B&#233;n&#233;dite</persName>
+            <persName>Rosa B&#233;n&#233;dite ?</persName>
+          </person>
+          <person xml:id="takahatarepresentantdekojiromatsukata">
+            <persName>M. Takahata, repr&#233;sentant de Kojiro Matsukata</persName>
+          </person>
+          <person type="PERSON" xml:id="joshessel">
+            <persName>Jos Hessel</persName>
+          </person>
+          <person xml:id="directeurgeneraldesbeauxarts">
+            <persName>Directeur G&#233;n&#233;ral des Beaux-Arts</persName>
+          </person>
+          <person type="PERSON" xml:id="andredezarrois">
+            <persName>Andr&#233; Dezarrois</persName>
+          </person>
+          <person xml:id="frankbrangwyn">
+            <persName>Frank Brangwyn</persName>
+          </person>
+          <person xml:id="yamanakaandc">
+            <persName>Yamanaka and C&#176;</persName>
+          </person>
+          <person type="PERSON" xml:id="amanjean">
+            <persName>Aman-Jean</persName>
+          </person>
+          <person type="PERSON" xml:id="eugenerudier">
+            <persName>Eug&#232;ne Rudier</persName>
+          </person>
+          <person type="PERSON" xml:id="rudier">
+            <persName>A. Rudier</persName>
+          </person>
+          <person type="PERSON" xml:id="romolobarzoni">
+            <persName>Romolo Barzoni</persName>
+          </person>
+        </listPerson>
+        <listOrg>
+          <org type="ORG" xml:id="galeriesbernheimjeuneetcie">
+            <orgName>Galeries Bernheim Jeune et Cie</orgName>
+          </org>
+          <org type="ORG" xml:id="compagniealgerienne">
+            <orgName>Compagnie alg&#233;rienne</orgName>
+          </org>
+          <org type="FAC" xml:id="ambassadedujaponaparis">
+            <orgName>Ambassade du Japon &#224; Paris</orgName>
+          </org>
+          <org type="WORK_OF_ART" xml:id="presse">
+            <orgName>Presse</orgName>
+          </org>
+          <org type="FAC" xml:id="museedulouvre">
+            <orgName>Mus&#233;e du Louvre</orgName>
+          </org>
+          <org type="GPE" xml:id="expositiondartfrancaisaprague">
+            <orgName>Exposition d&#8217;Art Fran&#231;ais &#224; Prague</orgName>
+          </org>
+          <org type="ORG" xml:id="speciebankdeyokohama">
+            <orgName>Specie Bank de Yokohama</orgName>
+          </org>
+        </listOrg>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <!-- le corps du texte. il peut comporter un tei:front et un tei:back
+         et doit comporter un tei:body, comprenant le corps du texte -->
+    <body>
+      <!-- le corps du texte -->
+      <opener>
+        <salute>Cher M. Matsukata</salute>
+      </opener>
+      <p>J&#8217;ai bien re&#231;u votre lettre, ainsi que votre c&#226;ble. Je n&#8217;ai pas r&#233;pondu encore &#224; la premi&#232;re, parce que j&#8217;attendais toujours la visite que vous m&#8217;avez annonc&#233;e de M. Hioki. Je r&#233;ponds donc sans plus tarder aux questions que vous me posiez &#224; propos du groupe de Pygmalion et Galath&#233;e. Le marbre dont il s&#8217;agit doit &#234;tre &#233;videmment celui qui a &#233;t&#233; donn&#233; par Rodin &#224; Mlle Cladel [sic]. Il avait &#233;t&#233; vendu par elle &#224; un marchand Georges Bernheim pour le prix de 50.000 frs. Le marchand l&#8217;a vendu &#224; un de mes amis M. Laroche qui l&#8217;a pay&#233; 100.000 fr. Cet amateur l&#8217;a ensuite rendu &#224; Georges Bernheim chez qui je l&#8217;ai re&#231;u et qui m&#8217;a dit qu&#8217;il &#233;tait &#224; vendre au prix de 125.000 frs. Toutefois il l&#8217;aurait. C&#233;d&#233; pour 100.000 fr. Par cons&#233;quent le prix qu&#8217;on vous demandait, 290.000 fr, m&#234;me en y comprenant la commission due &#224; l&#8217;interm&#233;diaire, &#233;tait fortement exag&#233;r&#233;. Mais ce qu&#8217;il y a de piquant dans l&#8217;affaire, c&#8217;est que notre [votre ? c&#8217;est illisible] ami Edm Davis m&#8217;a envoy&#233; ces jours-ci le catalogue d&#8217;une vente qui a lieu &#224; Londres chez Christies comprenant divers ouvrages de Rodin parmi lesquels figure ce marbre. La vente a d&#251; avoir lieu hier 29. J&#8217;ai demand&#233; &#224; Mr Davis de me renseigner sur les prix que ce marbre a pu atteindre. Je vous ferai savoir le prix aussit&#244;t mais il est &#233;vident que tous les interm&#233;diaires ou marchands qui vous proposeront des Rodin vous majoreront tr&#232;s fortement les prix.</p>
+      <p>J&#8217;en viens maintenant &#224; votre c&#226;ble sur la Porte de l&#8217;Enfer. Je suis tr&#232;s heureux que ma suggestion vous ait convenu. Il doit y avoir au moule un second exemplaire de ce magnifique monument. C&#8217;est bien dans ce mus&#233;e que vous aurez constitu&#233; &#224; la gloire de l&#8217;art fran&#231;ais qui vous en devra une &#233;ternelle gratitude. </p>
+      <p>Je vais faire aujourd&#8217;hui les devis exacts pour l&#8217;architecture et pour la grandeur. Je vous renouvelle qu&#8217;il faut bien compter sur une d&#233;pense de 600.000 francs. Je vous pr&#233;ciserai ce renseignement d&#232;s que ce devis sera &#233;tabli et je ne commencerai les travaux qu&#8217;apr&#232;s votre adh&#233;sion d&#233;finitive. </p>
+      <p>En ce qui concerne les peintures, je ne sais plus si je vous ai dit que j&#8217;avais command&#233; 2 panneaux de fantaisie d&#233;corative &#224; Aman Jean, pour 10.000 fr chacun. M. Davis m&#8217;a promis de me r&#233;server 2 toiles, n&#8217;ayant rien de disponible pour le moment. J&#8217;ai achet&#233; en m&#234;me temps 2 excellentes peintures d&#8217;un jeune peintre qui est un des jeunes peintres les plus hauts class&#233;s dans notre &#233;cole pour les prix de 4000 fr chacun. Un tableau d&#8217;Emile Bernard, &#233;l&#232;ve de C&#233;zanne et l&#8217;initiateur de Gauguin et de Van Gogh pour 5000. 2 tableaux paysages de Lebourg, le dernier des plus brillants ma&#238;tres de l&#8217;impressionnisme 15.000. 2 tableaux de Quost, &#339;uvres fort remarquables qui ont failli avoir la m&#233;daille d&#8217;honneur au Salon, pour 18.000. Je n&#8217;ai pas besoin de vous dire que j&#8217;ai obtenu pour tous ces tableaux des r&#233;ductions de prix et j&#8217;ai prouv&#233; un grand d&#233;sint&#233;ressement de la part des artistes, que ce qui est particuli&#232;rement int&#233;ressant c&#8217;est que je vous ai acquis 2 Puvis de Chavannes &#224; la vente Beurdeley, petits morceaux tr&#232;s rares et dans des prix tr&#232;s modestes. Un pastel, portrait grandeur nature d&#8217;un de ses &#233;l&#232;ves, le peintre Trevoux. C&#8217;&#233;tait la perme de la collection Beurdeley, 7.300 fr, et un petit pastel de l&#8217;enfant prodigue qui n&#8217;a pas atteint 5000 fr. Je crois vous avoir fait l&#224; quelques op&#233;rations avantageuses tant au point de vue de l&#8217;art qu&#8217;un point de vue p&#233;cuniaire mais votre cr&#233;ation  m&#8217;int&#233;resse aussi passionn&#233;ment que si je constituais mon propre mus&#233;e et ce sera une grande fiert&#233; pour la France d&#8217;&#234;tre si bien repr&#233;sent&#233;e gr&#226;ce &#224; vous dans le pays du soleil levant. Je reste du (illisible) votre fid&#232;le et d&#233;vou&#233; collaborateur attendant impatiemment votre visite. Je vous envoie les meilleurs souvenirs de ma fille et l&#8217;expression de mes sentiments tr&#232;s (illisible) affectueux.</p>
+      <p>[ajout&#233; &#224; la plume : ] Je viens de revoir comme (illisible) une peinture de fleurs Quost comme il d&#233;sirerait avoir &#234;tre repr&#233;sent&#233; de cette fa&#231;on dans votre collection. Il avait au Salon un joli tableau de g&#233;raniums qu&#8217;il laisserait sp&#233;cialement &#224; un prix purement normal de 600 fr j&#8217;ai accept&#233; sa proposition. </p>
+    </body>
+  </text>
+</TEI>
