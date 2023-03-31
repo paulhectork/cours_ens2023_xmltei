@@ -1,8 +1,13 @@
 env_ens2023_xml/*
 env_min/*
+env/*
 **/__pycache__/*
 .project
 .pydevproject
 out/*
 .ipynb_checkpoints
 web/lib/*
+
+notebook_jupyter/lib/*
+notebook_jupyter/network.html
+

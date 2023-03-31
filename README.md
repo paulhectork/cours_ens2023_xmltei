@@ -72,7 +72,14 @@ La journée est organisée en deux parties:
   - **cartographie** des villes de réception/expédition des différentes lettres du corpus. Librairies 
     `lxml`, `folium`
 
-  
-pour la visualisation de réseaux: [pyvis](https://pyvis.readthedocs.io/en/latest/tutorial.html)
+--- 
 
-pour la création de réseaux (pas sûr que ce soit nécessaire): [networkx](https://networkx.org/)
+## Gestion des erreurs avec `pip`
+
+Dans un terminal, sous Ubuntu/Debian Linux (et peut-être MacOS):
+
+`pip install -U pip`: mettre à jour `pip`
+
+`rm -r $(find . -name __pycache__)`: supprimer les fichiers `*.pyc` qui peuvent 
+causer des erreurs: `EOFError: marshal data too short.` à l'installation des
+dépendances.
