@@ -114,6 +114,11 @@ géré automatiquement par le script).
 
 ## Structure du dépôt
 
+En bref, `txt/` contient le corpus en texte brut, `xml/` le corpus encodé en XML-TEI,
+`web/` les visualisations et geojson produits, `src/` le code source Python, `google_colab`
+la version du notebook utilisée sur Google Colab et `jupyter notebook` la version du notebook
+utilisable localement sur `jupyter`.
+
 ```
 /racine
   |__google_colab/  les notebooks utilisables en ligne sur Google Colab
