@@ -656,7 +656,6 @@ def tei2zip():
         f for f in os.listdir(os.path.join(XML, "unzip")) 
         if os.path.isfile(os.path.join(XML, "unzip", f)) 
     ]
-    print(xmlfiles)
     
     # écrire tous ces fichiers dans l'archive zip
     with ZipFile( os.path.join(XML, "corpus_matsutaka.zip"), mode="w" ) as zip:
