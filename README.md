@@ -2,11 +2,17 @@
 
 ![banner](./img/banner.png)
 
-### 🔥🔥🔥 seulement un corpus réduit est mis en ligne: 14 lettres sur les 267 du corpus originel
+## 🔥🔥🔥 
+
+***seulement un corpus réduit est mis en ligne: 14 lettres sur les 267 du corpus originel***
 - le corpus complet, utilisé pour l'atelier du 31, n'a pas encore été publié officiellement et n'est
   donc pas mis en ligne en l'état
 - les visualisations produites à partir du corpus complet sont tout de même visibles: 
   [`map_full`](./web/map_full.html) et [`network_full`](./web/network_full.html) : )
+
+---
+
+## Présentation
 
 Supports pour la journée d'atelier [Modéliser et exploiter des corpus textuels](https://odhn.ens.psl.eu/evenements/atelier-modeliser-et-exploiter-des-corpus-textuels), donnée avec Léa Saint-Raymond à l'ENS-PSL (31.03.2023). Cette journée 
 vise à introduire aux bases de la modélisation en XML-TEI, et surtout, aux méthodes d'analyse automatique,
