@@ -65,7 +65,7 @@ git clone https://github.com/paulhectork/cours_ens2023_xmltei.git
 cd cours_ens2023_xmltei
 
 # installer l'environnement virtuel
-python3 -m venv env  # macos/linux
+python3 -m venv env   # macos/linux
 python3 -m venv .\env # windows
 
 # sourcer l'environnement
