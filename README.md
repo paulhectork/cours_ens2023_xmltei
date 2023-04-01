@@ -172,12 +172,14 @@ aussi. Voilà quelques solutions trouvées:
 
 ---
 
-## Crédits
+## Crédits et licence
 
 ### Production du corpus en texte brut 
 
 Léa Saint-Raymond. Dans l'attente d'une publication officielle, il n'est 
 pas autorisé d'utilisé le corpus en dehors de l'atelier du 31 mars 2023.
+Pour permettre la réplicabilité, un extrait de 14 lettres du corpus est
+mis dans ligne dans ce dépôt.
 
 ### Code
 
